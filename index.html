@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PESH | Empowering Rwanda Digitally</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="images/logo.jpg" alt="PESH Logo" />
+      <nav>
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="arrow left" onclick="moveSlide(-1)">❮</div>
+      <div class="arrow right" onclick="moveSlide(1)">❯</div>
+
+      <div class="hero-slider" id="slider">
+        <!-- SLIDE 1 -->
+        <div class="hero-slide">
+          <img src="images/hero1.jpeg" class="hero-img" />
+
+          <!-- LOGO WATERMARK -->
+          <img src="images/logo.jpg" class="watermark" />
+          <div class="hero-content">
+            <h1>Bridging the Digital Divide</h1>
+            <p>
+              We equip youth, children, and adults in Rwanda with digital skills
+              and access to technology, empowering them to thrive in a digital
+              world.
+            </p>
+            <a href="#contact" class="btn">Get Involved</a>
+          </div>
+        </div>
+
+        <!-- SLIDE 2 -->
+        <div class="hero-slide">
+          <img src="images/hero2.jpeg" class="hero-img" />
+          <img src="images/logo.jpg" class="watermark" />
+
+          <div class="hero-content">
+            <h1>Empowering Youth</h1>
+            <p>Training the next generation with real-world digital skills.</p>
+            <a href="#programs" class="btn">Our Programs</a>
+          </div>
+        </div>
+
+        <!-- SLIDE 3 -->
+        <div class="hero-slide">
+          <img src="images/hero3.jpeg" class="hero-img" />
+          <img src="images/logo.jpg" class="watermark" />
+
+          <div class="hero-content">
+            <h1>Creating Opportunities</h1>
+            <p>Opening doors through mentorship and support.</p>
+            <a href="#about" class="btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- DOTS -->
+      <div class="dots">
+        <span class="dot active" onclick="goToSlide(0)"></span>
+        <span class="dot" onclick="goToSlide(1)"></span>
+        <span class="dot" onclick="goToSlide(2)"></span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        PESH is a youth-led initiative committed to empowering people in Rwanda
+        through digital access, skills training, and community support. We
+        believe that everyone, especially the younger generation, deserves the
+        opportunity to learn, grow, and succeed in today’s digital world.
+        Through our programs, we provide access to technology, mentorship, and
+        practical skills with a hope to open doors to education and employment.
+      </p>
+      <img src="images/about.jpeg" class="about-img" />
+    </section>
+
+    <!-- PROGRAMS -->
+    <section id="programs">
+      <h2>Our Programs</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="images/training1.jpeg" />
+          <h3>Digital Training</h3>
+          <p>
+            We provide hands-on training in computer skills, internet use, and
+            digital tools to prepare youth for real-world opportunities. 
+            <ul class="program-list">
+              <li><strong>Tue & Thu:</strong> 6:00 PM – 8:00 PM (Youth)</li>
+              <li><strong>Saturday:</strong> 9:00 AM – 12:00 PM (Children)</li>
+            </ul>
+          </p>
+          
+        </div>
+        <div class="card">
+          <img src="images/space.jpeg" />
+          <h3>Device Support</h3>
+          <p>
+            Access to a personal computer can significantly enhance learning and
+            productivity. For those without one, we provide computers at our hub
+            where individuals can come, use them for learning, and return them
+            after use.
+          </p>
+        </div>
+        <div class="card">
+          <img src="images/mentor.jpeg" />
+          <h3>Mentorship</h3>
+          <p>
+            We mentor young women, many of whom go on to volunteer at our hub.
+            They play a key role in teaching children during Saturday sessions
+            in the school term, and we extend these sessions by adding two
+            additional days during school holidays.
+          </p>
+        </div>
+        <div class="card">
+          <img src="images/community.jpeg" />
+          <h3>Community Outreach</h3>
+          <p>
+            We collaborate with local government to engage community groups and
+            promote digital awareness. Through our outreach programs, we help
+            individuals and communities understand and use technology to improve
+            their daily lives.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <!-- <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="https://formspree.io/f/xzdkoozg" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section> -->
+
+    <section id="contact">
+  <h2>Contact Us</h2>
+  <form id="contactForm" action="https://formspree.io/f/xzdkoozg" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+    <p id="formSuccess" style="display:none; color: green; margin-top: 10px;">
+      ✅ Message sent successfully! Thank you.
+    </p>
+    <p id="formError" style="display:none; color: red; margin-top: 10px;">
+      ⚠️ Oops! Something went wrong. Please try again.
+    </p>
+  </form>
+</section>
+
+    <footer>
+      <p>
+        <a href="#">Twitter</a> | <a href="#">LinkedIn</a> |
+        <a href="#">Facebook</a>
+      </p>
+      <p>© 2026 PESH</p>
+    </footer>
+
+    <script>
+      let index = 0;
+      const slider = document.getElementById("slider");
+      const dots = document.querySelectorAll(".dot");
+      const totalSlides = 3;
+
+      function updateSlider() {
+        slider.style.transform = "translateX(" + -index * 100 + "%)";
+        dots.forEach((dot) => dot.classList.remove("active"));
+        dots[index].classList.add("active");
+      }
+
+      function moveSlide(direction) {
+        index += direction;
+        if (index < 0) index = totalSlides - 1;
+        if (index >= totalSlides) index = 0;
+        updateSlider();
+      }
+
+      function goToSlide(i) {
+        index = i;
+        updateSlider();
+      }
+
+      setInterval(() => {
+        moveSlide(1);
+      }, 5000);
+    </script>
+    <script>
+  const form = document.getElementById("contactForm");
+  const successMessage = document.getElementById("formSuccess");
+  const errorMessage = document.getElementById("formError");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault(); // Prevent page reload
+
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (response.ok) {
+        successMessage.style.display = "block";
+        errorMessage.style.display = "none";
+        form.reset(); // Clear the form
+      } else {
+        throw new Error("Network response was not ok.");
+      }
+    } catch (error) {
+      errorMessage.style.display = "block";
+      successMessage.style.display = "none";
+      console.error("Form submission error:", error);
+    }
+  });
+</script>
+  </body>
+</html>
