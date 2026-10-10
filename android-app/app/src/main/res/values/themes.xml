@@ -1,0 +1,8 @@
+<resources>
+    <!-- Compose draws all the UI; this Android-level theme only covers the window background
+         and system bars before Compose content is attached. -->
+    <style name="Theme.PeshEnroll" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#012D60</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+    </style>
+</resources>

@@ -1,0 +1,3690 @@
+{
+ "id": "word",
+ "title": "Microsoft Word",
+ "icon": "📝",
+ "level": "Beginner",
+ "description": "Start with the computer itself, then learn to write, format, decorate and save documents in Microsoft Word.",
+ "lessons": [
+  {
+   "id": "l1",
+   "title": "Introduction to the Computer",
+   "summary": "",
+   "goals": [
+    "What is computer (hardware: keyboard and screen, software)",
+    "Turn on the computer.",
+    "Open a word document.",
+    "Write a word document.",
+    "Use space.",
+    "Use enters to start a new line.",
+    "Save on the desktop.",
+    "Turn off the computer."
+   ],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Process"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. What is a computer:"
+    },
+    {
+     "t": "p",
+     "text": "A computer is a device that can do many different things. Think of it like a really smart helper. Here are some things it can do:"
+    },
+    {
+     "t": "li",
+     "text": "Writing and Drawing: You can use it to write stories or draw pictures",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Internet: You can use it to go online and find information, watch videos, or chat with friends.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Homework: It can help you do your homework and projects.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Games: You can play fun games on it.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Flyer: do advertisement",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "It has two main parts: Hardware and software"
+    },
+    {
+     "t": "p",
+     "text": "Hardware:"
+    },
+    {
+     "t": "p",
+     "text": "Hardware: This includes all the physical parts of the computer that you can touch. Examples are:"
+    },
+    {
+     "t": "li",
+     "text": "Keyboard: \"The keyboard is an input device that allows you to type letters, numbers, and other symbols into the computer.\"(Keyboard picture should be provided)",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Screen/Monitor: \"The screen (or monitor) displays everything you do on the computer, like a television.\"",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Mouse/ Touchpad : \"The mouse is an input device used to point, click, and interact with items on the screen.\"",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "More parts: Computer, containing other critical components like the CPU (central processing unit), memory (RAM), and storage (hard drive or SSD).\"",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Software:"
+    },
+    {
+     "t": "p",
+     "text": "Software: \"Software consists of programs and applications that tell the computer what to do. Examples include:"
+    },
+    {
+     "t": "li",
+     "text": "Operating System: The main software that manages the computer’s hardware and other software. Examples include Windows, macOS, and Linux.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Applications: Programs that perform specific tasks, like web browsers, games, and word processors.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Drivers: Software that helps the operating system communicate with hardware devices.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. Turn on the Computer"
+    },
+    {
+     "t": "li",
+     "text": "Locate the Power Button : Find the power button on the computer tower or laptop.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press the Power Button: Press it to turn on the computer.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Wait for Startup: Wait for the computer to boot up and the login screen to appear.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. Log In (if necessary)"
+    },
+    {
+     "t": "li",
+     "text": "Enter Credentials: If prompted, enter your username and password.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter: Press the Enter key to log in.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. Open a Word Document"
+    },
+    {
+     "t": "li",
+     "text": "Click the Start Button: Click on the Start button at the bottom left corner of the screen (Windows logo).",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Find Microsoft Word: Look for Microsoft Word in the Start menu, or type \"Word\" in the search bar and click on the Microsoft Word icon.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Open Word: Double-click on the Word icon to open the program.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "5. Write in the Word Document"
+    },
+    {
+     "t": "li",
+     "text": "Start Typing: Click anywhere on the blank document to place the cursor and start typing using the keyboard.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type Text: Begin typing your text into the document.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "6. Use Space"
+    },
+    {
+     "t": "li",
+     "text": "Press the Spacebar: To add a space between words, press the spacebar (the long horizontal key at the bottom of the keyboard).",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "7. Use Enter to Start a New Line"
+    },
+    {
+     "t": "li",
+     "text": "Press the Enter Key: To start a new line or paragraph, press the Enter key (usually located on the right side of the keyboard).",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "8. Save the Document on the Desktop"
+    },
+    {
+     "t": "li",
+     "text": "Click on File: Click on \"File\" at the top left corner of the Word window.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select Save As: In the dropdown menu, select \"Save As.\"",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose Desktop: In the Save As window, select \"Desktop\" as the location to save the file.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Name the Document: Enter a name for your document in the \"File name\" field.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Save: Click the \"Save\" button. Your document is now saved on the desktop.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "9. Turn Off the Computer"
+    },
+    {
+     "t": "li",
+     "text": "Click the Start Button: Click on the Start button at the bottom left corner of the screen.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select Power: Click on the Power icon.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose Shut Down: Click on \"Shut down\" from the options.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Wait for Shutdown: Wait for the computer to completely turn off before turning off any power switches.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercises"
+    },
+    {
+     "t": "li",
+     "text": "differentiate software from hardware of and give examples of each",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Turn on the computer, and open the word document,",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "write your names, put space between the first and last one.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "use enter to go to the next line.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Write Mum’s names, put space between the first and last one.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "use enter to go to the next line.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "write Dad’s names, put space between the first and last one.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "use enter to go to the next line.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "write all your siblings, each on their respective line, put space between the first and last one.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "save the document with the student's_name_family on the desktop.",
+     "ordered": false
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "title": "Home Tab: Moving, Selecting and Fonts",
+   "summary": "",
+   "goals": [
+    "Review first lesson by asking them steps by asking them to write 6 friends of theirs, three boys and three girls,",
+    "Use the right, left, up, and down button.",
+    "select",
+    "Font",
+    "Size"
+   ],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Process"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. Review first lesson"
+    },
+    {
+     "t": "li",
+     "text": "Open Microsoft Word",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type Some Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type 2 simple sentences, like:1. Hello, my name is [Your Name].2. I am a student at [Your school’s name]",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. Move the Cursor Using Arrow Keys:"
+    },
+    {
+     "t": "li",
+     "text": "Right Arrow Key: Press the right arrow key to move the cursor one character to the right.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Left Arrow Key: Press the left arrow key to move the cursor one character to the left.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Down Arrow Key: Press the down arrow key to move the cursor to the next line.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Up Arrow Key: Press the up-arrow key to move the cursor to the previous line.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. Selecting Text"
+    },
+    {
+     "t": "li",
+     "text": "Using Shift + Arrow Keys:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Place the cursor at the beginning of a word.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Hold down the Shift key.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "While holding Shift, press the right arrow key to select the text one character at a time.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Continue holding Shift and use the left arrow key to deselect one character at a time.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Selecting a Whole Line:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Place the cursor at the beginning of a line.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Hold down the Shift key.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Press the down arrow key to select the entire line.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Using the Mouse:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click at the beginning of the text you want to select.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Hold down the mouse button and drag across the text.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Release the mouse button when you’ve selected the desired text.",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "4. Select Text with the Touchpad:"
+    },
+    {
+     "t": "li",
+     "text": "Place the cursor at the beginning of the text you want to select.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Press and hold the left touchpad button (or press down on the touchpad if it supports click-down).",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "While holding the button down, use another finger to drag across the text to select it.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Release the button once the desired text is selected.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. Changing Font"
+    },
+    {
+     "t": "li",
+     "text": "Select the Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Use any of the methods described above to select the text you want to change.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Change the Font:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab at the top of the Word window.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the Font dropdown menu in the toolbar (it usually shows the current font name, like \"Calibri\").",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click on the dropdown arrow to see a list of fonts.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Scroll through the list and click on a new font to change the selected text.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "5. Changing Font Size"
+    },
+    {
+     "t": "li",
+     "text": "Select the Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Use any of the methods described above to select the text you want to change.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Change the Font Size:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab at the top of the Word window.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the Font Size dropdown menu next to the Font dropdown menu.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click on the dropdown arrow to see a list of font sizes.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click on a number to change the font size of the selected text.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Alternatively, you can type a number directly into the Font Size box and press Enter.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercises"
+    },
+    {
+     "t": "li",
+     "text": "Through your friends’ list use up arrow to go to first one,",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Use the down arrow to return to the last one,",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Use the right arrow to go to the end of line,",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Use the left arrow to go to the start of the last name,",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Select the last names and put in Haettenschweiler font and size of 20,",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Let them work on other names by putting them in their chosen font and size.",
+     "ordered": false
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "title": "Home Tab: Bold, Underline, Copy and Paste",
+   "summary": "",
+   "goals": [
+    "1. Bold",
+    "2. Italic",
+    "3. Underline",
+    "5. copy (Ctrl + C)",
+    "6. paste (Ctrl + V)"
+   ],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Process"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. Making Text Bold"
+    },
+    {
+     "t": "li",
+     "text": "Select the Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click and drag to select the text you want to bold, or use Shift + arrow keys.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Bold the Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the Bold button (it looks like a bold \"B\") in the toolbar.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Alternatively, you can press Ctrl + B on the keyboard to make the selected text bold.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. Making Text Bold"
+    },
+    {
+     "t": "li",
+     "text": "Select the Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click and drag to select the text you want to bold, or use Shift + arrow keys.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Make the Text Italic:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the Italic button (it looks like a \"I\") in the toolbar.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Alternatively, you can press Ctrl + I on the keyboard to make the selected text bold.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. Underlining Text"
+    },
+    {
+     "t": "li",
+     "text": "Select the Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click and drag to select the text you want to underline, or use Shift + arrow keys.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Underline the Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the Underline button (it looks like a \"U\" with an underline) in the toolbar.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Alternatively, you can press Ctrl + U on the keyboard to underline the selected text.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. Copying Text"
+    },
+    {
+     "t": "li",
+     "text": "Select the Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click and drag to select the text you want to copy, or use Shift + arrow keys.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Copy the Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the Copy button (it looks like two pages) in the toolbar.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Alternatively, you can press Ctrl + C on the keyboard to copy the selected text.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "5. Pasting Text"
+    },
+    {
+     "t": "li",
+     "text": "Place the Cursor:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click where you want to paste the text.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Paste the Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the Paste button (it looks like a clipboard) in the toolbar.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Alternatively, you can press Ctrl + V on the keyboard to paste the copied text",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise: My School Information"
+    },
+    {
+     "t": "li",
+     "text": "Type the following text:",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "School Name: Green Valley School"
+    },
+    {
+     "t": "p",
+     "text": "Location: Kigali, Rwanda"
+    },
+    {
+     "t": "p",
+     "text": "Motto: Education for Success"
+    },
+    {
+     "t": "li",
+     "text": "Format the text as follows:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Make \"School Name:\" bold.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Make \"Location:\" italic.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Underline \"Motto:\".",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Select the entire text and copy it.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Move the cursor to a new line and paste the copied text below the original.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "In the pasted copy:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Change \"Green Valley School\" to your school's name.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Make the school name bold and underlined.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Make the motto italic.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Save the document as My School Information.docx.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Open a new document, copy information from the current one and paste it to the blank new one",
+     "ordered": true
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "title": "Home Tab: Colors, Highlight and Effects",
+   "summary": "",
+   "goals": [
+    "Color",
+    "Text Highlight",
+    "Text Effects",
+    "Change Case",
+    "Clear all Formatting"
+   ],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Process"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. Changing Text Color"
+    },
+    {
+     "t": "li",
+     "text": "Open Microsoft Word",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type Some Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type a simple sentence, like: Hello, my name is [Your Name].",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Select the Text",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Change the Text Color:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab at the top of the Word window.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the Font Color button (it looks like an \"A\" with a colored underline).",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the dropdown arrow next to the Font Color button to see the color options.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click on a color to change the color of the selected text.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. Changing Text Color"
+    },
+    {
+     "t": "li",
+     "text": "Open Microsoft Word",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type Some Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type a simple sentence, like: Hello, my name is [Your Name].",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Select the Text",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Change the Text Color:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab at the top of the Word window.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the Font Color button (it looks like an \"A\" with a colored underline).",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the dropdown arrow next to the Font Color button to see the color options.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click on a color to change the color of the selected text.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. Text Highlight"
+    },
+    {
+     "t": "li",
+     "text": "Select the Text",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Highlight The selected Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab at the top of the Word window.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the Text Highlight button (it looks like a \"pencil\" with a colored underline).",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the dropdown arrow next to the Text Highlight button to see the color options.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click on a color to change the color of the selected text.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. Text Effect"
+    },
+    {
+     "t": "li",
+     "text": "Select the Text",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Use Text Effect on selected Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab at the top of the Word window.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the Text Effect button (it looks like a \"beautiful A\" at left of text highlight button).",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the dropdown arrow next to the Text Effect button to see all options.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click on your choice to see the change in your selected text",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "5. Change Case"
+    },
+    {
+     "t": "li",
+     "text": "Select the Text",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Use Change Case on selected Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab at the top of the Word window.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the Change Case button (it looks like this \"Aa\").",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the dropdown arrow next to the Change Case button to see all options.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Try every option to see the change in your different selected text",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "6. Clear all formatting"
+    },
+    {
+     "t": "li",
+     "text": "Select the Text",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Use Clear all the formatting on selected Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab at the top of the Word window.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the Clear all the formatting button (it looks like this \"A\" with eraser on its right side).",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click on Clear all the formatting button to remove every format.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise: My Favorite Hobby"
+    },
+    {
+     "t": "li",
+     "text": "Type the title \"My Favorite Hobby\".",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Change the title text color to blue.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Apply a text effect to the title.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type a short paragraph (3–5 sentences) describing your favorite hobby.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Highlight at least three important words in the paragraph using a highlight color.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Change the color of at least two words in the paragraph.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Save the document as My Favorite Hobby.docx.",
+     "ordered": true
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "title": "Home Tab: Lists and Alignment",
+   "summary": "",
+   "goals": [
+    "Bullets",
+    "Numbering",
+    "Align left.",
+    "Align center.",
+    "Align right.",
+    "Justify"
+   ],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Process"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. Adding Bullets to a List"
+    },
+    {
+     "t": "li",
+     "text": "Open Microsoft Word:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type this paragraph: I wake up early in the morning. I prepare for school. We always sing national enthem be fore class. I attend classes. I study hard and complete my homework. In the evening, I play with my friends. I always try to be disciplined.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press enters to get to next line",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Below the paragraph, create a bullet list of your daily activities:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab at the top of the Word window.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the Bullets button (it looks like three vertical dots) in the toolbar.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Write one habit at time and go to next line for next habit",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. Adding Numbering to a List"
+    },
+    {
+     "t": "li",
+     "text": "Click enter twice under the bullets list",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Add Numbering:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the Numbering button (it looks like 1, 2, 3) in the toolbar.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Write one habit at time and go to next line for next habit",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. Aligning Text to the Left"
+    },
+    {
+     "t": "li",
+     "text": "Open Microsoft Word under the numbered list add the first paragraph of the Rwandan national anthem",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select the Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Align Left:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab at the top of the Word window.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the Align Left button (it looks like lines aligned to the left) in the toolbar.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Alternatively, you can press Ctrl + L on the keyboard to align the text to the left.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. Aligning Text to the Center"
+    },
+    {
+     "t": "li",
+     "text": "Write the second paragraph of the Rwandan national anthem",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Align Center:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the Center button (it looks like lines centered) in the toolbar.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Alternatively, you can press Ctrl + E on the keyboard to align the text to the center.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "5. Aligning Text to the Right"
+    },
+    {
+     "t": "li",
+     "text": "Write the third paragraph of the Rwandan national anthem",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Align Right:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the Align Right button (it looks like lines aligned to the right) in the toolbar.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Alternatively, you can press Ctrl + R on the keyboard to align the text to the right.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "6. Justifying Text"
+    },
+    {
+     "t": "li",
+     "text": "Write the fourth paragraph of the Rwandan national anthem:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Justify Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the Justify button (it looks like lines that are evenly spaced) in the toolbar.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Alternatively, you can press Ctrl + J on the keyboard to justify the text.",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Save the document with “my_morning_routine.docx”"
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "title": "Home Tab: Spacing, Folders and Files",
+   "summary": "",
+   "goals": [
+    "Background color",
+    "Border",
+    "Line and Paragraph spacing",
+    "Identention",
+    "Sort",
+    "Make a folder.",
+    "Save in your folder.",
+    "Delete files."
+   ],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 4,
+     "text": "process"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. Changing Background Color"
+    },
+    {
+     "t": "li",
+     "text": "Select the Text in Color list",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Change Background Color:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the Shading button (it looks like a paint bucket).",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the dropdown arrow next to the Shading button to see color options.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click on a color to change the background color of the selected text.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Change background of the second list",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. Adding a Border to Text"
+    },
+    {
+     "t": "li",
+     "text": "Select the Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click and drag to select the text you want to add a border to, or use Shift + arrow keys.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Add a Border:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the Borders button (it looks like a square with four quadrants).",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click the dropdown arrow next to the Borders button.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Choose Outside Borders to add a border around the selected text.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. Adjusting Line and Paragraph Spacing"
+    },
+    {
+     "t": "li",
+     "text": "Select the paragraph(s).",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Line and Paragraph Spacing.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "1.0 for single spacing",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "1.5 for one-and-a-half spacing",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "2.0 for double spacing",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "To add space before or after a paragraph:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Line and Paragraph Spacing",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Select Add Space Before Paragraph or Add Space After Paragraph",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. Applying Indentation"
+    },
+    {
+     "t": "li",
+     "text": "Select the paragraph.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Layout tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "In the Paragraph group:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Increase the Left Indent to move text away from the left margin.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Increase the Right Indent to move text away from the right margin.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Observe how the paragraph position changes.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "5. Sorting a List"
+    },
+    {
+     "t": "li",
+     "text": "Type a list of items, each on a separate line.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select the list.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to the Home tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click the Sort (A-Z) button.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Ensure:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Sort by: Paragraphs",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Type: Text",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Ascending is selected",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click OK.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "The list will be arranged alphabetically."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "6. Making a Folder in My Document"
+    },
+    {
+     "t": "li",
+     "text": "Open File Explorer:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click on the File Explorer icon (it looks like a folder) in the taskbar, or press Win + E.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Navigate to Your Documents:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "In File Explorer, click on Documents in the left sidebar.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Create a New Folder:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Right-click in the white space in the Documents window.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Select New > Folder from the context menu.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Type a name for the folder (e.g., \"My Documents\") and press Enter.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "7. Saving a File in Your Folder"
+    },
+    {
+     "t": "li",
+     "text": "Copy existing files and paste them in your folder",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Save the Document in Word",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "In Microsoft Word, go to the File tab.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click Save As.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Navigate to the folder you just created (e.g., Documents > My Documents).",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Enter a name for your file and click Save.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "8. Deleting Files"
+    },
+    {
+     "t": "li",
+     "text": "Delete the File:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click on the file you want to delete.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Press the Delete key on the keyboard, or right-click the file and select Delete from the context menu.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Confirm the deletion if prompted.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercises"
+    },
+    {
+     "t": "p",
+     "text": "You are preparing a document for your school's \"Healthy Living Campaign\"."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Part 1: Create the Document"
+    },
+    {
+     "t": "li",
+     "text": "Open Microsoft Word.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type the title: Healthy Living Campaign",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Center the title and make it bold.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Part 2: Create and Format Lists"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Fruits"
+    },
+    {
+     "t": "p",
+     "text": "Apple\nOrange\nBanana\nMango\nGrape"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Vegetables"
+    },
+    {
+     "t": "p",
+     "text": "Carrot\nTomato\nCabbage\nOnion\nPotato"
+    },
+    {
+     "t": "li",
+     "text": "Apply a light green background color to the Fruits list.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Apply a light yellow background color to the Vegetables list.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Add an Outside Border around each list.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Part 3: Paragraph Formatting"
+    },
+    {
+     "t": "p",
+     "text": "Type the paragraph below:"
+    },
+    {
+     "t": "p",
+     "text": "Eating healthy foods and exercising regularly help people stay strong and healthy. Good habits improve physical fitness and help prevent diseases."
+    },
+    {
+     "t": "li",
+     "text": "Change the line spacing to 1.5.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Add spacing after the paragraph.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Apply a Left Indent of approximately 1 cm.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Part 4: Sorting"
+    },
+    {
+     "t": "p",
+     "text": "Create the following list:"
+    },
+    {
+     "t": "p",
+     "text": "Banana\nApple\nOrange\nGrape\nMango"
+    },
+    {
+     "t": "li",
+     "text": "Sort the list alphabetically.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Create a folder named: Healthy Living Project",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Save the document inside the folder using the name:Healthy_Living_Campaign.docx",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Create a second document named: Draft.docx",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Save it in the same folder.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Delete Draft.docx.",
+     "ordered": true
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "title": "Common Keyboard Shortcuts",
+   "summary": "",
+   "goals": [
+    "Ctrl + A = Select all",
+    "Ctrl + C = Copy",
+    "Ctrl + V = Paste",
+    "Ctrl + F = Find",
+    "Ctrl + S = Save",
+    "Ctrl + X = Cut",
+    "Ctrl + Z = Undo an action",
+    "Ctrl + B = Bold",
+    "Ctrl + I = Italics",
+    "Ctrl + N = Open a new word document"
+   ],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Process"
+    },
+    {
+     "t": "p",
+     "text": "1. Select All (Ctrl + A)"
+    },
+    {
+     "t": "li",
+     "text": "Open one of your Microsoft Word document",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Ctrl + A on the keyboard to select all the text in the document.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "2. Press Ctrl + C on the keyboard to copy the selected text."
+    },
+    {
+     "t": "p",
+     "text": "3.Press Ctrl + N on the keyboard to open a new Word document"
+    },
+    {
+     "t": "p",
+     "text": "4. Paste (Ctrl + V)"
+    },
+    {
+     "t": "li",
+     "text": "Place Cursor:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Move the cursor to your new document where you want to paste the copied text.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Paste Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Ctrl + V on the keyboard to paste the copied text.",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "5. Find (Ctrl + F)"
+    },
+    {
+     "t": "li",
+     "text": "Open Find Dialog:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Ctrl + F on the keyboard to open the Find dialog box.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Search for Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type the text you want to find in the document in the search box.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Navigate Through Results:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Use the arrow buttons in the Find dialog box to navigate through search results.",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "6. Cut (Ctrl + X)"
+    },
+    {
+     "t": "li",
+     "text": "Select Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click and drag to select the text you want to cut, or use Shift + arrow keys to select.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Cut Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Ctrl + X on the keyboard to cut the selected text.",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "7. Undo an Action (Ctrl + Z)"
+    },
+    {
+     "t": "li",
+     "text": "Undo Action:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Ctrl + Z on the keyboard to undo the last action.",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "8. Bold (Ctrl + B)"
+    },
+    {
+     "t": "li",
+     "text": "Select Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click and drag to select the text you want to make bold, or use Shift + arrow keys to select.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Make Text Bold:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Ctrl + B on the keyboard to make the selected text bold.",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "9. Italics (Ctrl + I)"
+    },
+    {
+     "t": "li",
+     "text": "Select Text:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click and drag to select the text you want to italicize, or use Shift + arrow keys to select.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Make Text Italics:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Ctrl + I on the keyboard to make the selected text italicized.",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "10. Save (Ctrl + S)"
+    },
+    {
+     "t": "li",
+     "text": "Save Document:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Ctrl + S on the keyboard to save the document.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "If it's the first time saving, you'll be prompted to name the file and choose a location.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "exercise"
+    },
+    {
+     "t": "p",
+     "text": "Using shortcuts:"
+    },
+    {
+     "t": "li",
+     "text": "open new document using Ctrl + N and write two paragraphs of a song",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "find how many time the first word of the first paragraph occurs in whole writings, bold the title and make the body italic",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "copy the first one and paste it as third paragraph",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "save it in student’s folder",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "cut all files on the desktop and paste them in a folder in my document",
+     "ordered": false
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "title": "Insert Tab",
+   "summary": "",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. Cover Page"
+    },
+    {
+     "t": "p",
+     "text": "A cover page is the first page of a document. It usually contains the title, student's name, and date."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Click the Insert tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Cover Page.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose a design.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Replace the sample text with your own information.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. Blank Page"
+    },
+    {
+     "t": "p",
+     "text": "A blank page creates a new empty page."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Place the cursor where you want the new page.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Blank Page.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. Table"
+    },
+    {
+     "t": "p",
+     "text": "Tables organize information into rows and columns."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Table.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select the number of rows and columns.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Example:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Subject",
+       "Marks"
+      ],
+      [
+       "Math",
+       "90"
+      ],
+      [
+       "English",
+       "85"
+      ],
+      [
+       "Science",
+       "95"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Working with Tables"
+    },
+    {
+     "t": "p",
+     "text": "1. Insert a Row"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Click inside a table row.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to Table Layout.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Insert Above or Insert Below.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Example"
+    },
+    {
+     "t": "p",
+     "text": "Before:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Name",
+       "Age"
+      ],
+      [
+       "John",
+       "9"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "After inserting a row:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Subject Marking",
+       ""
+      ],
+      [
+       "Name",
+       "Age"
+      ],
+      [
+       "John",
+       "9"
+      ],
+      [
+       "Mary",
+       "10"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "2. Insert a Column"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Click inside a table column.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to Table Layout.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Insert Left or Insert Right.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Example"
+    },
+    {
+     "t": "p",
+     "text": "Before:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Name",
+       "Age"
+      ],
+      [
+       "John",
+       "9"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "After inserting a column:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Name",
+       "Age",
+       "Grade"
+      ],
+      [
+       "John",
+       "9",
+       "4"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "3. Resize Rows and Columns"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Place the mouse on a table border.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "When the double-arrow appears, click and drag.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Make rows taller or columns wider.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "li",
+     "text": "Make the first column wider.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Make the title row taller.",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "4. Merge Cells"
+    },
+    {
+     "t": "p",
+     "text": "Merging combines two or more cells into one larger cell."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Select the cells.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to Table Layout.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Merge Cells.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Example"
+    },
+    {
+     "t": "p",
+     "text": "Before:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Subject Marking",
+       ""
+      ],
+      [
+       "Name",
+       "Age"
+      ],
+      [
+       "John",
+       "9"
+      ],
+      [
+       "Mary",
+       "10"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "After merging:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Subject Marking"
+      ],
+      [
+       "Name",
+       "Age"
+      ],
+      [
+       "John",
+       "9"
+      ],
+      [
+       "Mary",
+       "10"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "5. Apply a Table Style"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Click inside the table.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Go to Table Design.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose a style.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "This makes the table colorful and easier to read."
+    },
+    {
+     "t": "p",
+     "text": "Exercise on table: My Class Information"
+    },
+    {
+     "t": "p",
+     "text": "Part 1: Create a Table: Insert a table with 3 columns and 4 rows."
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Student Name",
+       "Age",
+       "Favorite Subject"
+      ],
+      [
+       "Ali",
+       "9",
+       "Math"
+      ],
+      [
+       "Sara",
+       "10",
+       "Science"
+      ],
+      [
+       "John",
+       "9",
+       "English"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Part 2: Insert a New Row: Add a new student below the last row | Mary | 10 | Art |"
+    },
+    {
+     "t": "p",
+     "text": "Part 3: Insert a New Column:Add a column named Class, Fill it with:"
+    },
+    {
+     "t": "li",
+     "text": "Grade 4",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Grade 4",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Grade 4",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Grade 4",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Part 4: Resize the Table"
+    },
+    {
+     "t": "li",
+     "text": "Make the Student Name column wider.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Make the heading row taller.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Part 5: Merge Cells"
+    },
+    {
+     "t": "li",
+     "text": "Insert a new row at the top.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select all cells in the new row.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Merge them.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type: CLASS INFORMATION",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Center the text.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Part 6: Apply a Table Style: Choose a colorful table design."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. Pictures"
+    },
+    {
+     "t": "p",
+     "text": "Pictures make documents more interesting."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Pictures.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose a picture from your computer.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "5. Online Pictures"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Online Pictures.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Search for a picture.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select it.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "5.1. Resizing the Image"
+    },
+    {
+     "t": "li",
+     "text": "Resize the Image (Make it Bigger):",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click on the image to select it.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "You'll see small squares around the edges of the image.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click and drag one of the corner squares outward to make the image bigger.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Release the mouse button when the image is the desired size.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Resize the Image (Make it Smaller):",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click on the image to select it.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click and drag one of the corner squares inward to make the image smaller.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Release the mouse button when the image is the desired size.",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "5.2. Repositioning the Image"
+    },
+    {
+     "t": "li",
+     "text": "Reposition the Image:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click on the image to select it.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click and drag the image to move it to a different location in the document.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Shapes",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Shapes help create diagrams and decorations."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Shapes.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select a shape.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click and drag on the page.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Resize and reposition shapes as we did on images",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Common Shapes:"
+    },
+    {
+     "t": "li",
+     "text": "Rectangle",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Circle",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Arrow",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Star",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Heart",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Icons:",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Icons are small pictures used to represent objects."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Icons.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Search for an icon.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select it.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "WordArt:",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "WordArt creates colorful and decorative text."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click WordArt.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose a style.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type your text.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Example: \"MY SCHOOL PROJECT\""
+    },
+    {
+     "t": "li",
+     "text": "Text Box:",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "A text box lets you place text anywhere on a page."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Text Box.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose a style.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type inside the box.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "10. Date and Time"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Click where you want the date.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Date & Time.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose a format.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click OK.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "11. Page Number"
+    },
+    {
+     "t": "p",
+     "text": "Page numbers help organize documents."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps:"
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Page Number.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose the position:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Top of Page",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Bottom of Page",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Select a style.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Exercise: My Favorite Animal Project"
+    },
+    {
+     "t": "p",
+     "text": "Create a document titled: My Favorite Animal"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Part 1: Cover Page"
+    },
+    {
+     "t": "li",
+     "text": "Insert a Cover Page.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Add:",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Title: My Favorite Animal"
+    },
+    {
+     "t": "p",
+     "text": "Your Name"
+    },
+    {
+     "t": "p",
+     "text": "Today's Date"
+    },
+    {
+     "t": "p",
+     "text": "Part 2: New Page : Insert a Blank Page."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Part 3: Main Content"
+    },
+    {
+     "t": "p",
+     "text": "Type:My favorite animal is the lion. Lions are strong and live in groups called prides. They are often called the kings of the jungle."
+    },
+    {
+     "t": "p",
+     "text": "Part 4: Insert a Picture: Insert a picture of a lion."
+    },
+    {
+     "t": "p",
+     "text": "Part 5: Insert WordArt: Create a WordArt title THE LION"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Part 6: Insert Shapes"
+    },
+    {
+     "t": "p",
+     "text": "Draw:"
+    },
+    {
+     "t": "li",
+     "text": "One star",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "One arrow",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "One circle",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Part 7: Insert a Text Box: Create a text box containing, Fun Fact: Lions can roar very loudly."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Part 8: Insert a Table"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Animal",
+       "Speed"
+      ],
+      [
+       "Lion",
+       "80 km/h"
+      ],
+      [
+       "Cheetah",
+       "120 km/h"
+      ],
+      [
+       "Elephant",
+       "40 km/h"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Part 9: Insert Date: Add today's date at the end of the document."
+    },
+    {
+     "t": "p",
+     "text": "Part 10: Add Page Numbers: Insert page numbers at the bottom of each page."
+    },
+    {
+     "t": "p",
+     "text": "Challenge: Add an icon that matches your favorite animal and decorate the page with additional shapes."
+    }
+   ]
+  },
+  {
+   "id": "l9",
+   "title": "Draw Tab",
+   "summary": "",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The Draw Tab allows you to write and draw directly on your document using a mouse, touchpad, touchscreen, or digital pen."
+    },
+    {
+     "t": "p",
+     "text": "It is useful for:"
+    },
+    {
+     "t": "li",
+     "text": "Drawing pictures",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Highlighting important information",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Decorating projects",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Adding handwritten notes",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. Using a Pen"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Click the Draw tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select a pen.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click and drag the mouse to draw.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Draw"
+    },
+    {
+     "t": "li",
+     "text": "A circle",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "A square",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "A smiley face",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. Changing Pen Color"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Right-click the pen or click the small arrow beside it.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select a different color.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "li",
+     "text": "Draw a red star.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Draw a blue circle.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Draw a green triangle.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. Changing Pen Thickness"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Click the arrow beside a pen.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose a thickness.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Draw a line.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "li",
+     "text": "Draw one thin line.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Draw one thick line.",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Compare the difference."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. Using the Pencil Tool"
+    },
+    {
+     "t": "p",
+     "text": "The pencil creates softer-looking drawings."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Select Pencil.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Draw freely.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Draw"
+    },
+    {
+     "t": "li",
+     "text": "A house",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "A tree",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "A cloud",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "5. Using the Highlighter"
+    },
+    {
+     "t": "p",
+     "text": "The highlighter makes text stand out."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Select Highlighter.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Drag across text.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Highlight:"
+    },
+    {
+     "t": "li",
+     "text": "Your name",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "The title of your document",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "6. Erasing Drawings"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Select Eraser.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click or drag over a drawing.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "li",
+     "text": "Draw three stars.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Erase one star.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "7. Selecting a Drawing"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Steps"
+    },
+    {
+     "t": "li",
+     "text": "Click Lasso Select (if available).",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Draw around the object.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Move it to a new position.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "li",
+     "text": "Draw a sun.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Select it.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Move it to another part of the page.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "8. Decorating a Document"
+    },
+    {
+     "t": "p",
+     "text": "Use different pens and colors to:"
+    },
+    {
+     "t": "li",
+     "text": "Draw borders around a page.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Decorate a title.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Add simple illustrations.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Exercise: My Dream Playground"
+    },
+    {
+     "t": "p",
+     "text": "Task : Create a document called My Dream Playground"
+    },
+    {
+     "t": "p",
+     "text": "Part 1: Create a Title"
+    },
+    {
+     "t": "p",
+     "text": "Type: My Dream Playground"
+    },
+    {
+     "t": "li",
+     "text": "Center the title.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Make it bold.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Part 2: Draw with Different Colors"
+    },
+    {
+     "t": "p",
+     "text": "Using the Draw tab:"
+    },
+    {
+     "t": "li",
+     "text": "Draw a red slide.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Draw a blue swing.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Draw a green tree.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Part 3: Practice Thickness"
+    },
+    {
+     "t": "li",
+     "text": "Draw a thin path.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Draw a thick path.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Part 4: Use the Pencil Tool"
+    },
+    {
+     "t": "p",
+     "text": "Draw:"
+    },
+    {
+     "t": "li",
+     "text": "A cloud",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "The sun",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Part 5: Highlight Text"
+    },
+    {
+     "t": "p",
+     "text": "Type:My playground is fun and colorful."
+    },
+    {
+     "t": "p",
+     "text": "Use the highlighter to highlight:"
+    },
+    {
+     "t": "li",
+     "text": "\"fun\"",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "\"colorful\"",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Part 6: Erase"
+    },
+    {
+     "t": "li",
+     "text": "Draw three stars.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Erase one star.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Part 7: Move a Drawing"
+    },
+    {
+     "t": "li",
+     "text": "Draw a ball.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Use Lasso Select to select it.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Move it to another area of the page.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Part 8: Decorate the Page"
+    },
+    {
+     "t": "p",
+     "text": "Add:"
+    },
+    {
+     "t": "li",
+     "text": "At least 2 hearts",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "At least 2 stars",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "A colorful border around the page",
+     "ordered": false
+    }
+   ]
+  }
+ ]
+}

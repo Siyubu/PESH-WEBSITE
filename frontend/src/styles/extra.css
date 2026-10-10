@@ -1,0 +1,33 @@
+/* React-app additions on top of the original site + learn styles */
+#authLinks a { color: #fff; }
+.nav-cta { color: #fff !important; }
+.lesson-list a { color: inherit; }
+.lbtn, .lbtn:hover { text-decoration: none; }
+a.lbtn { box-sizing: border-box; }
+body:not(.learn) main { display: block; }
+
+/* Final exam */
+.exam .back { display: inline-block; color: var(--muted); margin-bottom: 8px; }
+.exam h1 { margin-top: 0; }
+.exam-rules { padding-left: 20px; }
+.exam-rules li { margin: 6px 0; }
+.exam-bar { position: sticky; top: 0; z-index: 5; display: flex; justify-content: space-between; align-items: center; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 10px 16px; margin-bottom: 18px; }
+.exam-timer { font-weight: bold; color: var(--green); font-variant-numeric: tabular-nums; }
+.exam-timer.low { color: #ff6b6b; }
+.exam-questions { list-style: none; padding: 0; margin: 0 0 24px; }
+.exam-q { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 16px 18px; margin-bottom: 14px; }
+.exam-q fieldset { border: 0; margin: 0; padding: 0; }
+.exam-q legend { font-weight: bold; margin-bottom: 10px; padding: 0; }
+.exam-opt { display: flex; gap: 10px; align-items: flex-start; padding: 9px 12px; border: 2px solid var(--line); border-radius: 5px; margin: 6px 0; cursor: pointer; }
+.exam-opt:hover { border-color: var(--muted); }
+.exam-opt.picked { border-color: var(--gold); background: var(--panel-2); }
+.exam-opt input { width: auto; margin: 4px 0 0; }
+.exam-score { text-align: center; background: var(--panel); border: 2px solid var(--line); border-radius: 8px; padding: 24px; margin-bottom: 22px; }
+.exam-score.pass { border-color: var(--green); }
+.exam-score.fail { border-color: #ff6b6b; }
+.exam-score .big { font-size: 3.4em; font-weight: bold; line-height: 1; }
+.exam-score h2 { margin: 10px 0 0; }
+.exam-review { list-style: none; padding: 0; }
+.exam-review li { background: var(--panel); border-left: 5px solid #ff6b6b; border-radius: 4px; padding: 12px 16px; margin: 12px 0; }
+.exam-review .yours { color: #ff9b9b; margin-top: 6px; }
+.exam-entry { border-top: 1px solid var(--line); margin-top: 8px; padding-top: 8px; }

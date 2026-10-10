@@ -1,0 +1,9 @@
+node_modules/
+.env
+__pycache__/
+*.pyc
+db.sqlite3
+backend/staticfiles/
+frontend/dist/
+node_modules/
+exam_docs_data.json

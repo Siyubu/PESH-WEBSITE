@@ -1,0 +1,440 @@
+{
+ "course": "scratch",
+ "title": "Scratch Programming final exam",
+ "pass_percent": 70,
+ "questions_per_attempt": 20,
+ "time_limit_minutes": 30,
+ "retake_wait_minutes": 0,
+ "questions": [
+  {
+   "text": "What is Scratch?",
+   "options": [
+    "A photo editor that changes colours in pictures",
+    "A web browser that is used to open websites",
+    "A programming language that uses blocks",
+    "A spreadsheet program that adds up numbers"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "What is a sprite?",
+   "options": [
+    "A character or object in your project",
+    "A colour that you can add to a block",
+    "The background picture behind the Stage",
+    "A sound that plays when you press a key"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What is the Stage?",
+   "options": [
+    "The place where your project happens",
+    "The place that stores the blocks",
+    "A kind of sound",
+    "A costume"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What does the Blocks Palette contain?",
+   "options": [
+    "The saved projects",
+    "The Stage backgrounds",
+    "The programming blocks",
+    "The sprites' costumes"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "What is the Script Area?",
+   "options": [
+    "Where sounds are recorded",
+    "Where you join blocks together",
+    "Where the project is shown",
+    "Where sprites are stored"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What is a backdrop?",
+   "options": [
+    "The background of the Stage",
+    "A different look of a sprite",
+    "A sound effect",
+    "A kind of block"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What is a costume?",
+   "options": [
+    "The background picture of the Stage",
+    "A place where the blocks are stored",
+    "A programming block that plays a sound",
+    "A different appearance of a sprite"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "What colour are the Motion blocks?",
+   "options": [
+    "Pink",
+    "Orange",
+    "Yellow",
+    "Blue"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "What colour are the Events blocks?",
+   "options": [
+    "Blue",
+    "Purple",
+    "Yellow",
+    "Orange"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "What colour are the Control blocks?",
+   "options": [
+    "Blue",
+    "Pink",
+    "Yellow",
+    "Orange"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "What colour are the Looks blocks?",
+   "options": [
+    "Blue",
+    "Purple",
+    "Orange",
+    "Pink"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What colour are the Sound blocks?",
+   "options": [
+    "Yellow",
+    "Pink",
+    "Purple",
+    "Blue"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What are the X and Y positions of the centre of the Stage?",
+   "options": [
+    "x: 100, y: 100",
+    "x: 180, y: 0",
+    "x: 0, y: 100",
+    "x: 0, y: 0"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "What does the X position control?",
+   "options": [
+    "Left and right",
+    "Size",
+    "Up and down",
+    "Volume"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What does the Y position control?",
+   "options": [
+    "Left and right",
+    "Volume",
+    "Up and down",
+    "Size"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "A sprite is on the left side of the Stage. Is its X positive or negative?",
+   "options": [
+    "Negative",
+    "Zero",
+    "It depends on the costume",
+    "Positive"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "A sprite is below the centre of the Stage. Is its Y positive or negative?",
+   "options": [
+    "It depends on the sound",
+    "Negative",
+    "Positive",
+    "Zero"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What does the block set x to 100 do?",
+   "options": [
+    "Changes both X and Y, moving the sprite to the corner",
+    "Changes only Y, moving the sprite up to y = 100",
+    "Changes only X, moving the sprite sideways to x = 100",
+    "Moves the sprite 100 steps in the direction it faces"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "What is the difference between go to x: y: and set x to?",
+   "options": [
+    "go to changes both X and Y, set x to changes only X",
+    "go to changes only X, and set x to changes both X and Y",
+    "They are exactly the same, so you can use either one",
+    "go to changes the costume, and set x to changes the size"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Which block starts a program when the green flag is clicked?",
+   "options": [
+    "play sound",
+    "when green flag clicked",
+    "go to x: 0 y: 0",
+    "forever"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What does the block change size by 10 do?",
+   "options": [
+    "Sets the size to exactly 10%",
+    "Makes the sprite 10% bigger",
+    "Makes the sprite smaller",
+    "Makes the sprite 10 steps bigger"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What does set size to 50% do?",
+   "options": [
+    "Adds 50 to the sprite's current size each time",
+    "Hides the sprite so that nobody can see it",
+    "Makes the sprite smaller, at half its normal size",
+    "Makes the sprite bigger, at twice its normal size"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "Which block makes a sprite talk for a short time and then stop?",
+   "options": [
+    "think Hmm... and hide the sprite",
+    "hide the sprite for 2 seconds",
+    "say Hello! and keep it on the screen",
+    "say Hello! for 2 seconds"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "What is the difference between start sound and play sound until done?",
+   "options": [
+    "play sound until done cannot be used to play music or sounds",
+    "play sound until done waits for the sound to finish before the next block runs",
+    "start sound is always quieter than play sound until done is",
+    "They are exactly the same block, only with two different names"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What does the block change volume by -10 do?",
+   "options": [
+    "Sets the volume to exactly 10%",
+    "Makes the sound quieter",
+    "Stops all sounds",
+    "Makes the sound louder"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What does a broadcast block do?",
+   "options": [
+    "Changes the backdrop of the whole Stage",
+    "Makes the sprite grow bigger and bigger",
+    "Sends a message to other scripts",
+    "Plays a sound for the sprite to hear"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "Which block receives a broadcast message?",
+   "options": [
+    "when green flag clicked",
+    "forever",
+    "when I receive",
+    "say"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "What does broadcast and wait do?",
+   "options": [
+    "Sends the message and waits for the receiving scripts to finish",
+    "Stops the whole project until a key is pressed",
+    "Sends the message and continues at once without waiting",
+    "Waits for the player to type an answer to a question"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What does the forever block do?",
+   "options": [
+    "Waits for one second, then plays a sound from the library",
+    "Runs the blocks inside only once, then stops the script",
+    "Repeats the blocks inside exactly ten times, then stops",
+    "Repeats the blocks inside again and again, without stopping by itself"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "Which Control block repeats actions a set number of times?",
+   "options": [
+    "forever",
+    "wait",
+    "repeat",
+    "stop all"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "Which Control block lets a program make a decision?",
+   "options": [
+    "if then",
+    "repeat",
+    "forever",
+    "wait"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Which category do the touching blocks belong to?",
+   "options": [
+    "Motion",
+    "Looks",
+    "Sensing",
+    "Sound"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "What does the answer block hold, after ask and wait?",
+   "options": [
+    "The volume",
+    "The Stage's colour",
+    "The sprite's size",
+    "What the player typed"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "The AND operator is true when:",
+   "options": [
+    "Only one condition is true",
+    "Both conditions are true",
+    "The sprite is touching the edge",
+    "No condition is true"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "The OR operator is true when:",
+   "options": [
+    "At least one of the conditions is true",
+    "Only when both of the conditions are true",
+    "The green flag is clicked at the start of the game",
+    "Both of the conditions are false at the same time"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What does the join block do?",
+   "options": [
+    "Puts words and numbers together",
+    "Rounds a number to the nearest whole number",
+    "Adds two numbers and shows the total",
+    "Picks a random number between two others"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What does the pick random block do?",
+   "options": [
+    "Rounds a number to the nearest whole number",
+    "Chooses a random number between two numbers",
+    "Sorts a list of numbers from small to big",
+    "Adds two numbers together and shows the total"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What is a variable?",
+   "options": [
+    "A picture that is used as a background on the Stage",
+    "A named place that stores information that can change, like a score",
+    "A sound effect that plays when the score changes",
+    "A type of sprite that can move around the Stage"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "The score is 5. What is the score after change score by 1?",
+   "options": [
+    "6",
+    "0",
+    "1",
+    "5"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What is the difference between set and change for a variable?",
+   "options": [
+    "set adds a number to the value and change gives an exact value",
+    "They are exactly the same block with two different names",
+    "set gives an exact value, change adds to (or subtracts from) the current value",
+    "set hides the variable from the Stage and change shows it again"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "What are My Blocks?",
+   "options": [
+    "Blocks that only work on the Stage",
+    "Blocks that you create yourself",
+    "Blocks that record sound",
+    "Blocks made only by Scratch"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "Why do we use My Blocks?",
+   "options": [
+    "To reuse code and keep big programs organised",
+    "To change the backdrop of the game automatically",
+    "To make the Stage bigger so that more sprites fit",
+    "To record your voice and save it as a new sound"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "In a My Block, what is an input?",
+   "options": [
+    "A backdrop that you choose for the Stage screen",
+    "A costume that you draw in the paint editor",
+    "A sound file that you record with a microphone",
+    "A number or text you give the block when you use it"
+   ],
+   "correct": 3
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+# Development overrides: backend auto-reloads from your source, API exposed on :8000.
+# Use with:  docker compose -f docker-compose.yml -f docker-compose.dev.yml up db backend
+# then run the React dev server on your machine:  cd frontend && npm run dev
+services:
+  backend:
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./backend:/app
+    ports:
+      - "8000:8000"
+    environment:
+      DJANGO_DEBUG: "1"

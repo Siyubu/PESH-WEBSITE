@@ -1,0 +1,350 @@
+{
+ "course": "excel",
+ "title": "Microsoft Excel final exam",
+ "pass_percent": 70,
+ "questions_per_attempt": 20,
+ "time_limit_minutes": 30,
+ "retake_wait_minutes": 0,
+ "questions": [
+  {
+   "text": "What is Microsoft Excel mainly used for?",
+   "options": [
+    "Browsing the internet and sending emails to friends only",
+    "Drawing pictures and editing photographs and videos only",
+    "Writing long letters and printing them for school only",
+    "Organising information in tables, doing maths and making charts"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "A row in Excel goes:",
+   "options": [
+    "Diagonally from corner to corner",
+    "From top to bottom of the sheet",
+    "Across, from left to right",
+    "Only in column A of the sheet"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "A column in Excel goes:",
+   "options": [
+    "Diagonally",
+    "Across, from left to right",
+    "From top to bottom",
+    "Only in row 1"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "Cell A1 is where:",
+   "options": [
+    "The formula bar starts",
+    "Column A meets Row 1",
+    "Row A meets Column 1",
+    "The ribbon ends"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What is the Ribbon?",
+   "options": [
+    "The area at the top with the tabs and buttons",
+    "The name that is written on each worksheet tab",
+    "A picture of numbers such as a column chart",
+    "A single box where a row meets a column"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Every formula in Excel begins with which symbol?",
+   "options": [
+    "#",
+    "=",
+    "@",
+    "+"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "A1 contains 10 and A2 contains 5. You type =A1+A2 in A3. What does Excel show?",
+   "options": [
+    "10",
+    "5",
+    "105",
+    "15"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "B1 contains 20 and B2 contains 7. What does =B1-B2 show?",
+   "options": [
+    "27",
+    "140",
+    "7",
+    "13"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "Which symbol does Excel use to multiply?",
+   "options": [
+    "/",
+    "+",
+    "*",
+    "x"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "Which symbol does Excel use to divide?",
+   "options": [
+    "/",
+    "*",
+    "-",
+    "%"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "C1 contains 6 and C2 contains 4. What does =C1*C2 show?",
+   "options": [
+    "2",
+    "64",
+    "24",
+    "10"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "D1 contains 24 and D2 contains 6. What does =D1/D2 show?",
+   "options": [
+    "18",
+    "4",
+    "30",
+    "144"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What is the AutoSum symbol?",
+   "options": [
+    "%",
+    "Σ",
+    "#",
+    "π"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "A1 to A5 contain 10, 20, 30, 40 and 50. What does =SUM(A1:A5) show?",
+   "options": [
+    "100",
+    "50",
+    "150",
+    "15"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "B1 to B4 contain 80, 70, 90 and 60. What does =AVERAGE(B1:B4) show?",
+   "options": [
+    "70",
+    "90",
+    "75",
+    "300"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "C1 to C5 contain 55, 88, 72, 91 and 67. What does =MIN(C1:C5) show?",
+   "options": [
+    "72",
+    "55",
+    "91",
+    "67"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "C1 to C5 contain 55, 88, 72, 91 and 67. What does =MAX(C1:C5) show?",
+   "options": [
+    "88",
+    "91",
+    "72",
+    "55"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What does the COUNT function do?",
+   "options": [
+    "Finds the average of the numbers in the cells",
+    "Finds the smallest number in a group of cells",
+    "Adds all of the numbers in the cells together",
+    "Counts how many cells contain numbers"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "Which of these is a correct formula?",
+   "options": [
+    "=B1xB2",
+    "=A1+A",
+    "SUM(A1:A5)",
+    "=SUM(A1:A5)"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "Which shortcut copies the selected cell?",
+   "options": [
+    "Ctrl + V",
+    "Ctrl + X",
+    "Ctrl + F",
+    "Ctrl + C"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "What does Cut and Paste do?",
+   "options": [
+    "Moves information from one place to another",
+    "Makes a copy and leaves the original in place",
+    "Changes the font and the colour of the words",
+    "Deletes the information and cannot bring it back"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Which shortcut opens Replace, to change one word into another?",
+   "options": [
+    "Ctrl + Z",
+    "Ctrl + H",
+    "Ctrl + S",
+    "Ctrl + B"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What does Conditional Formatting do?",
+   "options": [
+    "Sorts the names in a list from A to Z",
+    "Changes the colour of a cell when it meets a rule",
+    "Adds up all the numbers in the selected cells",
+    "Inserts a picture from the computer into a cell"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "Merge & Center is used to:",
+   "options": [
+    "Copy a whole table to another place in the sheet",
+    "Join cells and centre a title across columns",
+    "Delete a column that you do not need any more",
+    "Add up the numbers in two cells next to each other"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What does Wrap Text do?",
+   "options": [
+    "Makes long text fit inside the cell",
+    "Adds a border around the edge of the cell",
+    "Changes the colour of the text in the cell",
+    "Merges the cell with the cell below it"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Which tab do you use to insert a chart?",
+   "options": [
+    "Data",
+    "Insert",
+    "Home",
+    "Draw"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What is a chart for?",
+   "options": [
+    "Saving the workbook to the Documents folder",
+    "Adding up numbers automatically in a new column",
+    "Correcting the spelling mistakes in a worksheet",
+    "Turning numbers into a picture so you can compare them quickly"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "Which tab has Sort and Filter?",
+   "options": [
+    "Insert",
+    "Draw",
+    "Home",
+    "Data"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "You filter the Class column and choose P5. What happens?",
+   "options": [
+    "All of the P5 students are deleted from the list",
+    "The Class column is removed from the table",
+    "The names are sorted from A to Z in the list",
+    "Only the students in P5 are shown"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "What does Sort A to Z do to a list of names?",
+   "options": [
+    "Deletes the repeated names from the list",
+    "Puts the names in alphabetical order",
+    "Colours the names in a different colour",
+    "Counts how many names are in the list"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What does a hyperlink do?",
+   "options": [
+    "Adds two numbers together in a new cell",
+    "Opens a website or another file when you click it",
+    "Draws a shape on the worksheet for you",
+    "Changes the height of a row in the sheet"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "Which Insert item lets you place words anywhere on the worksheet?",
+   "options": [
+    "Chart",
+    "Text Box",
+    "Table",
+    "SmartArt"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What is SmartArt used for?",
+   "options": [
+    "Finding and replacing words in a sheet",
+    "Sorting a list of data by the marks",
+    "Showing ideas with colourful diagrams",
+    "Adding up numbers in a column quickly"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "What does Format Painter do?",
+   "options": [
+    "Copies the look of one cell or heading to another",
+    "Sorts a list of names from A to Z",
+    "Adds up the numbers in a group of cells",
+    "Inserts a picture from the computer"
+   ],
+   "correct": 0
+  }
+ ]
+}

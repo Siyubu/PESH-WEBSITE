@@ -1,0 +1,330 @@
+{
+ "course": "word",
+ "title": "Microsoft Word final exam",
+ "pass_percent": 70,
+ "questions_per_attempt": 20,
+ "time_limit_minutes": 30,
+ "retake_wait_minutes": 0,
+ "questions": [
+  {
+   "text": "A computer has two main parts. What are they?",
+   "options": [
+    "Windows and Linux",
+    "Files and folders",
+    "Keyboard and screen",
+    "Hardware and software"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "Which of these is computer hardware?",
+   "options": [
+    "Keyboard",
+    "A Word document",
+    "Windows",
+    "Microsoft Word"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Which of these is software?",
+   "options": [
+    "Microsoft Word",
+    "Keyboard",
+    "Screen",
+    "Mouse"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What is the main software that manages the computer's hardware and other software?",
+   "options": [
+    "The keyboard",
+    "A folder",
+    "The operating system",
+    "A driver"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "Which key adds a space between words?",
+   "options": [
+    "Backspace",
+    "Shift",
+    "Enter",
+    "The spacebar"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "Which key starts a new line or paragraph?",
+   "options": [
+    "Shift",
+    "The spacebar",
+    "Enter",
+    "Ctrl"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "When you save a document, what do you type in the File name field?",
+   "options": [
+    "The page number",
+    "Your password",
+    "A name for your document",
+    "The font name"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "Which keys move the cursor up, down, left and right?",
+   "options": [
+    "The arrow keys",
+    "Caps Lock",
+    "The function keys",
+    "The number keys"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Before you change the font of text you already typed, what must you do first?",
+   "options": [
+    "Save the file",
+    "Select the text",
+    "Insert a table",
+    "Turn off the computer"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "Besides the dropdown list, how can you change the font size?",
+   "options": [
+    "Use the Eraser",
+    "Press Ctrl + Z",
+    "Type a number in the Font Size box and press Enter",
+    "Click Blank Page"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "Which shortcut makes selected text bold?",
+   "options": [
+    "Ctrl + N",
+    "Ctrl + B",
+    "Ctrl + I",
+    "Ctrl + U"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "Which shortcut makes selected text italic?",
+   "options": [
+    "Ctrl + L",
+    "Ctrl + B",
+    "Ctrl + I",
+    "Ctrl + U"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "Which shortcut underlines selected text?",
+   "options": [
+    "Ctrl + U",
+    "Ctrl + S",
+    "Ctrl + B",
+    "Ctrl + I"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Which shortcut copies selected text?",
+   "options": [
+    "Ctrl + Z",
+    "Ctrl + X",
+    "Ctrl + V",
+    "Ctrl + C"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "Which shortcut pastes copied text?",
+   "options": [
+    "Ctrl + A",
+    "Ctrl + X",
+    "Ctrl + C",
+    "Ctrl + V"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "Which shortcut cuts selected text?",
+   "options": [
+    "Ctrl + X",
+    "Ctrl + C",
+    "Ctrl + V",
+    "Ctrl + S"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Which shortcut undoes your last action?",
+   "options": [
+    "Ctrl + Z",
+    "Ctrl + Y",
+    "Ctrl + A",
+    "Ctrl + F"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Which shortcut selects all the text in the document?",
+   "options": [
+    "Ctrl + S",
+    "Ctrl + N",
+    "Ctrl + F",
+    "Ctrl + A"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "Which shortcut opens the Find box?",
+   "options": [
+    "Ctrl + N",
+    "Ctrl + B",
+    "Ctrl + F",
+    "Ctrl + S"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "Which shortcut saves the document?",
+   "options": [
+    "Ctrl + F",
+    "Ctrl + S",
+    "Ctrl + N",
+    "Ctrl + C"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "Which shortcut opens a new Word document?",
+   "options": [
+    "Ctrl + S",
+    "Ctrl + O",
+    "Ctrl + N",
+    "Ctrl + A"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "Which shortcut centres the text?",
+   "options": [
+    "Ctrl + E",
+    "Ctrl + L",
+    "Ctrl + R",
+    "Ctrl + J"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Which shortcut aligns the text to the left?",
+   "options": [
+    "Ctrl + L",
+    "Ctrl + E",
+    "Ctrl + J",
+    "Ctrl + R"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Which shortcut justifies the text?",
+   "options": [
+    "Ctrl + J",
+    "Ctrl + L",
+    "Ctrl + R",
+    "Ctrl + E"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Which button changes the colour of text?",
+   "options": [
+    "Underline (U)",
+    "Font Color (an A with a coloured underline)",
+    "Bold (B)",
+    "Justify"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "Which Insert tab item creates colourful, decorative text?",
+   "options": [
+    "Page Number",
+    "WordArt",
+    "Text Box",
+    "Blank Page"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "Which Insert tab option adds an empty page?",
+   "options": [
+    "Table",
+    "Cover Page",
+    "Pictures",
+    "Blank Page"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "How do you add page numbers to a document?",
+   "options": [
+    "Home tab, then Bullets",
+    "Insert tab, then Page Number",
+    "Draw tab, then Pen",
+    "Type each number yourself"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "Which tab contains the Pen, Pencil, Highlighter and Eraser?",
+   "options": [
+    "Draw",
+    "Home",
+    "Layout",
+    "Insert"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Which Draw tab tool removes a drawing you do not want?",
+   "options": [
+    "Eraser",
+    "Highlighter",
+    "Pencil",
+    "Pen"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "To keep your files organised in My Documents you can make a:",
+   "options": [
+    "Border",
+    "Folder",
+    "Cover page",
+    "Highlight"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "Which button puts dots in front of each item in a list?",
+   "options": [
+    "Bullets",
+    "Sort",
+    "Numbering",
+    "Justify"
+   ],
+   "correct": 0
+  }
+ ]
+}

@@ -1,0 +1,5143 @@
+{
+ "id": "excel",
+ "title": "Microsoft Excel",
+ "icon": "📊",
+ "level": "Beginner",
+ "description": "Learn spreadsheets from the first cell to formulas, charts, sorting and filtering, with hands-on activities and projects.",
+ "lessons": [
+  {
+   "id": "l1",
+   "title": "Introduction to Microsoft Excel",
+   "summary": "",
+   "goals": [
+    "Define Microsoft Excel.",
+    "Open Microsoft Excel.",
+    "Identify rows, columns, and cells.",
+    "Type information into cells.",
+    "Format text.",
+    "Save their work."
+   ],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "What is Microsoft Excel?"
+    },
+    {
+     "t": "p",
+     "text": "Microsoft Excel is a computer program that helps us organize information in tables. We can use it to make lists, do mathematics, and create charts."
+    },
+    {
+     "t": "p",
+     "text": "Examples:"
+    },
+    {
+     "t": "li",
+     "text": "School marks",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Shopping lists",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Attendance",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Timetables",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 1: Open Microsoft Excel"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Turn on the computer.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click the Start button.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "In Search, type Excel.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Microsoft Excel.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Wait for Excel to open.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Blank Workbook.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "You should now see an empty worksheet with many small boxes."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 2: Learn the Parts of Excel"
+    },
+    {
+     "t": "p",
+     "text": "In a group, use small paper to label these parts of excel:"
+    },
+    {
+     "t": "li",
+     "text": "Ribbon",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Workbook",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Worksheet",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Rows",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Columns",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Cells",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Formula Bar",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Sheet",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Excerise"
+    },
+    {
+     "t": "li",
+     "text": "Point to the Ribbon.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Find Column A.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Find Row 1.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Write A1 in cell A1.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Write B3 in cell B3.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Write D5 in cell D5.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 3: Type in Cells"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click cell A1.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type Name.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click cell B1.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type Age.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click cell C1.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type Favourite Fruit.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click cell A2.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type Alice.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type 10.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type Mango.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Repeat for the other students.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 4: Make Your Table Beautiful"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Bold"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Select cells A1:C1.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click the Home tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Bold (B).",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "The headings become darker."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Change Font Size"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Keep the headings selected.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click the Font Size box.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose 16.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "The letters become bigger."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Change Font Colour"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Select the heading row.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click the Font Color button.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose Blue.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Fill Colour"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Select the heading row.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click the Fill Color bucket.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose Yellow.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Add Borders"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Select the whole table.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Borders.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose All Borders.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Every cell now has a border."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 5: Save Your Work"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click File.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Save As.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose Documents/excel.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type My First Excel Workbook.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Save.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Congratulations! Your work is saved.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Exercise"
+    },
+    {
+     "t": "p",
+     "text": "Create this table."
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Student",
+       "Age",
+       "Hobby"
+      ],
+      [
+       "Emma",
+       "10",
+       "Reading"
+      ],
+      [
+       "Peter",
+       "9",
+       "Football"
+      ],
+      [
+       "Joy",
+       "10",
+       "Drawing"
+      ],
+      [
+       "David",
+       "11",
+       "Swimming"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Then:"
+    },
+    {
+     "t": "li",
+     "text": "Make the title bold.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Change the font size to 16.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Colour the headings green.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Add borders.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Save your work as “Introduction_to_excel”.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "More Practice Exercises"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 1: My Family"
+    },
+    {
+     "t": "p",
+     "text": "Create the table below."
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Name",
+       "Age",
+       "Relationship"
+      ],
+      [
+       "Alice",
+       "10",
+       "Sister"
+      ],
+      [
+       "John",
+       "35",
+       "Father"
+      ],
+      [
+       "Mary",
+       "33",
+       "Mother"
+      ],
+      [
+       "Ben",
+       "6",
+       "Brother"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Type the headings.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Fill in the table.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Make the headings bold.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Change the heading colour to blue.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Add borders.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Save your work as My Family.",
+     "ordered": true
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Student",
+       "Favourite Subject"
+      ],
+      [
+       "Emma",
+       "English"
+      ],
+      [
+       "Peter",
+       "Science"
+      ],
+      [
+       "Grace",
+       "ICT"
+      ],
+      [
+       "David",
+       "Mathematics"
+      ],
+      [
+       "Joy",
+       "Art"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Exercise 2: My Classroom"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Student",
+       "Favourite Subject"
+      ],
+      [
+       "Emma",
+       "English"
+      ],
+      [
+       "Peter",
+       "Science"
+      ],
+      [
+       "Grace",
+       "ICT"
+      ],
+      [
+       "David",
+       "Mathematics"
+      ],
+      [
+       "Joy",
+       "Art"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Make the title larger than the rest of the text."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 3: Find the Cell"
+    },
+    {
+     "t": "p",
+     "text": "Your teacher says a cell address."
+    },
+    {
+     "t": "p",
+     "text": "Example:"
+    },
+    {
+     "t": "li",
+     "text": "B4",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "D6",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "A8",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "F3",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "C10",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Click the correct cell."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 4: Colour Challenge"
+    },
+    {
+     "t": "p",
+     "text": "Create this table."
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Fruit",
+       "Colour"
+      ],
+      [
+       "Apple",
+       "Red"
+      ],
+      [
+       "Banana",
+       "Yellow"
+      ],
+      [
+       "Mango",
+       "Orange"
+      ],
+      [
+       "Orange",
+       "Orange"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Colour every fruit with its real colour."
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "title": "Home Tab",
+   "summary": "",
+   "goals": [
+    "Copy and paste information.",
+    "Cut and move information.",
+    "Use Format Painter.",
+    "Change the font and font size.",
+    "Make text bold, italic, and underlined.",
+    "Change font and fill colours.",
+    "Add borders.",
+    "Align text.",
+    "Merge and center cells.",
+    "Wrap text.",
+    "Change row height and column width.",
+    "Use Conditional Formatting to highlight important information.",
+    "Find and replace words."
+   ],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 1: Copy and Paste"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is Copy?"
+    },
+    {
+     "t": "p",
+     "text": "Copy makes a duplicate of your information. The original information stays where it is."
+    },
+    {
+     "t": "li",
+     "text": "Open the Introduction_to_excel saved workbook.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click cell A2.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Ctrl + C.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click cell A12.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Ctrl + V.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "The name has been copied."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Copy the names of all students into another part of the worksheet."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 2: Cut and Paste"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is Cut?"
+    },
+    {
+     "t": "p",
+     "text": "Cut moves information from one place to another."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click cell B2.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Ctrl + X.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click cell D2.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Ctrl + V.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "The information has moved."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Move every student's age one column to the right."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 3: Change Font and Size"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Open new workbook and type My Great School in cell A1.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click the Font list.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose Arial.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Change the font size to 16.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Try three different fonts.Which one do you like best?"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 4: Bold, Italic and Underline"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Select the headings.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Bold.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Italic.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Underline.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Notice how the text changes."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Activity 5: Font Colour and Fill Colour"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Select the heading row.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Change the font colour to White.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Change the fill colour to Dark Blue.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Try different colour combinations. Which colours are easy to read?"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 6: Borders"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Add A2: school name, in B2 : Name of your school",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "A3: location, B3: district of your school",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "A4: Headmaster/Headmistress, B4 : the school head",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select your table.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Borders.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose All Borders.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Now every cell has a border."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 7: Alignment"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Select your table.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Center.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Middle Align.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Everything is neatly arranged."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Try:"
+    },
+    {
+     "t": "li",
+     "text": "Left Align",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Center Align",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Right Align",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 8: Merge and Center"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Select cells A1:D1.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Merge & Center.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "The title is now in the middle."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 9: Wrap Text"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click cell A4.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type:Learning Excel helps me organize information and solve problems.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Wrap Text.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "The text now fits inside the cell."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 10: Change Row Height and Column Width"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Move the mouse between columns A and B.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "When the pointer changes shape, drag to make Column A wider.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Move between rows 1 and 2.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Drag to make Row 1 taller.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Resize all columns so every word can be seen clearly."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 11: Conditional Formatting"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is Conditional Formatting?"
+    },
+    {
+     "t": "p",
+     "text": "Conditional Formatting changes the colour of a cell when it meets a rule."
+    },
+    {
+     "t": "p",
+     "text": "It helps us quickly find important information."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Example"
+    },
+    {
+     "t": "p",
+     "text": "Imagine these marks:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Student",
+       "Marks"
+      ],
+      [
+       "Alice",
+       "95"
+      ],
+      [
+       "John",
+       "65"
+      ],
+      [
+       "Grace",
+       "88"
+      ],
+      [
+       "Peter",
+       "45"
+      ],
+      [
+       "Emma",
+       "72"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "We can ask Excel to:"
+    },
+    {
+     "t": "li",
+     "text": "Colour marks 80 and above in green.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Colour marks below 50 in red.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Type the table above.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select the Marks column.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click the Home tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Conditional Formatting.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Highlight Cells Rules.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose Greater Than.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type 79.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose Green Fill with Dark Green Text.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click OK.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Now all marks of 80 or more are green."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Challenge"
+    },
+    {
+     "t": "p",
+     "text": "Highlight marks below 50 in red."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 12: Find and Replace"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is Find?"
+    },
+    {
+     "t": "p",
+     "text": "Find helps you locate a word quickly."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Press Ctrl + F.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type Peter.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Find Next.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Excel finds the name."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is Replace?"
+    },
+    {
+     "t": "p",
+     "text": "Replace changes one word into another."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Press Ctrl + H.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Find Peter.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Replace with Paul.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Replace.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "The name changes everywhere it appears."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise"
+    },
+    {
+     "t": "p",
+     "text": "Create the table below."
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Student",
+       "Class",
+       "Marks"
+      ],
+      [
+       "Alice",
+       "P5",
+       "95"
+      ],
+      [
+       "John",
+       "P5",
+       "68"
+      ],
+      [
+       "Grace",
+       "P6",
+       "88"
+      ],
+      [
+       "Peter",
+       "P4",
+       "45"
+      ],
+      [
+       "Emma",
+       "P5",
+       "72"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Complete these tasks:"
+    },
+    {
+     "t": "li",
+     "text": "Make the title \"Student Marks\" and merge it across columns A–C.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Make the title bold, size 18, and blue.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Colour the heading row dark blue with white text.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Add borders to the table.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Centre all the text.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Make the Marks column green for scores of 80 and above.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Make scores below 50 red using Conditional Formatting.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Copy Emma's row to the bottom of the table.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Change the copied name to David.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Resize the columns so all the text is visible.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Save your workbook as Lesson 2 - Home Tab.xlsx.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "More Practice Exercises"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 1: Copy and Paste"
+    },
+    {
+     "t": "p",
+     "text": "Create this table."
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Animal"
+      ],
+      [
+       "Dog"
+      ],
+      [
+       "Cat"
+      ],
+      [
+       "Goat"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Copy every animal two more times."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 2: Cut and Move"
+    },
+    {
+     "t": "p",
+     "text": "Move the word Elephant from A2 to C6."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 3: Format Painter"
+    },
+    {
+     "t": "p",
+     "text": "Make this heading beautiful."
+    },
+    {
+     "t": "p",
+     "text": "My School"
+    },
+    {
+     "t": "p",
+     "text": "Use Format Painter to make another heading look exactly the same."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 4: Alignment Practice"
+    },
+    {
+     "t": "p",
+     "text": "Type these words."
+    },
+    {
+     "t": "p",
+     "text": "| Left | Centre | Right |"
+    },
+    {
+     "t": "p",
+     "text": "Use the alignment buttons to place each word correctly."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 5: Merge Cells"
+    },
+    {
+     "t": "p",
+     "text": "Create this timetable."
+    },
+    {
+     "t": "p",
+     "text": "| Monday | Tuesday | Wednesday |"
+    },
+    {
+     "t": "p",
+     "text": "Add the title:My Weekly Timetable"
+    },
+    {
+     "t": "p",
+     "text": "Merge and centre the title."
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "title": "Insert Tab",
+   "summary": "",
+   "goals": [
+    "Insert rows and columns.",
+    "Insert cells.",
+    "Insert pictures.",
+    "Insert shapes.",
+    "Insert icons.",
+    "Insert SmartArt.",
+    "Insert tables.",
+    "Insert charts.",
+    "Insert text boxes.",
+    "Insert WordArt.",
+    "Add hyperlinks."
+   ],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "What is the Insert Tab?"
+    },
+    {
+     "t": "p",
+     "text": "The Insert tab is used to add new things to your worksheet."
+    },
+    {
+     "t": "p",
+     "text": "You can insert:"
+    },
+    {
+     "t": "li",
+     "text": "Pictures",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Shapes",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Charts",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Tables",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Text boxes",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Icons",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "SmartArt",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Hyperlinks",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "The Insert tab helps make your worksheet colourful, interesting, and easy to understand."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 1: Insert a New Row"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is a Row?"
+    },
+    {
+     "t": "p",
+     "text": "A row goes across the worksheet from left to right."
+    },
+    {
+     "t": "p",
+     "text": "Sometimes we need to add another row for new information."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Open Microsoft Excel.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type this table.",
+     "ordered": true
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Name",
+       "Age"
+      ],
+      [
+       "Alice",
+       "10"
+      ],
+      [
+       "John",
+       "9"
+      ],
+      [
+       "Grace",
+       "10"
+      ]
+     ]
+    },
+    {
+     "t": "li",
+     "text": "Click Row 3.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click the Insert tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Insert Sheet Rows (or right-click the row number and choose Insert if your version doesn't show the command on the ribbon).",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "A new row appears.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type: Name: Peter and Age: 11",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Insert two more rows."
+    },
+    {
+     "t": "p",
+     "text": "Add:"
+    },
+    {
+     "t": "li",
+     "text": "Emma",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "David",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 2: Insert a New Column"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is a Column?"
+    },
+    {
+     "t": "p",
+     "text": "A column goes from top to bottom."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click Column B.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose Insert Sheet Columns (or right-click the column letter and choose Insert).",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "A new column appears.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type the heading:",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Gender"
+    },
+    {
+     "t": "p",
+     "text": "Fill the column with:"
+    },
+    {
+     "t": "li",
+     "text": "Girl, if the name is for a girl",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Boy, if the name is for a boy",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Insert another column called"
+    },
+    {
+     "t": "p",
+     "text": "Favourite Sport"
+    },
+    {
+     "t": "p",
+     "text": "Complete the information"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 3: Insert a Picture"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is a Picture?"
+    },
+    {
+     "t": "p",
+     "text": "Pictures help explain information."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click the Insert tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Pictures.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose This Device.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select a picture of your choice.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Drag the corners to make the picture smaller.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Move the picture beside your table.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Insert three more pictures."
+    },
+    {
+     "t": "p",
+     "text": "Resize every picture so they are the same size."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 4: Insert Shapes"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What are Shapes?"
+    },
+    {
+     "t": "p",
+     "text": "Shapes help decorate your work and point to important information."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click the Insert tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Shapes.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose a rectangle.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Draw it on the worksheet.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Draw another shape:",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Star",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Heart",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Arrow",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Circle",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Click each shape.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Change its colour.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Draw:"
+    },
+    {
+     "t": "li",
+     "text": "A house",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "A smiling face",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "The sun",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Only use shapes."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 5: Insert Icons"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What are Icons?"
+    },
+    {
+     "t": "p",
+     "text": "Icons are small pictures used to represent objects."
+    },
+    {
+     "t": "p",
+     "text": "Examples:"
+    },
+    {
+     "t": "li",
+     "text": "Computer",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Book",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "School",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Car",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Heart",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Icons (if available in your version of Excel).",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Search for School.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select an icon.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Resize the icon.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Insert icons for:"
+    },
+    {
+     "t": "li",
+     "text": "Computer",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Book",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Bus",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Arrange them neatly."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 6: Insert SmartArt"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is SmartArt?"
+    },
+    {
+     "t": "p",
+     "text": "SmartArt helps us show ideas using colourful diagrams."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click the Insert tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click SmartArt.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose Process.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click OK.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Type:"
+    },
+    {
+     "t": "li",
+     "text": "Wake Up",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Eat Breakfast",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Go to School",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Study",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Go Home",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Create SmartArt showing: \"My Morning Routine\""
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 7: Insert a Table"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is a Table?"
+    },
+    {
+     "t": "p",
+     "text": "A table helps organize information."
+    },
+    {
+     "t": "p",
+     "text": "Excel Tables can:"
+    },
+    {
+     "t": "li",
+     "text": "Use colours",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Sort information",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Filter information",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "p",
+     "text": "Type:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Student",
+       "Marks"
+      ],
+      [
+       "Alice",
+       "90"
+      ],
+      [
+       "John",
+       "70"
+      ],
+      [
+       "Grace",
+       "95"
+      ],
+      [
+       "Peter",
+       "60"
+      ]
+     ]
+    },
+    {
+     "t": "li",
+     "text": "Select the table.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Table.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Make sure My table has headers is checked.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click OK.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Choose a different table style."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 8: Insert a Chart"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is a Chart?"
+    },
+    {
+     "t": "p",
+     "text": "A chart turns numbers into pictures."
+    },
+    {
+     "t": "p",
+     "text": "Charts help us compare information quickly."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "p",
+     "text": "Type:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Fruit",
+       "Students"
+      ],
+      [
+       "Mango",
+       "8"
+      ],
+      [
+       "Apple",
+       "5"
+      ],
+      [
+       "Banana",
+       "6"
+      ],
+      [
+       "Orange",
+       "7"
+      ]
+     ]
+    },
+    {
+     "t": "li",
+     "text": "Select the table.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Column Chart.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose the first chart. Excel creates a colourful chart.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Create:"
+    },
+    {
+     "t": "li",
+     "text": "Column Chart",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Pie Chart",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Look at both charts."
+    },
+    {
+     "t": "p",
+     "text": "Which one is easier to read?"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 9: Insert a Text Box"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is a Text Box?"
+    },
+    {
+     "t": "p",
+     "text": "A text box lets you place words anywhere on the worksheet."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Text Box.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Draw the text box.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type: Welcome to Excel Class!",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Change the font colour.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Create three text boxes."
+    },
+    {
+     "t": "p",
+     "text": "Write:"
+    },
+    {
+     "t": "li",
+     "text": "Excellent!",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Good Job!",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Keep Learning!",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 10: Insert WordArt"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is WordArt?"
+    },
+    {
+     "t": "p",
+     "text": "WordArt creates colourful and artistic text."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click Insert.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click WordArt.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose a style.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type: My First Excel Project",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Try three different WordArt styles. Which one do you like best?"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 11: Insert a Hyperlink"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is a Hyperlink?"
+    },
+    {
+     "t": "p",
+     "text": "A hyperlink opens a website or another file when you click it."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click cell A1.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type: Visit My School",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Right-click the cell.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Link or Hyperlink.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type your school's website address (or your teacher will provide one).",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click OK.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Create a hyperlink to:"
+    },
+    {
+     "t": "li",
+     "text": "Your school website",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Microsoft website",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Lesson Exercises"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 1: My Favourite Animals"
+    },
+    {
+     "t": "p",
+     "text": "Create the table."
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Animal",
+       "Number"
+      ],
+      [
+       "Dog",
+       "10"
+      ],
+      [
+       "Cat",
+       "7"
+      ],
+      [
+       "Bird",
+       "5"
+      ],
+      [
+       "Rabbit",
+       "3"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Tasks:"
+    },
+    {
+     "t": "li",
+     "text": "Convert it into a table.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Insert pictures of the animals.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Create a column chart.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Add a title using WordArt.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 2: My School"
+    },
+    {
+     "t": "p",
+     "text": "Create a worksheet about your school."
+    },
+    {
+     "t": "p",
+     "text": "Include:"
+    },
+    {
+     "t": "li",
+     "text": "School name",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "School logo or picture",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "A text box welcoming visitors",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Three shapes",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "One SmartArt diagram showing \"A School Day\"",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 3: My Healthy Fruits"
+    },
+    {
+     "t": "p",
+     "text": "Create the table."
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Fruit",
+       "Students"
+      ],
+      [
+       "Mango",
+       "12"
+      ],
+      [
+       "Apple",
+       "8"
+      ],
+      [
+       "Banana",
+       "10"
+      ],
+      [
+       "Orange",
+       "9"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Tasks:"
+    },
+    {
+     "t": "li",
+     "text": "Insert fruit pictures.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Create a pie chart.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Add a colourful title using WordArt.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Add two stars and one arrow using Shapes.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 4: Birthday List"
+    },
+    {
+     "t": "p",
+     "text": "Create this table."
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Name",
+       "Month"
+      ],
+      [
+       "Alice",
+       "January"
+      ],
+      [
+       "John",
+       "March"
+      ],
+      [
+       "Grace",
+       "July"
+      ],
+      [
+       "Peter",
+       "October"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Tasks:"
+    },
+    {
+     "t": "li",
+     "text": "Insert one new row.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Add Emma in the new row.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Insert a new column called Age.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Convert the data into a table.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Add a text box with the message Happy Birthday!",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "⭐ Mini Project: My Dream Classroom"
+    },
+    {
+     "t": "p",
+     "text": "Create a worksheet called My Dream Classroom."
+    },
+    {
+     "t": "p",
+     "text": "Your worksheet must include:"
+    },
+    {
+     "t": "li",
+     "text": "A colourful WordArt title.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "A table with at least five classroom items.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "A picture of a classroom.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Three shapes.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "One SmartArt diagram showing the school day.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "One chart showing the number of classroom items.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "One text box with a welcome message.",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Challenge: Decorate your worksheet so that it is colourful, neat, and easy to read"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "More Practice Exercises"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 1: Insert Rows"
+    },
+    {
+     "t": "p",
+     "text": "Create a list of five students. Insert two more rows. Add two new students."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 2: Insert Columns"
+    },
+    {
+     "t": "p",
+     "text": "Add a new column called Gender"
+    },
+    {
+     "t": "p",
+     "text": "Fill it with:"
+    },
+    {
+     "t": "li",
+     "text": "Boy",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Girl",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 3: Pictures"
+    },
+    {
+     "t": "p",
+     "text": "Insert three pictures."
+    },
+    {
+     "t": "li",
+     "text": "Dog",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Cat",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Bird",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Resize every picture."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 4: Shapes"
+    },
+    {
+     "t": "p",
+     "text": "Draw"
+    },
+    {
+     "t": "li",
+     "text": "Star",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Heart",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Arrow",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Circle",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Rectangle",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Colour every shape differently."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 5: Tables"
+    },
+    {
+     "t": "p",
+     "text": "Turn your student list into an Excel Table."
+    },
+    {
+     "t": "p",
+     "text": "Choose your favourite table style."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 6: Charts"
+    },
+    {
+     "t": "p",
+     "text": "Use this data."
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Fruit",
+       "Students"
+      ],
+      [
+       "Mango",
+       "8"
+      ],
+      [
+       "Apple",
+       "5"
+      ],
+      [
+       "Orange",
+       "7"
+      ],
+      [
+       "Banana",
+       "6"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Create"
+    },
+    {
+     "t": "li",
+     "text": "Column Chart",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Pie Chart",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Compare the two charts."
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "title": "Draw Tab",
+   "summary": "",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity: Draw a House"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click the Draw tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Choose the Blue Pen.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Draw a square.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Draw a triangle on top.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Draw a door.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Draw two windows.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Use another colour to draw the sun.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "More Practice Exercises"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 1: Draw a House"
+    },
+    {
+     "t": "p",
+     "text": "Draw"
+    },
+    {
+     "t": "li",
+     "text": "House",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Roof",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Door",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Windows",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 2: Draw a Garden"
+    },
+    {
+     "t": "p",
+     "text": "Add"
+    },
+    {
+     "t": "li",
+     "text": "Tree",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Flowers",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Sun",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Clouds",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 3: Draw Your Dream School"
+    },
+    {
+     "t": "p",
+     "text": "Include"
+    },
+    {
+     "t": "li",
+     "text": "Playground",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Flag",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Classroom",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Football field",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 4: Highlight"
+    },
+    {
+     "t": "p",
+     "text": "Highlight"
+    },
+    {
+     "t": "li",
+     "text": "Student with highest marks",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Best attendance",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 5: Colour Challenge"
+    },
+    {
+     "t": "p",
+     "text": "Draw the same picture using"
+    },
+    {
+     "t": "li",
+     "text": "Blue pen",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Red pen",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Green pen",
+     "ordered": false
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "title": "Formulas",
+   "summary": "",
+   "goals": [
+    "Understand what a formula is.",
+    "Know that formulas start with the equal sign (=).",
+    "Use simple formulas for addition, subtraction, multiplication, and division.",
+    "Use AutoSum to add numbers quickly.",
+    "Use SUM, AVERAGE, MIN, MAX, and COUNT functions.",
+    "Check and fix simple formula mistakes."
+   ],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "What is a Formula?"
+    },
+    {
+     "t": "p",
+     "text": "A formula tells Excel to do mathematics for us. Every formula begins with an equals sign (=).Example:"
+    },
+    {
+     "t": "p",
+     "text": "After pressing Enter, Excel shows the answer 9."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 1: Add Numbers"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click cell A1 and type 10.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click cell A2 and type 5.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click cell A3.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type: =A1+A2",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Excel adds the numbers and shows 15."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Try adding:"
+    },
+    {
+     "t": "li",
+     "text": "20 + 8",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "35 + 12",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "50 + 25",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 2: Subtract Numbers"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Type 20 in B1.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type 7 in B2.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click B3.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type: =B1-B2",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Excel subtracts and shows 13."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Find the answers for:"
+    },
+    {
+     "t": "li",
+     "text": "50 - 18",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "80 - 25",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "100 - 40",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 3: Multiply Numbers"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Type 6 in C1.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type 4 in C2.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click C3.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type: =C1*C2",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Excel multiplies and shows 24."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Find the answers for:"
+    },
+    {
+     "t": "li",
+     "text": "5 × 3",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "8 × 7",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "9 × 2",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 4: Divide Numbers"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Type 24 in D1.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type 6 in D2.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click D3.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type: =D1/D2",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Excel divides and shows 4."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Find the answers for:"
+    },
+    {
+     "t": "li",
+     "text": "30 ÷ 5",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "42 ÷ 7",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "81 ÷ 9",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 5: Use AutoSum"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is AutoSum?"
+    },
+    {
+     "t": "p",
+     "text": "AutoSum (Σ) quickly adds numbers in a row or column."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Type these marks in cells B1:B4:",
+     "ordered": true
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Cell",
+       "Marks"
+      ],
+      [
+       "B1",
+       "50"
+      ],
+      [
+       "B2",
+       "60"
+      ],
+      [
+       "B3",
+       "70"
+      ],
+      [
+       "B4",
+       "80"
+      ]
+     ]
+    },
+    {
+     "t": "li",
+     "text": "Click cell B5.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click the Formulas tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click AutoSum (Σ).",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Excel adds the marks and shows 260."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Use AutoSum to add:"
+    },
+    {
+     "t": "li",
+     "text": "10, 20, 30, 40",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "5, 15, 25, 35",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "100, 200, 300",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 6: SUM Function"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is SUM?"
+    },
+    {
+     "t": "p",
+     "text": "The SUM function adds numbers in many cells."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Enter numbers in cells A1:A5:",
+     "ordered": true
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Cell",
+       "Number"
+      ],
+      [
+       "A1",
+       "10"
+      ],
+      [
+       "A2",
+       "20"
+      ],
+      [
+       "A3",
+       "30"
+      ],
+      [
+       "A4",
+       "40"
+      ],
+      [
+       "A5",
+       "50"
+      ]
+     ]
+    },
+    {
+     "t": "li",
+     "text": "Click cell A6.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type: =SUM(A1:A5)",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Excel shows 150."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Use SUM to add:"
+    },
+    {
+     "t": "li",
+     "text": "5, 10, 15, 20",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "12, 24, 36, 48",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "7, 14, 21, 28",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 7: AVERAGE Function"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is AVERAGE?"
+    },
+    {
+     "t": "p",
+     "text": "The AVERAGE function finds the average of numbers."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Type these marks in B1:B4:",
+     "ordered": true
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Cell",
+       "Marks"
+      ],
+      [
+       "B1",
+       "80"
+      ],
+      [
+       "B2",
+       "70"
+      ],
+      [
+       "B3",
+       "90"
+      ],
+      [
+       "B4",
+       "60"
+      ]
+     ]
+    },
+    {
+     "t": "li",
+     "text": "Click cell B5.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type: =AVERAGE(B1:B4)",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Excel shows the average mark 75."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Find the average for:"
+    },
+    {
+     "t": "li",
+     "text": "50, 60, 70, 80",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "90, 85, 80, 95",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "40, 50, 60, 70",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 8: MIN and MAX Functions"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is MIN?"
+    },
+    {
+     "t": "p",
+     "text": "The MIN function finds the smallest number."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is MAX?"
+    },
+    {
+     "t": "p",
+     "text": "The MAX function finds the largest number."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Enter these marks in C1:C5:",
+     "ordered": true
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Cell",
+       "Marks"
+      ],
+      [
+       "C1",
+       "55"
+      ],
+      [
+       "C2",
+       "88"
+      ],
+      [
+       "C3",
+       "72"
+      ],
+      [
+       "C4",
+       "91"
+      ],
+      [
+       "C5",
+       "67"
+      ]
+     ]
+    },
+    {
+     "t": "li",
+     "text": "Click cell C6 and type: =MIN(C1:C5)",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter. Excel shows 55.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click cell C7 and type: =MAX(C1:C5)",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter. Excel shows 91.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Find the smallest and largest numbers for:"
+    },
+    {
+     "t": "li",
+     "text": "12, 45, 78, 34, 56",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "90, 85, 88, 92, 87",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "5, 15, 25, 35, 45",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 9: COUNT Function"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "What is COUNT?"
+    },
+    {
+     "t": "p",
+     "text": "The COUNT function counts how many cells contain numbers."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Enter numbers in D1:D5:",
+     "ordered": true
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Cell",
+       "Number"
+      ],
+      [
+       "D1",
+       "10"
+      ],
+      [
+       "D2",
+       "20"
+      ],
+      [
+       "D3",
+       "30"
+      ],
+      [
+       "D4",
+       "40"
+      ],
+      [
+       "D5",
+       "50"
+      ]
+     ]
+    },
+    {
+     "t": "li",
+     "text": "Click cell D6.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type: =COUNT(D1:D5)",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Excel shows 5 because there are five numbers."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Use COUNT for:"
+    },
+    {
+     "t": "li",
+     "text": "100, 200, 300",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "5, 10, 15, 20, 25",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "8, 16, 24, 32",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity 10: Formula Error Check"
+    },
+    {
+     "t": "p",
+     "text": "Sometimes formulas do not work because of small mistakes."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Common Mistakes"
+    },
+    {
+     "t": "li",
+     "text": "Forgetting the = sign.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Typing the wrong cell address.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Using the wrong symbol, such as + instead of *.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Fix these formulas:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Wrong Formula",
+       "Correct Formula"
+      ],
+      [
+       "SUM(A1:A5)",
+       "=SUM(A1:A5)"
+      ],
+      [
+       "=A1+A",
+       "=A1+A2"
+      ],
+      [
+       "=B1xB2",
+       "=B1*B2"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Lesson Exercises"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 1: Addition Table"
+    },
+    {
+     "t": "p",
+     "text": "Create this table and use formulas to find the totals:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "A",
+       "B",
+       "Total"
+      ],
+      [
+       "10",
+       "5",
+       ""
+      ],
+      [
+       "15",
+       "8",
+       ""
+      ],
+      [
+       "20",
+       "7",
+       ""
+      ],
+      [
+       "25",
+       "10",
+       ""
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 2: Subtraction Practice"
+    },
+    {
+     "t": "p",
+     "text": "Create this table and find the differences:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Number 1",
+       "Number 2",
+       "Difference"
+      ],
+      [
+       "20",
+       "5",
+       ""
+      ],
+      [
+       "40",
+       "12",
+       ""
+      ],
+      [
+       "60",
+       "18",
+       ""
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 3: Multiplication and Division"
+    },
+    {
+     "t": "p",
+     "text": "Create two tables and find the answers:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Multiply",
+       "Answer"
+      ],
+      [
+       "5 × 4",
+       ""
+      ],
+      [
+       "8 × 7",
+       ""
+      ],
+      [
+       "9 × 3",
+       ""
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Divide",
+       "Answer"
+      ],
+      [
+       "20 ÷ 5",
+       ""
+      ],
+      [
+       "18 ÷ 3",
+       ""
+      ],
+      [
+       "24 ÷ 6",
+       ""
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 4: Shop Prices"
+    },
+    {
+     "t": "p",
+     "text": "Create this table:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Item",
+       "Price"
+      ],
+      [
+       "Pencil",
+       "300"
+      ],
+      [
+       "Book",
+       "1500"
+      ],
+      [
+       "Eraser",
+       "200"
+      ],
+      [
+       "Bag",
+       "3500"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Tasks:"
+    },
+    {
+     "t": "li",
+     "text": "Find the total price using SUM.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the average price using AVERAGE.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the highest price using MAX.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the lowest price using MIN.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 5: School Marks"
+    },
+    {
+     "t": "p",
+     "text": "Create this table:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Student",
+       "Marks"
+      ],
+      [
+       "Alice",
+       "85"
+      ],
+      [
+       "John",
+       "70"
+      ],
+      [
+       "Grace",
+       "90"
+      ],
+      [
+       "Peter",
+       "60"
+      ],
+      [
+       "Emma",
+       "75"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Tasks:"
+    },
+    {
+     "t": "li",
+     "text": "Find the total marks.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the average mark.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the highest mark.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the lowest mark.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Count the number of students.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Mini Project: My Pocket Money"
+    },
+    {
+     "t": "p",
+     "text": "Create a workbook called My Pocket Money.Include this table:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Week",
+       "Money"
+      ],
+      [
+       "Week 1",
+       "1000"
+      ],
+      [
+       "Week 2",
+       "1500"
+      ],
+      [
+       "Week 3",
+       "1200"
+      ],
+      [
+       "Week 4",
+       "1300"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Tasks:"
+    },
+    {
+     "t": "li",
+     "text": "Find the total money using SUM.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the average money using AVERAGE.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the highest money using MAX.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Find the lowest money using MIN.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Count the number of weeks using COUNT.",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Save the workbook as Lesson 4 - Formula Tab.xlsx."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity: Add Numbers"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Type 20 in cell A1.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type 15 in cell A2.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click cell A3.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type: =A1+A2",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Excel shows the answer 35."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity: AutoSum"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Type 50, 60, 70, and 80 in cells B1:B4.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click cell B5.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click the Home tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click AutoSum (Σ).",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Excel adds all the numbers."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "More Practice Exercises"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 1: Addition"
+    },
+    {
+     "t": "p",
+     "text": "Complete."
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "A",
+       "B",
+       "Total"
+      ],
+      [
+       "10",
+       "5",
+       ""
+      ],
+      [
+       "15",
+       "8",
+       ""
+      ],
+      [
+       "20",
+       "7",
+       ""
+      ],
+      [
+       "25",
+       "10",
+       ""
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Use formulas."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 2: Subtraction"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Number 1",
+       "Number 2",
+       "Difference"
+      ],
+      [
+       "20",
+       "5",
+       ""
+      ],
+      [
+       "40",
+       "12",
+       ""
+      ],
+      [
+       "60",
+       "18",
+       ""
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 3: Multiplication"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Number 1",
+       "Number 2",
+       "Answer"
+      ],
+      [
+       "5",
+       "4",
+       ""
+      ],
+      [
+       "8",
+       "7",
+       ""
+      ],
+      [
+       "9",
+       "3",
+       ""
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 4: Division"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Number 1",
+       "Number 2",
+       "Answer"
+      ],
+      [
+       "20",
+       "5",
+       ""
+      ],
+      [
+       "18",
+       "3",
+       ""
+      ],
+      [
+       "24",
+       "6",
+       ""
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 5: Shop"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Item",
+       "Price"
+      ],
+      [
+       "Pencil",
+       "300"
+      ],
+      [
+       "Book",
+       "1500"
+      ],
+      [
+       "Eraser",
+       "200"
+      ],
+      [
+       "Bag",
+       "3500"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Find the total."
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "title": "More Formulas",
+   "summary": "",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity: Find the Average"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Enter marks in cells B2:B6.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click cell B7.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type: =AVERAGE(B2:B6)",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Excel shows the average mark."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "More Practice Exercises"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 1: School Marks"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Student",
+       "Marks"
+      ],
+      [
+       "Alice",
+       "80"
+      ],
+      [
+       "John",
+       "65"
+      ],
+      [
+       "Grace",
+       "90"
+      ],
+      [
+       "Peter",
+       "55"
+      ],
+      [
+       "Emma",
+       "75"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Find"
+    },
+    {
+     "t": "li",
+     "text": "Total",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Average",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Highest mark",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Lowest mark",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Number of students",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 6: Pocket Money"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Week",
+       "Money"
+      ],
+      [
+       "Week 1",
+       "1000"
+      ],
+      [
+       "Week 2",
+       "1500"
+      ],
+      [
+       "Week 3",
+       "1200"
+      ],
+      [
+       "Week 4",
+       "1300"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Find the total money."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 2: Sports Scores"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Team",
+       "Goals"
+      ],
+      [
+       "Blue",
+       "3"
+      ],
+      [
+       "Red",
+       "5"
+      ],
+      [
+       "Green",
+       "4"
+      ],
+      [
+       "Yellow",
+       "2"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Find"
+    },
+    {
+     "t": "li",
+     "text": "Total goals",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Highest goals",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Lowest goals",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 3: Rainfall"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Day",
+       "Rain (mm)"
+      ],
+      [
+       "Monday",
+       "12"
+      ],
+      [
+       "Tuesday",
+       "8"
+      ],
+      [
+       "Wednesday",
+       "15"
+      ],
+      [
+       "Thursday",
+       "10"
+      ],
+      [
+       "Friday",
+       "5"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Calculate all five functions."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 4: Class Attendance"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Day",
+       "Students"
+      ],
+      [
+       "Monday",
+       "28"
+      ],
+      [
+       "Tuesday",
+       "30"
+      ],
+      [
+       "Wednesday",
+       "29"
+      ],
+      [
+       "Thursday",
+       "31"
+      ],
+      [
+       "Friday",
+       "27"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Find the average attendance."
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "title": "Data Tab",
+   "summary": "",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity: Sort Names"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click any cell in your table.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click the Data tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Sort A to Z.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click OK if asked, The names are now in alphabetical order.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Activity: Filter Students"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Instructions"
+    },
+    {
+     "t": "li",
+     "text": "Click any cell in your table.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click the Data tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Filter.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click the small arrow in the Class column.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select P5.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click OK.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Only students in P5 are shown."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "More Practice Exercises"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 1: Sort by Name"
+    },
+    {
+     "t": "p",
+     "text": "Sort students from"
+    },
+    {
+     "t": "p",
+     "text": "A → Z"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 2: Sort by Marks"
+    },
+    {
+     "t": "p",
+     "text": "Sort students from highest to lowest marks."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 3: Filter"
+    },
+    {
+     "t": "p",
+     "text": "Show only students whose marks are greater than 80."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 4: Filter by Class"
+    },
+    {
+     "t": "p",
+     "text": "Show only Primary 5"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 5: Remove Duplicates"
+    },
+    {
+     "t": "p",
+     "text": "Remove repeated student names."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 6: Attendance List"
+    },
+    {
+     "t": "p",
+     "text": "Create a drop-down list with"
+    },
+    {
+     "t": "li",
+     "text": "Present",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Absent",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Late",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Use it for every student."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise 7: Class Register Project"
+    },
+    {
+     "t": "p",
+     "text": "Create a class register with these columns:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Student",
+       "Age",
+       "Class",
+       "Marks",
+       "Attendance"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Then:"
+    },
+    {
+     "t": "li",
+     "text": "Format the table.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Add borders.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Colour the headings.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Create a drop-down list for attendance.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Sort students by name.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Sort students by marks.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Filter only students who are Present.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Save the workbook as My Class Register.",
+     "ordered": true
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "title": "Final Project: My School Workbook",
+   "summary": "Put every skill together in one workbook.",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Students create a workbook called \"My School Workbook\" containing four worksheets:"
+    },
+    {
+     "t": "li",
+     "text": "Sheet 1: My Class List (formatted with Home tab tools).",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Sheet 2: My Favourite Fruits (includes pictures, shapes, and a chart using the Insert tab).",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Sheet 3: My Marks (uses SUM, AVERAGE, MIN, MAX, and COUNT formulas).",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Sheet 4: My Attendance (uses sorting, filtering, and attendance drop-down lists from the Data tab).",
+     "ordered": false
+    }
+   ]
+  }
+ ]
+}

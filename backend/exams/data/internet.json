@@ -1,0 +1,580 @@
+{
+ "course": "internet",
+ "title": "Internet and AI final exam",
+ "pass_percent": 70,
+ "questions_per_attempt": 20,
+ "time_limit_minutes": 30,
+ "retake_wait_minutes": 0,
+ "questions": [
+  {
+   "text": "What is the Internet?",
+   "options": [
+    "A company that sells phones, tablets and computers",
+    "A program used to visit websites and read pages",
+    "A huge network that connects computers and other devices around the world",
+    "One very large computer that stores every website"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "Which of these can connect to the Internet?",
+   "options": [
+    "A ruler",
+    "A paper book",
+    "A smart TV",
+    "A pencil"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "What is the difference between the Internet and Wi-Fi?",
+   "options": [
+    "The Internet is the worldwide network; Wi-Fi is a way to connect to a network without a cable",
+    "The Internet is a cable in your home; Wi-Fi is the company that sells it",
+    "They are exactly the same thing, so either word can be used for either",
+    "The Internet is a Wi-Fi router; Wi-Fi is a website you visit with a browser"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What is a network?",
+   "options": [
+    "A group of connected devices",
+    "A program used to open websites",
+    "A collection of related web pages",
+    "A secret word that protects your account"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What is a website?",
+   "options": [
+    "A device that connects your phone to the Internet",
+    "A program used to visit and view websites online",
+    "A collection of related web pages available on the Internet",
+    "One single page that you can read in a browser"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "What is a web page?",
+   "options": [
+    "A company that provides Internet access to homes",
+    "One page that you can view in a web browser",
+    "A whole collection of websites on the Internet",
+    "A cable that connects a computer to a router"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What is a web browser?",
+   "options": [
+    "A company that gives Internet access",
+    "A website that stores emails",
+    "A program used to access websites",
+    "A device that connects to Wi-Fi"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "Which of these is a web browser?",
+   "options": [
+    "Google Search",
+    "DuckDuckGo",
+    "Mozilla Firefox",
+    "Bing"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "What does a search engine do?",
+   "options": [
+    "Helps you find information on the Internet",
+    "Connects your phone to a Wi-Fi network",
+    "Stores all the files that you create online",
+    "Sends and receives your email messages"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Which of these is a search engine?",
+   "options": [
+    "Safari",
+    "Bing",
+    "Microsoft Edge",
+    "Google Chrome"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "Which sentence is correct?",
+   "options": [
+    "Chrome and Google are both routers",
+    "Chrome and Google are both websites you cannot open",
+    "Chrome is a search engine and Google is a browser",
+    "Chrome is a browser and Google is a search engine"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "What is a URL?",
+   "options": [
+    "A program that finds information for you online",
+    "The address of a page or resource on the Internet",
+    "A company that provides Internet access to schools",
+    "A device that connects your home to the ISP"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What is a link?",
+   "options": [
+    "A message that you send to another person by email",
+    "A cable that joins two computers in a network",
+    "A secret word that protects your online account",
+    "Something you can click to go to another page or website"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "What is a server?",
+   "options": [
+    "A computer that provides information or services to other computers",
+    "A company that sells phones and mobile data plans",
+    "A device that connects your home to the ISP",
+    "A program that lets you visit websites and pages"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What does ISP stand for?",
+   "options": [
+    "Internet Safety Program",
+    "Internet Service Provider",
+    "Internal Server Path",
+    "International Search Page"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What is a router?",
+   "options": [
+    "A company that provides Internet access to homes",
+    "A computer that stores websites for other people",
+    "A program that helps you find pages on the web",
+    "A device that helps connect devices to a network"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "What does a phone usually need to use mobile data?",
+   "options": [
+    "Only a Wi-Fi password and a wireless router at home",
+    "An Ethernet cable connected to a desktop computer",
+    "A SIM card or eSIM, a mobile network signal and a data plan",
+    "A printer and a memory card for storing pictures"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "You turn off Wi-Fi on your phone and browse using your SIM card. Which connection are you using?",
+   "options": [
+    "Ethernet",
+    "Bluetooth only",
+    "Wi-Fi",
+    "Mobile data"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "Which type of connection uses a physical cable?",
+   "options": [
+    "Bluetooth",
+    "Wi-Fi",
+    "Mobile data",
+    "Ethernet"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "Which of these is a risk of the Internet?",
+   "options": [
+    "Finding learning materials",
+    "Cyberbullying",
+    "Selling products online",
+    "Communicating across countries"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "Can we trust everything we read online?",
+   "options": [
+    "Yes, if the page has pictures and videos on it",
+    "No, because anyone can publish information online",
+    "Yes, if the information is on a website page",
+    "Yes, because computers never make any mistakes"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "Before believing information online, which question should you ask?",
+   "options": [
+    "Is the page very long?",
+    "Who wrote it?",
+    "How many colours does the page have?",
+    "How many links are on the page?"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "Why should you check when a web page was published?",
+   "options": [
+    "The date changes the address of the page online",
+    "Old pages are always false and should be deleted",
+    "Newer pages always load much faster than old ones",
+    "Information can become old and out of date"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "Why should you check more than one source?",
+   "options": [
+    "Because one website is never able to open on its own",
+    "Because using more sources saves your mobile data",
+    "If reliable sources agree, you have stronger evidence",
+    "Because different sources always give different facts"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "What is clickbait?",
+   "options": [
+    "A tool that protects your computer from viruses",
+    "A search engine that finds pictures and videos",
+    "A type of email that comes from a teacher",
+    "Content designed mainly to make people click"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "When using an online map, what should you NOT do?",
+   "options": [
+    "Search for a school near your home town",
+    "Search for the city of Kigali in Rwanda",
+    "Share your home address publicly",
+    "Look for a park or a hospital in the area"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "What is email?",
+   "options": [
+    "A way of sending and receiving messages using the Internet",
+    "A search engine that finds information for you",
+    "A web browser used to open websites and pages",
+    "A cable that connects two computers together"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Which of these is an email address?",
+   "options": [
+    "https://student",
+    "student.gmail",
+    "www.student.com",
+    "student@gmail.com"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "What goes in the To field of an email?",
+   "options": [
+    "The email address of the person who should receive it",
+    "The password that protects your email account",
+    "The size of the file that you are attaching",
+    "The name of the browser that you are using"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What is the Subject of an email for?",
+   "options": [
+    "It is where you type the address of the sender",
+    "It tells the receiver what the email is about",
+    "It is where you attach a picture or document",
+    "It is where you write the password for the account"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What happens if you type the wrong email address?",
+   "options": [
+    "Your message may go to the wrong person",
+    "The email fixes the address by itself",
+    "Nothing can go wrong",
+    "The email is always deleted"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What is an email attachment?",
+   "options": [
+    "A file included with an email",
+    "The short line that says what it is about",
+    "A reply that you send to a message",
+    "A folder that keeps deleted messages"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What does Compose mean in Gmail?",
+   "options": [
+    "Signing out",
+    "Deleting an email",
+    "Replying to an email",
+    "Creating a new email"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "What is the email safety rule about passwords?",
+   "options": [
+    "Write your password on the class board",
+    "Send your password to teachers by email",
+    "Share your password with friends you trust",
+    "Your password is a secret, not a message"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "Google says you are too young to create an account. What should you do?",
+   "options": [
+    "Enter a different age",
+    "Stop and ask your teacher or parent for help",
+    "Use a stranger's phone number",
+    "Ask a friend to make one for you in secret"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "What is phishing?",
+   "options": [
+    "An attempt to trick you into giving away information or doing something unsafe",
+    "A very fast Internet connection that is provided by an ISP company",
+    "A safe way of downloading music, videos and pictures from a website",
+    "A special search engine used by teachers to find lesson plans"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Which is a warning sign of a suspicious email?",
+   "options": [
+    "It uses your correct name and the correct school address",
+    "It is polite and comes from your teacher, who you know well",
+    "It tells you about today's homework on the school platform",
+    "It demands immediate action, such as clicking a link right now"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "You get an email saying you won 5,000 dollars if you enter your Gmail password. What should you do?",
+   "options": [
+    "Forward it to all your friends so that they win too",
+    "Do not click or reply, and show it to a teacher or trusted adult",
+    "Reply with your phone number so that they can call you",
+    "Enter your password quickly so that you get the prize"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "You receive an unexpected attachment called Congratulations!!!.exe from someone you do not know. What should you do?",
+   "options": [
+    "Open it to see what it is",
+    "Download it and share it",
+    "Reply and ask them to send more",
+    "Do not open it"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "What is a file?",
+   "options": [
+    "A device that connects to Wi-Fi",
+    "A program that finds web pages",
+    "A cable that joins two computers",
+    "Information stored digitally"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "What does download mean?",
+   "options": [
+    "Receiving information from the Internet and saving it to your device",
+    "Sending a file from your device to an online service",
+    "Turning off the Wi-Fi on your phone or tablet",
+    "Deleting a file that you no longer need on your computer"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What does upload mean?",
+   "options": [
+    "Reading a web page in your browser window",
+    "Printing a document on the school printer",
+    "Receiving a file from the Internet and saving it on your device",
+    "Sending a file from your device to an online service"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "A stranger tells you to download a file that asks you to turn off your computer's security. What should you do?",
+   "options": [
+    "Do not download it, and ask a trusted adult",
+    "Share the file with friends so they can try it",
+    "Download it quickly before the link stops working",
+    "Turn off security and then download it anyway"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Online messages should be:",
+   "options": [
+    "Written in capital letters so they look important",
+    "Rude but short, so that people notice them",
+    "Clear, polite, respectful and appropriate",
+    "Sent to strangers so that you make more friends"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "During an online meeting, what should you do when you are not speaking?",
+   "options": [
+    "Share the meeting link publicly",
+    "Make noises",
+    "Mute yourself",
+    "Interrupt others"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "Which of these should you NOT share with strangers online?",
+   "options": [
+    "Your favourite sport",
+    "Your favourite colour",
+    "Your favourite animal",
+    "Your home address"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "Which password is the strongest?",
+   "options": [
+    "Your first name written with a capital letter at the start",
+    "The word password followed by your birth year",
+    "A mixture of small and capital letters, numbers and special characters",
+    "The numbers 1234 because they are easy to remember"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "Which of these should you never announce publicly online?",
+   "options": [
+    "My favourite colour is blue",
+    "I like football",
+    "I am learning to use Word",
+    "I am home alone"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "What is cyberbullying?",
+   "options": [
+    "Bullying that happens using digital technology",
+    "A very fast Internet connection at home or school",
+    "A kind of virus that spreads between computers",
+    "A type of game that people play with friends online"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Someone is bullying you online. What should you do?",
+   "options": [
+    "Bully them back so that they learn how it feels to be hurt",
+    "Share your password with them so that they stop the messages",
+    "Do not respond with more bullying, block or report them, and tell a trusted adult",
+    "Delete your account and do not tell any adult about it"
+   ],
+   "correct": 2
+  },
+  {
+   "text": "What is Artificial Intelligence (AI)?",
+   "options": [
+    "A type of cable that connects a computer to a router in the home",
+    "Technology that allows computers to perform tasks that normally need human-like abilities",
+    "A kind of website address that ends with the letters AI in the URL",
+    "A special type of Wi-Fi network that works faster than a normal connection"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "AI can make mistakes. What should you do with important information from an AI?",
+   "options": [
+    "Always check it",
+    "Send it to your friends without checking",
+    "Always believe it",
+    "Ignore all AI answers"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "What is a prompt?",
+   "options": [
+    "A virus that spreads between computers",
+    "A kind of password that protects your account",
+    "A type of website that shows pictures",
+    "The instruction or question you give to an AI"
+   ],
+   "correct": 3
+  },
+  {
+   "text": "Which is the best prompt?",
+   "options": [
+    "Lions lions lions lions lions lions",
+    "Give me five interesting facts about lions for a 10-year-old",
+    "Write my whole lion homework so I can copy it",
+    "Tell me some things about animals in general"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "Which of these should you never give an AI?",
+   "options": [
+    "A request for quiz questions",
+    "Your password",
+    "A request to explain photosynthesis",
+    "A question about the sky"
+   ],
+   "correct": 1
+  },
+  {
+   "text": "An AI says the largest planet is Earth. What is the best thing to do?",
+   "options": [
+    "Check with reliable sources, because AI is a helper and not the only source of truth",
+    "Believe it, because AI is always right about every single fact that it gives",
+    "Copy it straight into your homework, because it sounds so confident and sure",
+    "Ask the AI to say it again and then stop checking, because it repeated it"
+   ],
+   "correct": 0
+  },
+  {
+   "text": "Which is a good way to use AI for schoolwork?",
+   "options": [
+    "Ask it to explain a difficult idea or create quiz questions to practise",
+    "Share your password with it so that it can log in to your accounts",
+    "Ask it to do all of your homework so that you do not have to learn",
+    "Copy its answers word for word and say that you wrote them yourself"
+   ],
+   "correct": 0
+  }
+ ]
+}

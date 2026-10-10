@@ -1,0 +1,3422 @@
+{
+ "id": "internet",
+ "title": "Internet and AI",
+ "icon": "🌐",
+ "level": "Beginner",
+ "description": "Understand the internet, browse and search safely, use email, protect your privacy, and learn how to use AI wisely.",
+ "lessons": [
+  {
+   "id": "l1",
+   "title": "What Is the Internet?",
+   "summary": "",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. What Is the Internet?"
+    },
+    {
+     "t": "p",
+     "text": "The Internet is a huge network that connects computers and other devices around the world."
+    },
+    {
+     "t": "p",
+     "text": "These connections allow people to: Send emails, Communicate, Search for information, Watch videos, Play games, Learn, Shop, Make payments, Share files"
+    },
+    {
+     "t": "p",
+     "text": "The Internet connects people and information from many different places."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. Devices That Use the Internet"
+    },
+    {
+     "t": "p",
+     "text": "Many devices can connect to the Internet."
+    },
+    {
+     "t": "p",
+     "text": "Examples: Laptop, Desktop computer, Smartphone, Tablet, Game console, Smart TV, Smartwatch"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Exercise 1: Find the Internet Devices"
+    },
+    {
+     "t": "p",
+     "text": "Look around your home or classroom. Find five devices that can connect to the Internet.Write them down:"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. Internet vs Wi-Fi"
+    },
+    {
+     "t": "p",
+     "text": "These two words are often confused."
+    },
+    {
+     "t": "p",
+     "text": "🌐 Internet: The Internet is the worldwide network."
+    },
+    {
+     "t": "p",
+     "text": "📶 Wi-Fi: Wi-Fi is a way for your device to connect to a network without using a cable."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. What Is a Network?"
+    },
+    {
+     "t": "p",
+     "text": "A network is a group of connected devices. For example: 💻 ─── 💻"
+    },
+    {
+     "t": "p",
+     "text": "The Internet is a very large network of networks."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "5. What Is a Website?"
+    },
+    {
+     "t": "p",
+     "text": "A website is a collection of related web pages available on the Internet. For example, a school might have a website containing: Home, Courses, Teachers, Contact. Each page is part of the website."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "6. What Is a Web Page?"
+    },
+    {
+     "t": "p",
+     "text": "A web page is one page that you can view in a web browser. For example: a website might contain: Home page, Courses page, Teachers page, and Contact page"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "7. What Is a Web Browser?"
+    },
+    {
+     "t": "p",
+     "text": "A web browser is a program used to access websites. Common browsers include: Google Chrome, Mozilla Firefox, Safari, Microsoft Edge …"
+    },
+    {
+     "t": "p",
+     "text": "You use a browser to visit websites."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Exercise 2: Find Your Browser"
+    },
+    {
+     "t": "p",
+     "text": "Look at the computer you are using. Which browser are you using?"
+    },
+    {
+     "t": "p",
+     "text": "☐ Chrome ☐ Firefox"
+    },
+    {
+     "t": "p",
+     "text": "☐ Safari ☐ Edge ☐ Other: __________"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "8. What Is a Search Engine?"
+    },
+    {
+     "t": "p",
+     "text": "A search engine helps you find information on the Internet.Examples include: Google, Bing, DuckDuckGo"
+    },
+    {
+     "t": "p",
+     "text": "You type something you want to find.For example: weather in Kigali. The search engine finds pages related to your search."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "9. Browser vs Search Engine"
+    },
+    {
+     "t": "p",
+     "text": "This is important."
+    },
+    {
+     "t": "p",
+     "text": "A browser is the program you use to access the Internet. A search engine helps you find information. For example:"
+    },
+    {
+     "t": "p",
+     "text": "💻 Chrome → Browser"
+    },
+    {
+     "t": "p",
+     "text": "🔎 Google → Search engine"
+    },
+    {
+     "t": "p",
+     "text": "You can open Google using Chrome."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Exercise 3: Browser or Search Engine?"
+    },
+    {
+     "t": "p",
+     "text": "Write Browser or Search Engine."
+    },
+    {
+     "t": "li",
+     "text": "Google Chrome → __________",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Google Search → __________",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Mozilla Firefox → __________",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Bing → __________",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Safari → __________",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "10. What Is a URL?"
+    },
+    {
+     "t": "p",
+     "text": "A URL is the address of a page or resource on the Internet."
+    },
+    {
+     "t": "p",
+     "text": "For example: https://www.example.com. Think of a URL like a street address."
+    },
+    {
+     "t": "p",
+     "text": "House → Physical address"
+    },
+    {
+     "t": "p",
+     "text": "Website → Web address"
+    },
+    {
+     "t": "p",
+     "text": "A URL tells the browser where to go."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "11. What Is a Link?"
+    },
+    {
+     "t": "p",
+     "text": "A link is something you can click to go to another page or website.For example: 🔗 Learn More"
+    },
+    {
+     "t": "p",
+     "text": "When you click it, the browser opens another page. Links can contain:Text, Images, Buttons"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Exercise 4: Find Links"
+    },
+    {
+     "t": "p",
+     "text": "Open a website. Find three links. Write what each link says."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "12. What Is a Server?"
+    },
+    {
+     "t": "p",
+     "text": "A server is a computer that provides information or services to other computers."
+    },
+    {
+     "t": "p",
+     "text": "For example, when you open a website, your browser requests information from a server."
+    },
+    {
+     "t": "p",
+     "text": "The server sends information back to your device."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "13. What Is an ISP?"
+    },
+    {
+     "t": "p",
+     "text": "ISP means:Internet Service Provider. An ISP is a company that provides Internet access like MTN, Mango. For example, your home or school may get Internet access from an ISP."
+    },
+    {
+     "t": "p",
+     "text": "The basic idea is:🏠 Your home 📶 Router 🏢 ISP 🌐 Internet"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "14. What Is a Router?"
+    },
+    {
+     "t": "p",
+     "text": "A router helps connect devices to a network. For example: Laptop, Phone, Smart TV can connect to: Router"
+    },
+    {
+     "t": "p",
+     "text": "The router connects them to the network and, when configured for Internet access, to the Internet."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "15. What Is Mobile Data?"
+    },
+    {
+     "t": "p",
+     "text": "You do not always need Wi-Fi to access the Internet. A smartphone can use: Mobile data"
+    },
+    {
+     "t": "p",
+     "text": "For example: Phone 📱Mobile network 🌐Internet"
+    },
+    {
+     "t": "p",
+     "text": "Mobile data is provided through a mobile network."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Exercise 5: Wi-Fi or Mobile Data?"
+    },
+    {
+     "t": "p",
+     "text": "Decide which connection is being used."
+    },
+    {
+     "t": "li",
+     "text": "You connect your laptop to your home wireless network. ______________",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "You turn off Wi-Fi on your phone and browse the Internet using your SIM card._______________________________________________________",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "16. Advantages of the Internet"
+    },
+    {
+     "t": "p",
+     "text": "The Internet can be very useful."
+    },
+    {
+     "t": "p",
+     "text": "📚 Education: Students can find learning materials."
+    },
+    {
+     "t": "p",
+     "text": "💬 Communication: People can communicate across countries."
+    },
+    {
+     "t": "p",
+     "text": "💼 Jobs: People can work and find jobs online."
+    },
+    {
+     "t": "p",
+     "text": "🛍️ Business: Businesses can sell products online."
+    },
+    {
+     "t": "p",
+     "text": "🌍 Information: People can learn about places and cultures around the world."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "17. Disadvantages of the Internet"
+    },
+    {
+     "t": "p",
+     "text": "The Internet also has risks."
+    },
+    {
+     "t": "p",
+     "text": "🦹 Scams: Some people try to trick others."
+    },
+    {
+     "t": "p",
+     "text": "🔐 Privacy problems: Sharing too much information can be dangerous."
+    },
+    {
+     "t": "p",
+     "text": "😡 Cyberbullying: People can use the Internet to hurt others."
+    },
+    {
+     "t": "p",
+     "text": "❌ False information: Not everything online is true."
+    },
+    {
+     "t": "p",
+     "text": "⏰ Too much screen time: Spending too much time online can affect other activities."
+    },
+    {
+     "t": "p",
+     "text": "Exercise 6: Good or Bad? Write Good or Risk."
+    },
+    {
+     "t": "li",
+     "text": "Using the Internet to study → __________",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Sharing your password with strangers → __________",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Learning a new language online → __________",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Talking to strangers and giving them your home address → __________",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Sending an email to your teacher → __________",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Clicking every link you receive → __________",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "⭐ MINI PROJECT"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "My Internet Map"
+    },
+    {
+     "t": "p",
+     "text": "Draw how one of your parent device connects to the Internet."
+    },
+    {
+     "t": "p",
+     "text": "For example:"
+    },
+    {
+     "t": "p",
+     "text": "💻 MY COMPUTER"
+    },
+    {
+     "t": "p",
+     "text": "│"
+    },
+    {
+     "t": "p",
+     "text": "↓"
+    },
+    {
+     "t": "p",
+     "text": "📶 WI-FI ROUTER"
+    },
+    {
+     "t": "p",
+     "text": "│"
+    },
+    {
+     "t": "p",
+     "text": "↓"
+    },
+    {
+     "t": "p",
+     "text": "🏢 ISP"
+    },
+    {
+     "t": "p",
+     "text": "│"
+    },
+    {
+     "t": "p",
+     "text": "↓"
+    },
+    {
+     "t": "p",
+     "text": "🌐 INTERNET"
+    },
+    {
+     "t": "p",
+     "text": "│"
+    },
+    {
+     "t": "p",
+     "text": "↓"
+    },
+    {
+     "t": "p",
+     "text": "🖥️ WEBSITE SERVER"
+    },
+    {
+     "t": "p",
+     "text": "Now draw your own version. Include:"
+    },
+    {
+     "t": "p",
+     "text": "📱/💻 Your device, 📶 Router or mobile network, 🏢 ISP"
+    },
+    {
+     "t": "p",
+     "text": "🌐 Internet, 🖥️ Server. Then explain your drawing to another student."
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "title": "Connecting to the Internet",
+   "summary": "",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. What Does It Mean to Be Connected?"
+    },
+    {
+     "t": "p",
+     "text": "In Lesson 1, you learned that the Internet is a worldwide network of connected computers and devices. But your computer or phone needs a way to join that network. When your device can communicate with other devices and services on the Internet, we say: Your device is connected to the Internet.For example:"
+    },
+    {
+     "t": "p",
+     "text": "📱 Phone → Internet\n💻 Laptop → Internet\n🖥️ Desktop computer → Internet\n📺 Smart TV → Internet\n🎮 Game console → Internet"
+    },
+    {
+     "t": "p",
+     "text": "Once connected, you can do things such as:"
+    },
+    {
+     "t": "li",
+     "text": "Visit websites",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Search for information",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Send emails",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Watch videos",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Join video calls",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Download files",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Use online games",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Use online learning platforms",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. How Does Your Device Reach the Internet?"
+    },
+    {
+     "t": "p",
+     "text": "Think about travelling to another city. You go from : Your house → Road → Main road → Other places"
+    },
+    {
+     "t": "p",
+     "text": "The Internet works in a similar way: Your device → Network connection → Internet → Website or online service"
+    },
+    {
+     "t": "p",
+     "text": "For example:"
+    },
+    {
+     "t": "p",
+     "text": "💻 Your Laptop"
+    },
+    {
+     "t": "p",
+     "text": "↓"
+    },
+    {
+     "t": "p",
+     "text": "📡 Wi-Fi"
+    },
+    {
+     "t": "p",
+     "text": "↓"
+    },
+    {
+     "t": "p",
+     "text": "📦 Router"
+    },
+    {
+     "t": "p",
+     "text": "↓"
+    },
+    {
+     "t": "p",
+     "text": "🌐 Internet"
+    },
+    {
+     "t": "p",
+     "text": "↓"
+    },
+    {
+     "t": "p",
+     "text": "🖥️ Website Server"
+    },
+    {
+     "t": "p",
+     "text": "Your device does not simply \"jump\" directly to every website. It uses networks and equipment that help information travel from one place to another."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. Wi-Fi"
+    },
+    {
+     "t": "p",
+     "text": "Wi-Fi is one of the most common ways to connect devices to a network without using a cable."
+    },
+    {
+     "t": "p",
+     "text": "For example, at home you may have:"
+    },
+    {
+     "t": "p",
+     "text": "🌐 INTERNET"
+    },
+    {
+     "t": "p",
+     "text": "│"
+    },
+    {
+     "t": "p",
+     "text": "📦 Router"
+    },
+    {
+     "t": "p",
+     "text": "/ | \\"
+    },
+    {
+     "t": "p",
+     "text": "/ | \\"
+    },
+    {
+     "t": "p",
+     "text": "💻 📱 📺"
+    },
+    {
+     "t": "p",
+     "text": "Laptop Phone Smart TV"
+    },
+    {
+     "t": "p",
+     "text": "The router provides a Wi-Fi network that nearby devices can join."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "TRY IT: Find Wi-Fi and Connect to it"
+    },
+    {
+     "t": "p",
+     "text": "If you have a phone, tablet, or computer:"
+    },
+    {
+     "t": "p",
+     "text": "Step 1: Open the device's Settings."
+    },
+    {
+     "t": "p",
+     "text": "Step 2: Look for Wi-Fi or Network & Internet"
+    },
+    {
+     "t": "p",
+     "text": "Step 3: Open the Wi-Fi settings."
+    },
+    {
+     "t": "p",
+     "text": "Step 4: Look at the available Wi-Fi networks."
+    },
+    {
+     "t": "p",
+     "text": "Step 5: Identify the network your device is connected to."
+    },
+    {
+     "t": "p",
+     "text": "Step 6: Check whether it says: Connected"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "✏️ Exercise 1: Wi-Fi"
+    },
+    {
+     "t": "p",
+     "text": "Answer these questions."
+    },
+    {
+     "t": "li",
+     "text": "What is Wi-Fi?",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Is Wi-Fi the same thing as the Internet?",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Why might a Wi-Fi network have a password?",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "What should you do if you want to connect a laptop to Wi-Fi?",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "What does \"Connected\" mean?",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. Mobile Data"
+    },
+    {
+     "t": "p",
+     "text": "Another way to connect to the Internet is mobile data. Mobile data allows a phone or another device to access the Internet through a mobile network."
+    },
+    {
+     "t": "p",
+     "text": "For example:"
+    },
+    {
+     "t": "p",
+     "text": "📱 Phone"
+    },
+    {
+     "t": "p",
+     "text": "↓"
+    },
+    {
+     "t": "p",
+     "text": "📡 Mobile Network"
+    },
+    {
+     "t": "p",
+     "text": "↓"
+    },
+    {
+     "t": "p",
+     "text": "🌐 Internet"
+    },
+    {
+     "t": "p",
+     "text": "Mobile networks are provided by companies called mobile network operators."
+    },
+    {
+     "t": "p",
+     "text": "A phone usually needs:"
+    },
+    {
+     "t": "li",
+     "text": "A SIM card or eSIM",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "A mobile network signal",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "A mobile data plan",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Examples of mobile networks include:"
+    },
+    {
+     "t": "p",
+     "text": "MTN, Airtel, and other operators depending on your country."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "5. Wi-Fi vs Mobile Data"
+    },
+    {
+     "t": "p",
+     "text": "Both can connect you to the Internet, but they work differently."
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Wi-Fi",
+       "Mobile Data"
+      ],
+      [
+       "Usually connects through a Wi-Fi router",
+       "Connects through a mobile network"
+      ],
+      [
+       "Often used at home, school, or offices",
+       "Can be used while travelling"
+      ],
+      [
+       "Usually does not use your phone's mobile data allowance",
+       "Uses your mobile data allowance"
+      ],
+      [
+       "Has a limited local range",
+       "Can work over a much larger area"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Example"
+    },
+    {
+     "t": "p",
+     "text": "At home:📱 → Wi-Fi → Router → Internet"
+    },
+    {
+     "t": "p",
+     "text": "Outside:📱 → Mobile Data → Mobile Network → Internet"
+    },
+    {
+     "t": "li",
+     "text": "Ethernet",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Wi-Fi is wireless."
+    },
+    {
+     "t": "p",
+     "text": "But devices can also connect using a physical cable. One common type of network cable is an Ethernet cable."
+    },
+    {
+     "t": "p",
+     "text": "It looks something like this:"
+    },
+    {
+     "t": "p",
+     "text": "💻 Computer ───────── 📦 Router"
+    },
+    {
+     "t": "p",
+     "text": "Ethernet"
+    },
+    {
+     "t": "p",
+     "text": "cable"
+    },
+    {
+     "t": "p",
+     "text": "Ethernet cables are often used with:"
+    },
+    {
+     "t": "li",
+     "text": "Desktop computers",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Network equipment",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Some game consoles",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Smart TVs",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Office computers",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "A wired connection can be useful when you want a stable connection."
+    },
+    {
+     "t": "li",
+     "text": "What Is a Router?",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "A router is a device that helps connect devices to a network and directs network traffic.You might see a router with several lights and antennas."
+    },
+    {
+     "t": "p",
+     "text": "Example:"
+    },
+    {
+     "t": "p",
+     "text": "📡 📡"
+    },
+    {
+     "t": "p",
+     "text": "┌─────────┐"
+    },
+    {
+     "t": "p",
+     "text": "│ ROUTER │"
+    },
+    {
+     "t": "p",
+     "text": "└─────────┘"
+    },
+    {
+     "t": "p",
+     "text": "│ │ │"
+    },
+    {
+     "t": "p",
+     "text": "│ │ └──── 💻"
+    },
+    {
+     "t": "p",
+     "text": "│ └────── 🖨️"
+    },
+    {
+     "t": "p",
+     "text": "└──────── 📱"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Simple idea"
+    },
+    {
+     "t": "p",
+     "text": "Think of a router as a traffic controller. It helps information travel to the correct device."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "8. What Is an ISP?"
+    },
+    {
+     "t": "p",
+     "text": "ISP means: Internet Service Provider. An ISP is a company or organization that provides Internet access.For example, MTN Rwanda, Canal Box, Liquid telecom."
+    },
+    {
+     "t": "p",
+     "text": "The basic journey can look like this:"
+    },
+    {
+     "t": "p",
+     "text": "💻 Your Computer"
+    },
+    {
+     "t": "p",
+     "text": "↓"
+    },
+    {
+     "t": "p",
+     "text": "📡 Wi-Fi / Ethernet"
+    },
+    {
+     "t": "p",
+     "text": "↓"
+    },
+    {
+     "t": "p",
+     "text": "📦 Router"
+    },
+    {
+     "t": "p",
+     "text": "↓"
+    },
+    {
+     "t": "p",
+     "text": "🌐 ISP"
+    },
+    {
+     "t": "p",
+     "text": "↓"
+    },
+    {
+     "t": "p",
+     "text": "🌍 Internet"
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "title": "Web Browsers and Websites",
+   "summary": "",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. What Is the Web?"
+    },
+    {
+     "t": "p",
+     "text": "The World Wide Web, often called the Web, is a collection of websites and webpages that you can access through the Internet."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. What Is a Website?"
+    },
+    {
+     "t": "p",
+     "text": "A website is a collection of related webpages available online. For example, a school may have a website containing:"
+    },
+    {
+     "t": "li",
+     "text": "Home page",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "About page",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Contact page",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "News page",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Activities page",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "A webpage is one individual page within a website."
+    },
+    {
+     "t": "p",
+     "text": "Think of it like a book:"
+    },
+    {
+     "t": "code",
+     "text": "BOOK = Website"
+    },
+    {
+     "t": "code",
+     "text": "📄 Page 1 → Webpage"
+    },
+    {
+     "t": "code",
+     "text": "📄 Page 2 → Webpage"
+    },
+    {
+     "t": "code",
+     "text": "📄 Page 3 → Webpage"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. What Is a Web Browser?"
+    },
+    {
+     "t": "p",
+     "text": "A web browser is a program that allows you to visit and use websites."
+    },
+    {
+     "t": "p",
+     "text": "Examples include: Google Chrome, Mozilla Firefox, Microsoft Edge, Safari"
+    },
+    {
+     "t": "p",
+     "text": "A browser can display:"
+    },
+    {
+     "t": "p",
+     "text": "🌐 Websites\n🖼️ Images\n🎥 Videos\n📄 Documents\n🗺️ Maps\n🛒 Online stores"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. TRY IT: Open a Browser"
+    },
+    {
+     "t": "li",
+     "text": "Find a browser on your computer.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Open it.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Look at the top of the window.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Find the address bar.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Type the name of a website.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Press Enter.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Observe what happens."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "5. What Is a URL?"
+    },
+    {
+     "t": "p",
+     "text": "A URL is the address of something available on the Web. For example: https://www.example.com"
+    },
+    {
+     "t": "p",
+     "text": "A URL can tell the browser where to find a webpage."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Try it"
+    },
+    {
+     "t": "p",
+     "text": "Look at the address bar when you visit a website. Write down one URL:"
+    },
+    {
+     "t": "code",
+     "text": "________________________________"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "6. What Is a Link?"
+    },
+    {
+     "t": "p",
+     "text": "A link, or hyperlink, allows you to move from one webpage or online resource to another."
+    },
+    {
+     "t": "p",
+     "text": "Links may appear as:"
+    },
+    {
+     "t": "li",
+     "text": "Underlined words",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Coloured text",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Buttons",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Images",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Menus",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Move your mouse over a link. The pointer may change shape. Click the link and observe where it takes you."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "7. Browser Tabs"
+    },
+    {
+     "t": "p",
+     "text": "You do not need to open a completely new browser window every time you want another website. You can use tabs."
+    },
+    {
+     "t": "code",
+     "text": "┌────────┬────────┬────────┐"
+    },
+    {
+     "t": "code",
+     "text": "│ School │ Search │ News   │"
+    },
+    {
+     "t": "code",
+     "text": "└────────┴────────┴────────┘"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "li",
+     "text": "Open your browser.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Open one website.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Open a new tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Open another website.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click between the tabs.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Close one tab.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Open it again.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "8. Back, Forward and Refresh"
+    },
+    {
+     "t": "p",
+     "text": "Most browsers have:"
+    },
+    {
+     "t": "p",
+     "text": "Back ↩️ : Returns to the previous webpage."
+    },
+    {
+     "t": "p",
+     "text": "Forward ↪️: Moves forward after using Back."
+    },
+    {
+     "t": "p",
+     "text": "Refresh 🔄: Loads the webpage again."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Exercise"
+    },
+    {
+     "t": "li",
+     "text": "Open Website A.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Open Website B.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Back. What happened?",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Forward. What happened?",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Refresh. What happened?",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "🏆 Skill Check"
+    },
+    {
+     "t": "p",
+     "text": "☐ I can open a browser.\n☐ I can type a URL.\n☐ I can open a website.\n☐ I can identify a webpage.\n☐ I can open and close tabs.\n☐ I can use Back, Forward and Refresh.\n☐ I can identify links."
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "title": "Finding Reliable Information",
+   "summary": "",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. Can We Trust Everything Online? => No."
+    },
+    {
+     "t": "p",
+     "text": "Anyone can publish information online.A webpage may contain:"
+    },
+    {
+     "t": "p",
+     "text": "✅ Correct information\n❌ Incorrect information\n⚠️ Old information\n⚠️ Opinions presented as facts\n⚠️ Misleading information"
+    },
+    {
+     "t": "p",
+     "text": "This is why Internet users must learn to check information."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. Who Wrote It?"
+    },
+    {
+     "t": "p",
+     "text": "Ask: Who created this information?"
+    },
+    {
+     "t": "p",
+     "text": "Look for: Author, Organization, School, Government, University, or Expert"
+    },
+    {
+     "t": "p",
+     "text": "Be careful when there is no clear source."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. When Was It Published?"
+    },
+    {
+     "t": "p",
+     "text": "Information can become old. For example, an article about: Technology, Sports, Prices, Science, or Current events may become outdated."
+    },
+    {
+     "t": "p",
+     "text": "Look for the publication or update date."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. Check More Than One Source"
+    },
+    {
+     "t": "p",
+     "text": "Suppose one website says: The answer is 50. Do not immediately assume it is correct.Search for the same information elsewhere."
+    },
+    {
+     "t": "code",
+     "text": "Website A → 50"
+    },
+    {
+     "t": "code",
+     "text": "Website B → 50"
+    },
+    {
+     "t": "code",
+     "text": "Website C → 50"
+    },
+    {
+     "t": "p",
+     "text": "If reliable sources agree, you have stronger evidence."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "5. Clickbait"
+    },
+    {
+     "t": "p",
+     "text": "Clickbait is content designed mainly to make people click."
+    },
+    {
+     "t": "p",
+     "text": "Examples:"
+    },
+    {
+     "t": "p",
+     "text": "YOU WON'T BELIEVE WHAT HAPPENED!!!"
+    },
+    {
+     "t": "p",
+     "text": "You won a Million francs, click to collect!!!"
+    },
+    {
+     "t": "p",
+     "text": "A dramatic title does not automatically mean the information is true."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "PRACTICAL ACTIVITY"
+    },
+    {
+     "t": "p",
+     "text": "Search for:"
+    },
+    {
+     "t": "code",
+     "text": "Why is the sky blue?"
+    },
+    {
+     "t": "p",
+     "text": "Open three different websites."
+    },
+    {
+     "t": "p",
+     "text": "For each website write:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "Website",
+       "Author,",
+       "Date updated,",
+       "Evidence",
+       "Of Trustworthy?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Skill Check"
+    },
+    {
+     "t": "p",
+     "text": "Before believing information online, ask:"
+    },
+    {
+     "t": "p",
+     "text": "☐ Who wrote it?\n☐ When was it published?\n☐ What evidence is provided?\n☐ Can another reliable source confirm it?"
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "title": "Images, Videos and Online Media",
+   "summary": "",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. Online Images"
+    },
+    {
+     "t": "p",
+     "text": "You can find millions of images online. You can search for: Animals, Maps, People, Places, Science diagrams or Buildings"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Search for: volcano diagram Open several images. Compare them."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. Online Videos"
+    },
+    {
+     "t": "p",
+     "text": "Video websites allow people to watch educational and entertainment content."
+    },
+    {
+     "t": "p",
+     "text": "Search for: water cycle for children Choose an educational video."
+    },
+    {
+     "t": "p",
+     "text": "While watching, write down three things you learned."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. Online Maps"
+    },
+    {
+     "t": "p",
+     "text": "Online maps allow you to explore places. Try searching for: Kigali Rwanda"
+    },
+    {
+     "t": "p",
+     "text": "Find: Roads, Schools, Hospitals, Parks, or Important buildings"
+    },
+    {
+     "t": "p",
+     "text": "Do not share your home address publicly."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "PROJECT"
+    },
+    {
+     "t": "p",
+     "text": "Create a small digital research page about an animal."
+    },
+    {
+     "t": "p",
+     "text": "Include:"
+    },
+    {
+     "t": "p",
+     "text": "🦁 Animal name\n🖼️ Image\n🌍 Where it lives\n🍎 What it eats\n⭐ Three interesting facts\n🔗 Source of your information"
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "title": "Email and Creating a Gmail Account",
+   "summary": "",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. What Is Email?"
+    },
+    {
+     "t": "p",
+     "text": "Email is a way of sending and receiving messages using the Internet.An email can contain: Text, Pictures or Documents"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. What Is an Email Address?"
+    },
+    {
+     "t": "p",
+     "text": "An email address tells an email service where to send a message. An email address usually looks like:student@gmail.com"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. Creating a gmail account"
+    },
+    {
+     "t": "p",
+     "text": "If your teacher or parent has approved the creation of a Gmail account, follow the instructions they provide on the Google account sign-up page."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Step 1: Open a browser"
+    },
+    {
+     "t": "p",
+     "text": "Open your web browser. For example: Chrome"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Step 2: Go to Gmail"
+    },
+    {
+     "t": "p",
+     "text": "Enter: gmail.com, Press: Enter"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Step 3: Choose to create an account"
+    },
+    {
+     "t": "p",
+     "text": "Look for: Create account, your teacher or parent will tell you which account type to choose."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Step 4: Enter your name"
+    },
+    {
+     "t": "p",
+     "text": "Enter the name requested during account setup. Use your real information where Google requires it, and follow your parent/teacher's instructions."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Step 5: Choose an email address"
+    },
+    {
+     "t": "p",
+     "text": "You will need to choose an available Gmail address. For example: myname@gmail.com"
+    },
+    {
+     "t": "p",
+     "text": "Your chosen address must be available. If someone already has that address, Gmail will ask you to choose another one."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. Create a password"
+    },
+    {
+     "t": "p",
+     "text": "A password protects your account. Choose a strong password according to your teacher/parent's guidance."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Important!"
+    },
+    {
+     "t": "p",
+     "text": "Never tell your classmates your password."
+    },
+    {
+     "t": "p",
+     "text": "Do not write your password where other students can see it."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "5. Account recovery"
+    },
+    {
+     "t": "p",
+     "text": "During account setup, Google may ask for recovery information."
+    },
+    {
+     "t": "p",
+     "text": "This can help you regain access if you forget your password."
+    },
+    {
+     "t": "p",
+     "text": "A parent or guardian may help with this."
+    },
+    {
+     "t": "p",
+     "text": "For a classroom account, follow your teacher's instructions."
+    },
+    {
+     "t": "p",
+     "text": "Do not use another person's phone number or email for account recovery without their permission."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "6. Age and account safety"
+    },
+    {
+     "t": "p",
+     "text": "Google accounts have age requirements, and the rules can depend on the country."
+    },
+    {
+     "t": "p",
+     "text": "If Google says that you are too young to create or manage an account yourself:"
+    },
+    {
+     "t": "p",
+     "text": "STOP and ask your teacher or parent for help."
+    },
+    {
+     "t": "p",
+     "text": "Do not enter a false age just to create an account."
+    },
+    {
+     "t": "p",
+     "text": "Your teacher or parent can help choose the correct account option."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Practice: sign in to gmail"
+    },
+    {
+     "t": "p",
+     "text": "Once your account has been created:"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Step 1: Open your browser."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Step 2: Go to:gmail.com"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Step 3: Select Sign in if necessary."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Step 4: Enter your email address."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Step 5: Enter your password."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Step 6: Open your Gmail inbox."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "7. What Is an Inbox?"
+    },
+    {
+     "t": "p",
+     "text": "Your Inbox contains emails that other people have sent to you."
+    },
+    {
+     "t": "p",
+     "text": "An unread email may appear differently from an email you have already opened."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "8. Compose an email"
+    },
+    {
+     "t": "p",
+     "text": "Compose means creating a new email. Look for Compose Click it. A new email window will appear. You will normally see:"
+    },
+    {
+     "t": "p",
+     "text": "To"
+    },
+    {
+     "t": "p",
+     "text": "Subject"
+    },
+    {
+     "t": "p",
+     "text": "Message"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "The \"To\" Field"
+    },
+    {
+     "t": "p",
+     "text": "The To field contains the email address of the person who should receive the message. For example: To: teacher@example.com"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "⚠️ Be careful!"
+    },
+    {
+     "t": "p",
+     "text": "If you type the wrong email address, your message may go to the wrong person.Always check the address before sending."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "The Subject"
+    },
+    {
+     "t": "p",
+     "text": "The Subject tells the receiver what your email is about. A good subject is short and clear."
+    },
+    {
+     "t": "p",
+     "text": "Examples: My Internet Homework, Science Project, Question About Homework"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Writing the Message"
+    },
+    {
+     "t": "p",
+     "text": "The message is where you write what you want to say. A simple school email might look like:"
+    },
+    {
+     "t": "code",
+     "text": "Hello Teacher,"
+    },
+    {
+     "t": "code",
+     "text": "I have completed my Internet homework."
+    },
+    {
+     "t": "code",
+     "text": "Thank you."
+    },
+    {
+     "t": "code",
+     "text": "Alex"
+    },
+    {
+     "t": "p",
+     "text": "Remember:"
+    },
+    {
+     "t": "p",
+     "text": "✅ Be polite.\n✅ Use complete sentences.\n✅ Check your spelling.\n✅ Say what you need clearly."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Practice email"
+    },
+    {
+     "t": "p",
+     "text": "To: Your teacher's practice email"
+    },
+    {
+     "t": "p",
+     "text": "Subject: My First Email"
+    },
+    {
+     "t": "p",
+     "text": "Write:"
+    },
+    {
+     "t": "code",
+     "text": "Hello Teacher,"
+    },
+    {
+     "t": "code",
+     "text": "This is my first practice email."
+    },
+    {
+     "t": "code",
+     "text": "I am learning how to use Gmail."
+    },
+    {
+     "t": "code",
+     "text": "Thank you."
+    },
+    {
+     "t": "code",
+     "text": "[Your name]"
+    },
+    {
+     "t": "p",
+     "text": "Then send it."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "9. Send an email"
+    },
+    {
+     "t": "p",
+     "text": "When your message is ready:"
+    },
+    {
+     "t": "li",
+     "text": "Check the recipient.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Check the subject.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Read your message again.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Check for mistakes.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Send.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Your email will travel through the Internet to the recipient."
+    },
+    {
+     "t": "code",
+     "text": "💻 You"
+    },
+    {
+     "t": "code",
+     "text": "↓"
+    },
+    {
+     "t": "code",
+     "text": "🌐 Internet"
+    },
+    {
+     "t": "code",
+     "text": "↓"
+    },
+    {
+     "t": "code",
+     "text": "📧 Email Service"
+    },
+    {
+     "t": "code",
+     "text": "↓"
+    },
+    {
+     "t": "code",
+     "text": "💻 Teacher"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "10. Check for a reply"
+    },
+    {
+     "t": "p",
+     "text": "Your teacher may reply to your email."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "li",
+     "text": "Open your Inbox.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Look for the teacher's message.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Open it.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Read it carefully.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "11. Reply to an email"
+    },
+    {
+     "t": "p",
+     "text": "If someone sends you an email, you can Reply."
+    },
+    {
+     "t": "p",
+     "text": "Reply means sending a response to the person who sent the message."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Open the email from your teacher. Click: Reply"
+    },
+    {
+     "t": "p",
+     "text": "Write:"
+    },
+    {
+     "t": "code",
+     "text": "Hello Teacher,"
+    },
+    {
+     "t": "code",
+     "text": "Thank you for your message."
+    },
+    {
+     "t": "code",
+     "text": "I received it successfully."
+    },
+    {
+     "t": "code",
+     "text": "[Your name]"
+    },
+    {
+     "t": "p",
+     "text": "Check your message."
+    },
+    {
+     "t": "p",
+     "text": "Then send it."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "12. Email attachments"
+    },
+    {
+     "t": "p",
+     "text": "An attachment is a file included with an email. For example: Word document, Excel spreadsheet, Picture, PDF"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Practice: send an attachment"
+    },
+    {
+     "t": "p",
+     "text": "Create a simple text document called: My Internet Lesson. Write three things you learned and save the file."
+    },
+    {
+     "t": "p",
+     "text": "Now:"
+    },
+    {
+     "t": "li",
+     "text": "Open Gmail.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click Compose.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Enter your teacher's practice email.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Write a subject:",
+     "ordered": true
+    },
+    {
+     "t": "code",
+     "text": "My Internet Lesson"
+    },
+    {
+     "t": "li",
+     "text": "Write a short message.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Click the Attach button.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Find your file.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select it.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Wait for the file to finish attaching.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Check that the file appears in the email.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Send it.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "13. Receiving an attachment"
+    },
+    {
+     "t": "p",
+     "text": "Your teacher may send you a file. When you receive it:"
+    },
+    {
+     "t": "li",
+     "text": "Open the email.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Find the attachment.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Look at the filename.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Check who sent it.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Download it only if it is expected and safe.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Find the downloaded file on your computer.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Be careful with attachments"
+    },
+    {
+     "t": "p",
+     "text": "Do not open unexpected attachments. For example, you might receive: Congratulations!!!.exe from someone you do not know."
+    },
+    {
+     "t": "p",
+     "text": "Do not open it."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "14.delete an email"
+    },
+    {
+     "t": "p",
+     "text": "Sometimes you may need to delete a message. Practice with a teacher-approved practice email."
+    },
+    {
+     "t": "li",
+     "text": "Open the email.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Select the delete/trash option.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Find the Trash folder.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Observe where the email went.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "15. Phishing"
+    },
+    {
+     "t": "p",
+     "text": "Phishing is when someone tries to trick you into giving away information or clicking something dangerous. For example: \"Your Gmail account will be deleted today! Click this link immediately!\" This is suspicious."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Warning signs"
+    },
+    {
+     "t": "p",
+     "text": "🚩 Urgent language\n🚩 Strange links\n🚩 Requests for passwords\n🚩 Requests for private information\n🚩 Unexpected prizes\n🚩 Messages pretending to be someone else"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "What should you do?"
+    },
+    {
+     "t": "p",
+     "text": "If you receive a suspicious email:"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Do NOT:"
+    },
+    {
+     "t": "p",
+     "text": "❌ Click suspicious links.\n❌ Give away your password.\n❌ Send personal information.\n❌ Download unknown attachments.\n❌ Reply to the sender."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "DO:"
+    },
+    {
+     "t": "p",
+     "text": "✅ Stop.\n✅ Show the message to a teacher or trusted adult.\n✅ Report it if instructed.\n✅ Delete it when appropriate."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Spot the suspicious email"
+    },
+    {
+     "t": "p",
+     "text": "Read this message:"
+    },
+    {
+     "t": "code",
+     "text": "FROM: prizewinner123@example.com"
+    },
+    {
+     "t": "code",
+     "text": "SUBJECT: YOU WON!!!"
+    },
+    {
+     "t": "code",
+     "text": "Congratulations!"
+    },
+    {
+     "t": "code",
+     "text": "You have won $5,000!"
+    },
+    {
+     "t": "code",
+     "text": "Click this link NOW and enter your Gmail"
+    },
+    {
+     "t": "code",
+     "text": "password to receive your prize."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Questions"
+    },
+    {
+     "t": "li",
+     "text": "Does this look suspicious? Yes / No",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "What is suspicious about it?_________________",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Should you give the sender your password? Yes / No",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "What should you do?______________________",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "16. Email safety rule"
+    },
+    {
+     "t": "p",
+     "text": "Remember: Your password is a secret, not a message."
+    },
+    {
+     "t": "p",
+     "text": "If someone asks for your password: STOP and ask a trusted adult."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Mini project: email your teacher"
+    },
+    {
+     "t": "p",
+     "text": "Create a short email about something you learned in this Internet course.Your email must contain:"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Subject: What I Learned About the Internet"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Message : Write at least five sentences."
+    },
+    {
+     "t": "p",
+     "text": "Include:"
+    },
+    {
+     "t": "li",
+     "text": "One thing you learned about the Internet.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "One thing you learned about browsers.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "One thing you learned about searching.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "One thing you learned about online safety.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "One thing you would like to learn next.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Add an Attachment to your project",
+     "ordered": false
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "title": "Files, Attachments, Uploads and Downloads",
+   "summary": "",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. What Is a File?"
+    },
+    {
+     "t": "p",
+     "text": "A file is information stored digitally. Examples: homework.docx, picture.jpg, music.mp3, project.pdf, video.mp4. Different files can have different formats."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. Download"
+    },
+    {
+     "t": "p",
+     "text": "Download means receiving information from the Internet and saving it to your device."
+    },
+    {
+     "t": "p",
+     "text": "Example:"
+    },
+    {
+     "t": "code",
+     "text": "🌐 Internet"
+    },
+    {
+     "t": "code",
+     "text": "↓"
+    },
+    {
+     "t": "code",
+     "text": "↓ Download"
+    },
+    {
+     "t": "code",
+     "text": "↓"
+    },
+    {
+     "t": "code",
+     "text": "💻 Computer"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. Upload"
+    },
+    {
+     "t": "p",
+     "text": "Upload means sending a file from your device to an online service."
+    },
+    {
+     "t": "code",
+     "text": "💻 Computer"
+    },
+    {
+     "t": "code",
+     "text": "↓"
+    },
+    {
+     "t": "code",
+     "text": "↓ Upload"
+    },
+    {
+     "t": "code",
+     "text": "↓"
+    },
+    {
+     "t": "code",
+     "text": "🌐 Internet"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. PRACTICE"
+    },
+    {
+     "t": "p",
+     "text": "With your teacher's permission:"
+    },
+    {
+     "t": "li",
+     "text": "Download a safe educational file.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Find it in your Downloads folder.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Open it.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Close it.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Rename it.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Move it into a project folder.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "5. Attachments"
+    },
+    {
+     "t": "p",
+     "text": "An attachment is a file included with an email or online message. Practice:"
+    },
+    {
+     "t": "li",
+     "text": "Open a new email.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Attach a document.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Check the filename.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Remove the attachment.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Attach it again.",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Do not send anything without permission."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Safe Downloads"
+    },
+    {
+     "t": "p",
+     "text": "Never download unknown files simply because someone tells you to. Be especially careful with:"
+    },
+    {
+     "t": "li",
+     "text": "Unknown programs",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Suspicious attachments",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Files from strange websites",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Files asking you to disable security",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "When unsure, ask a trusted adult."
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "title": "Online Communication",
+   "summary": "",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. What Is Online Communication?"
+    },
+    {
+     "t": "p",
+     "text": "People communicate online using:"
+    },
+    {
+     "t": "li",
+     "text": "Email",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Chat",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Video calls",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Learning platforms",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. Online Messages"
+    },
+    {
+     "t": "p",
+     "text": "A message should be:"
+    },
+    {
+     "t": "p",
+     "text": "✅ Clear\n✅ Polite\n✅ Respectful\n✅ Appropriate"
+    },
+    {
+     "t": "p",
+     "text": "Remember:There is a real person reading your message."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. Video Calls"
+    },
+    {
+     "t": "p",
+     "text": "Video calls allow people to communicate using audio and video. Common controls include:"
+    },
+    {
+     "t": "p",
+     "text": "🎤 Microphone\n📷 Camera\n💬 Chat\n☎️ Leave call"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "🧪 PRACTICE"
+    },
+    {
+     "t": "p",
+     "text": "With your teacher:"
+    },
+    {
+     "t": "li",
+     "text": "Join a practice video call.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Turn your microphone on.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Turn it off.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Turn your camera on.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Turn it off.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Send a chat message.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Leave the call.",
+     "ordered": true
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. Online Meeting Rules"
+    },
+    {
+     "t": "p",
+     "text": "During a meeting:"
+    },
+    {
+     "t": "li",
+     "text": "Listen when someone else is speaking.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Mute yourself when you are not speaking.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Do not interrupt.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Use respectful language.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Do not make distracting noises.",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Do not share meeting links publicly.",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "ROLE-PLAY"
+    },
+    {
+     "t": "p",
+     "text": "Work with a partner. Student A is the teacher. Student B is the student."
+    },
+    {
+     "t": "p",
+     "text": "Practice:"
+    },
+    {
+     "t": "li",
+     "text": "Joining a meeting.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Greeting everyone.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Asking a question.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Muting the microphone.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Leaving politely.",
+     "ordered": true
+    }
+   ]
+  },
+  {
+   "id": "l9",
+   "title": "Online Safety and Privacy",
+   "summary": "",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. Personal Information"
+    },
+    {
+     "t": "p",
+     "text": "Personal information can include:"
+    },
+    {
+     "t": "li",
+     "text": "Full name",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Home address",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Phone number",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Password",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "School details",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Location",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Private photographs",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Do not share sensitive personal information with strangers online."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. Strong Passwords"
+    },
+    {
+     "t": "p",
+     "text": "A strong password should be difficult for other people to guess. Use strong, unique passwords. A strong password has a mixture of small and capital letters, numbers and special characters"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. Location Privacy"
+    },
+    {
+     "t": "p",
+     "text": "Some apps can access your location. Think carefully before allowing an app to know where you are.Never publicly announce:"
+    },
+    {
+     "t": "p",
+     "text": "\"I am home alone.\" Or \"My family is away for two weeks.\""
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "SAFETY CHECK"
+    },
+    {
+     "t": "p",
+     "text": "SAFE TO SHARE / DO NOT SHARE"
+    },
+    {
+     "t": "li",
+     "text": "Favourite colour",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Password",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Home address",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Favourite sport",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Bank details",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "School name",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Private photograph",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Favourite animal",
+     "ordered": true
+    },
+    {
+     "t": "p",
+     "text": "Discuss your answers with your teacher."
+    }
+   ]
+  },
+  {
+   "id": "l10",
+   "title": "Scams, Phishing and Cyberbullying",
+   "summary": "",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. What Is Phishing?"
+    },
+    {
+     "t": "p",
+     "text": "Phishing is an attempt to trick someone into giving away information or doing something unsafe."
+    },
+    {
+     "t": "p",
+     "text": "A message might say: \"Your account will be deleted today! Click this link immediately!\""
+    },
+    {
+     "t": "p",
+     "text": "This uses fear and urgency."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. Warning Signs"
+    },
+    {
+     "t": "p",
+     "text": "Be suspicious when a message:"
+    },
+    {
+     "t": "p",
+     "text": "🚩 Demands immediate action\n🚩 Asks for a password\n🚩 Says you won a prize you never entered for\n🚩 Contains a strange link\n🚩 Pretends to be someone you know\n🚩 Requests secret information"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "SPOT THE SCAM"
+    },
+    {
+     "t": "p",
+     "text": "Which message looks suspicious?"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Message A: Your teacher has uploaded today's homework to the school learning platform."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Message B: CONGRATULATIONS!!! You won $10,000! Send us your password now!!!"
+    },
+    {
+     "t": "p",
+     "text": "Which one is suspicious? And Why?"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. Cyberbullying"
+    },
+    {
+     "t": "p",
+     "text": "Cyberbullying is bullying that happens using digital technology. It may involve: Insults, Threats, Humiliation, Spreading rumours, Sharing embarrassing content, Excluding someone deliberately"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. What Should You Do?"
+    },
+    {
+     "t": "p",
+     "text": "If someone is bullying you online:"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Step 1: Do not respond with more bullying."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Step 2: Save evidence if appropriate."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Step 3: Block or report the person when possible."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Step 4: Tell a trusted adult."
+    },
+    {
+     "t": "p",
+     "text": "Step 5: If someone is in immediate danger, seek help from a responsible adult or appropriate emergency service."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "ROLE-PLAY"
+    },
+    {
+     "t": "p",
+     "text": "Work with a partner. One student receives a suspicious message."
+    },
+    {
+     "t": "p",
+     "text": "The other student explains what to do. Practice saying:"
+    },
+    {
+     "t": "p",
+     "text": "\"I won't click the link.\", \"I will show this to a trusted adult.\""
+    }
+   ]
+  },
+  {
+   "id": "l11",
+   "title": "Internet and Artificial Intelligence",
+   "summary": "",
+   "goals": [],
+   "blocks": [
+    {
+     "t": "h",
+     "level": 3,
+     "text": "1. What Is AI?"
+    },
+    {
+     "t": "p",
+     "text": "Artificial Intelligence (AI) is technology that allows computers to perform tasks that normally require human-like abilities."
+    },
+    {
+     "t": "p",
+     "text": "AI can help with:"
+    },
+    {
+     "t": "li",
+     "text": "Understanding language",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Recognizing images",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Translating languages",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Answering questions",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Creating text",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Generating images",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Finding patterns",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Making predictions",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "2. AI Assistants"
+    },
+    {
+     "t": "p",
+     "text": "AI assistants allow people to communicate with an AI using natural language."
+    },
+    {
+     "t": "p",
+     "text": "You can ask an AI: Explain photosynthesis for a 10-year-old and the AI will generate an answer."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "3. AI Can Make Mistakes"
+    },
+    {
+     "t": "p",
+     "text": "AI does not automatically know that every answer it produces is correct."
+    },
+    {
+     "t": "p",
+     "text": "It can:"
+    },
+    {
+     "t": "p",
+     "text": "❌ Give incorrect facts\n❌ Misunderstand questions\n❌ Produce outdated information\n❌ Invent information\n❌ Give answers that sound confident but are wrong"
+    },
+    {
+     "t": "p",
+     "text": "Therefore: Always check important information."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Check an AI Answer"
+    },
+    {
+     "t": "p",
+     "text": "Suppose AI says:"
+    },
+    {
+     "t": "p",
+     "text": "\"The largest planet is Earth.\""
+    },
+    {
+     "t": "p",
+     "text": "Do not simply believe it."
+    },
+    {
+     "t": "p",
+     "text": "Search for the answer using reliable sources."
+    },
+    {
+     "t": "p",
+     "text": "You will discover:"
+    },
+    {
+     "t": "p",
+     "text": "Jupiter is the largest planet in our Solar System."
+    },
+    {
+     "t": "p",
+     "text": "This is why AI should be a helper, not the only source of truth."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "4. Writing Good Prompts"
+    },
+    {
+     "t": "p",
+     "text": "A prompt is the instruction or question you give an AI."
+    },
+    {
+     "t": "p",
+     "text": "Weak prompt: animals"
+    },
+    {
+     "t": "p",
+     "text": "Better: Give me five interesting facts about lions for a 10-year-old."
+    },
+    {
+     "t": "p",
+     "text": "Even better: Explain five interesting facts about lions using simple English."
+    },
+    {
+     "t": "code",
+     "text": "Give each fact in one short sentence."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Practice"
+    },
+    {
+     "t": "p",
+     "text": "Ask an AI:Explain why the sky is blue for a 10-year-old. Read the answer."
+    },
+    {
+     "t": "p",
+     "text": "Now search for the same topic using a search engine. Compare:"
+    },
+    {
+     "t": "table",
+     "rows": [
+      [
+       "AI Answer",
+       "Internet Source"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Write one thing they agree about."
+    },
+    {
+     "t": "p",
+     "text": "Write one thing you checked."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "5. AI Privacy"
+    },
+    {
+     "t": "p",
+     "text": "Do not give an AI:"
+    },
+    {
+     "t": "li",
+     "text": "Your password",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Private family information",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Private photographs",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Financial information",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Other people's private information",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "Think before you type."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "6. AI and Schoolwork"
+    },
+    {
+     "t": "p",
+     "text": "AI can be useful for learning. You can ask it to:"
+    },
+    {
+     "t": "li",
+     "text": "Explain difficult ideas",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Give examples",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Help you practise",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Create quiz questions",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Explain mistakes",
+     "ordered": false
+    },
+    {
+     "t": "p",
+     "text": "But you should not simply copy AI answers and pretend you created the work yourself."
+    },
+    {
+     "t": "p",
+     "text": "Use AI to learn, not to avoid learning."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Project: become an internet researcher"
+    },
+    {
+     "t": "p",
+     "text": "Choose a topic you are interested in.Examples:"
+    },
+    {
+     "t": "p",
+     "text": "🐘 Elephants, 🌍 Climate, 🚀 Space, ⚽ Football, 🦁 Lions, 🌱 Plants, 🤖 Artificial Intelligence\n🏛️ The history of Rwanda"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Step 1: search"
+    },
+    {
+     "t": "p",
+     "text": "Use a search engine to find information. Find at least three sources."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Step 2: check your sources"
+    },
+    {
+     "t": "p",
+     "text": "For each source identify:"
+    },
+    {
+     "t": "li",
+     "text": "Website",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Author or organization",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Date",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Important information",
+     "ordered": false
+    },
+    {
+     "t": "li",
+     "text": "Why you think it is reliable",
+     "ordered": false
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Step 3: create your report"
+    },
+    {
+     "t": "p",
+     "text": "Your report should contain:"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Title: MY RESEARCH PROJECT"
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Introduction: Explain your topic."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Main Information: Give at least five important facts."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Image: Include an appropriate image that you are allowed to use."
+    },
+    {
+     "t": "h",
+     "level": 4,
+     "text": "Sources: List the websites you used."
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Step 4: save your work"
+    },
+    {
+     "t": "p",
+     "text": "Save your work in the folder with name yourNames_Internet_Project"
+    },
+    {
+     "t": "h",
+     "level": 3,
+     "text": "Step 5: send your project"
+    },
+    {
+     "t": "p",
+     "text": "With your teacher's permission:"
+    },
+    {
+     "t": "li",
+     "text": "Open your email.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Create a new message.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Write a clear subject.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Write a polite message.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Attach your project.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Check the attachment.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Check the recipient.",
+     "ordered": true
+    },
+    {
+     "t": "li",
+     "text": "Send the email.",
+     "ordered": true
+    }
+   ]
+  }
+ ]
+}
