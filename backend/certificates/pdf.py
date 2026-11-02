@@ -12,10 +12,8 @@ GOLD = colors.HexColor("#b8860b")
 
 def _header(c, w, h):
     if LOGO.exists():
-        c.drawImage(str(LOGO), w / 2 - 55, h - 130, width=110, height=70, preserveAspectRatio=True, mask="auto")
+        c.drawImage(str(LOGO), w / 2 - 70, h - 140, width=140, height=70, preserveAspectRatio=True, mask="auto")
     c.setFillColor(NAVY)
-    c.setFont("Helvetica", 11)
-    c.drawCentredString(w / 2, h - 150, "PESH  -  PROTECTION & EMPOWERMENT")
     c.setFont("Times-Bold", 40)
     c.drawCentredString(w / 2, h - 210, "Certificate of Completion")
 
@@ -52,7 +50,7 @@ def certificate_pdf(cert):
     c.line(w / 2 - 190, h - 310, w / 2 + 190, h - 310)
     c.setFillColor(colors.HexColor("#555555"))
     c.setFont("Times-Italic", 16)
-    c.drawCentredString(w / 2, h - 345, "has successfully completed all lessons of")
+    c.drawCentredString(w / 2, h - 345, "has successfully completed PESH's module of")
     c.setFillColor(NAVY)
     c.setFont("Times-Bold", 26)
     c.drawCentredString(w / 2, h - 385, cert.course.title)
@@ -100,7 +98,7 @@ def combined_certificate_pdf(cert):
     c.line(w / 2 - 190, h - 310, w / 2 + 190, h - 310)
     c.setFillColor(colors.HexColor("#555555"))
     c.setFont("Times-Italic", 16)
-    c.drawCentredString(w / 2, h - 345, "has successfully completed the full PESH digital skills program:")
+    c.drawCentredString(w / 2, h - 345, "has successfully completed PESH's modules of")
     c.setFillColor(NAVY)
     c.setFont("Helvetica-Bold", 16)
     c.drawCentredString(w / 2, h - 385, "   •   ".join(cert.course_titles))

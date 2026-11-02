@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
-import { api } from "./api.js";
+import { api, AUTH_EXPIRED_EVENT } from "./api.js";
 
 const AuthContext = createContext(null);
 
@@ -12,6 +12,12 @@ export function AuthProvider({ children }) {
       .then((d) => setUser(d.user))
       .catch(() => setUser(null))
       .finally(() => setReady(true));
+  }, []);
+
+  useEffect(() => {
+    const onExpired = () => setUser(null); // RequireAuth then sends the learner to the login page
+    window.addEventListener(AUTH_EXPIRED_EVENT, onExpired);
+    return () => window.removeEventListener(AUTH_EXPIRED_EVENT, onExpired);
   }, []);
 
   const login = useCallback(async (email, password) => {

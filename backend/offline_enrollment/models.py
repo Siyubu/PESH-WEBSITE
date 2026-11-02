@@ -16,16 +16,25 @@ class OfflineLearner(models.Model):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
     country = models.CharField("Country of origin", max_length=100)
-    age = models.PositiveSmallIntegerField()
-    grade = models.CharField(max_length=50, help_text="e.g. P5, S3")
+    date_of_birth = models.DateField()
     is_student = models.BooleanField(default=True)
+    grade = models.CharField(max_length=50, blank=True, help_text="e.g. P5, S3. Required when the learner is a student.")
     school = models.CharField(max_length=200, blank=True, help_text="Required when the learner is a student.")
     registered_by = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.PROTECT, related_name="offline_registrations")
     created_at = models.DateTimeField(default=timezone.now, help_text="When the signup was filled in on the phone (may be before it synced).")
+    client_updated_at = models.DateTimeField(
+        default=timezone.now, help_text="When the phone last edited this record. A sync only overwrites the server copy if it is newer."
+    )
     synced_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:
         ordering = ["-created_at"]
+
+    @property
+    def age(self):
+        today = timezone.localdate()
+        dob = self.date_of_birth
+        return today.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))
 
     def full_name(self):
         return f"{self.first_name} {self.last_name}"

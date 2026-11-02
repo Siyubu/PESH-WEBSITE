@@ -38,6 +38,7 @@ fun LoginScreen(viewModel: AppViewModel) {
     var email by rememberSaveable { mutableStateOf("") }
     var password by rememberSaveable { mutableStateOf("") }
     val state by viewModel.loginState.collectAsState()
+    val sessionExpired by viewModel.session.sessionExpired.collectAsState()
 
     Scaffold(topBar = { TopAppBar(title = { Text("PESH Enroll - staff login") }) }) { padding ->
         Column(
@@ -52,6 +53,14 @@ fun LoginScreen(viewModel: AppViewModel) {
                 "Sign in with your PESH staff account to register learners at the hub.",
                 style = MaterialTheme.typography.bodyMedium,
             )
+            if (sessionExpired) {
+                Text(
+                    "Your login expired (logins last 24 hours). Sign in again. Learners saved on this phone " +
+                        "are safe and will sync after you log in.",
+                    color = MaterialTheme.colorScheme.error,
+                    style = MaterialTheme.typography.bodyMedium,
+                )
+            }
             OutlinedTextField(
                 value = serverUrl,
                 onValueChange = { serverUrl = it },

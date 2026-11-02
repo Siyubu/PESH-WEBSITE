@@ -1,15 +1,17 @@
+import uuid
+
 from django.contrib.auth import authenticate
-from django.db import IntegrityError
+from django.db import IntegrityError, transaction
+from django.http import HttpResponse
 from django.shortcuts import get_object_or_404
-from rest_framework.authentication import TokenAuthentication
 from rest_framework.authtoken.models import Token
 from rest_framework.permissions import IsAdminUser
 from rest_framework.response import Response
 from rest_framework.throttling import ScopedRateThrottle
 from rest_framework.views import APIView
 
+from accounts.authentication import ExpiringTokenAuthentication
 from certificates.pdf import combined_certificate_pdf
-from django.http import HttpResponse
 
 from .models import OfflineCertificate, OfflineLearner
 from .serializers import OfflineLearnerSerializer
@@ -26,33 +28,54 @@ class MobileLoginView(APIView):
         user = authenticate(request, username=email, password=request.data.get("password", ""))
         if user is None or not user.is_staff:
             return Response({"error": "Wrong email or password, or this account cannot use the app."}, status=400)
-        token, _ = Token.objects.get_or_create(user=user)
+        # A fresh token on every login, so the 24h clock restarts and a leaked old token stops working.
+        Token.objects.filter(user=user).delete()
+        token = Token.objects.create(user=user)
         return Response({"token": token.key, "staff_name": user.full_name})
 
 
-class OfflineLearnerCreateView(APIView):
-    """Registers a learner signed up in person. Idempotent on client_id, so a retried sync is safe."""
+class OfflineLearnerSyncView(APIView):
+    """Create-or-update a learner by the phone-generated client_id, so retried and edited syncs are safe.
 
-    authentication_classes = [TokenAuthentication]
+    A repeat of an already-synced version changes nothing. An edit (newer client_updated_at) overwrites the
+    server copy; an older one arriving late (two sync workers racing) is ignored.
+    """
+
+    authentication_classes = [ExpiringTokenAuthentication]
     permission_classes = [IsAdminUser]
     throttle_classes = [ScopedRateThrottle]
     throttle_scope = "mobile"
 
     def post(self, request):
-        client_id = request.data.get("client_id")
-        existing = OfflineLearner.objects.filter(client_id=client_id).first() if client_id else None
-        if existing:
-            return Response(OfflineLearnerSerializer(existing).data, status=200)
-        ser = OfflineLearnerSerializer(data=request.data)
-        ser.is_valid(raise_exception=True)
         try:
-            obj = ser.save(registered_by=request.user)
-        except IntegrityError:
-            # Two sync attempts raced (e.g. the periodic and the on-save sync worker both fired at
-            # once): the other one already created this client_id a moment ago. Same record either way.
-            obj = OfflineLearner.objects.get(client_id=client_id)
-            return Response(OfflineLearnerSerializer(obj).data, status=200)
-        return Response(OfflineLearnerSerializer(obj).data, status=201)
+            client_id = uuid.UUID(str(request.data.get("client_id")))
+        except ValueError:
+            return Response({"client_id": ["A valid UUID is required."]}, status=400)
+
+        for _ in range(2):
+            with transaction.atomic():
+                existing = OfflineLearner.objects.select_for_update().filter(client_id=client_id).first()
+                if existing:
+                    return self._update(existing, request.data)
+            ser = OfflineLearnerSerializer(data=request.data)
+            ser.is_valid(raise_exception=True)
+            try:
+                with transaction.atomic():
+                    obj = ser.save(registered_by=request.user)
+            except IntegrityError:
+                continue  # another sync created it a moment ago: go round again and apply ours as an update
+            return Response(OfflineLearnerSerializer(obj).data, status=201)
+        return Response({"error": "Could not save this learner. Please try again."}, status=409)
+
+    def _update(self, existing, data):
+        ser = OfflineLearnerSerializer(existing, data=data)
+        ser.is_valid(raise_exception=True)
+        incoming = ser.validated_data.get("client_updated_at")
+        if incoming is None or incoming <= existing.client_updated_at:
+            return Response(OfflineLearnerSerializer(existing).data, status=200)
+        ser.validated_data.pop("created_at", None)
+        obj = ser.save()
+        return Response(OfflineLearnerSerializer(obj).data, status=200)
 
 
 class OfflineCertificatePdfView(APIView):

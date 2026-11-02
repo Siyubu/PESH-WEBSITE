@@ -1,4 +1,4 @@
-import { messageFrom } from "./api.js";
+import { isSessionExpired, messageFrom } from "./api.js";
 import { safeNext } from "./pages/Login.jsx";
 
 test("extracts readable messages from DRF error shapes", () => {
@@ -13,4 +13,11 @@ test("safeNext only allows same-site paths", () => {
   expect(safeNext("//evil.com")).toBe("/dashboard");
   expect(safeNext("https://evil.com")).toBe("/dashboard");
   expect(safeNext(null)).toBe("/dashboard");
+});
+
+test("recognises an expired login but not other 403s", () => {
+  expect(isSessionExpired(403, { detail: "Authentication credentials were not provided." })).toBe(true);
+  expect(isSessionExpired(403, { error: "Finish all lessons before paying for the certificate." })).toBe(false);
+  expect(isSessionExpired(403, { detail: "CSRF Failed: token missing." })).toBe(false);
+  expect(isSessionExpired(400, { detail: "Authentication credentials were not provided." })).toBe(false);
 });

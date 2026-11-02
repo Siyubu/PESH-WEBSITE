@@ -2,6 +2,7 @@ package rw.pesh.enroll.data
 
 import kotlinx.coroutines.flow.Flow
 import okio.IOException
+import org.json.JSONArray
 import org.json.JSONObject
 import retrofit2.Response
 import rw.pesh.enroll.data.local.LearnerDao
@@ -12,14 +13,26 @@ import rw.pesh.enroll.data.remote.LoginRequest
 import java.time.Instant
 import java.util.UUID
 
-data class NewLearner(
+/** What the form collects. Grade and school are only meaningful (and only kept) when [isStudent] is true. */
+data class LearnerInput(
     val firstName: String,
     val lastName: String,
     val country: String,
-    val age: Int,
-    val grade: String,
+    /** ISO date, yyyy-MM-dd. */
+    val dateOfBirth: String,
     val isStudent: Boolean,
+    val grade: String,
     val school: String,
+)
+
+fun LearnerEntity.toInput() = LearnerInput(
+    firstName = firstName,
+    lastName = lastName,
+    country = country,
+    dateOfBirth = dateOfBirth,
+    isStudent = isStudent,
+    grade = grade,
+    school = school,
 )
 
 sealed class LoginResult {
@@ -51,26 +64,49 @@ class LearnerRepository(
     }
 
     /** Saves immediately to the local database. Works with no network at all; sync happens later. */
-    suspend fun addLearner(input: NewLearner) {
-        val entity = LearnerEntity(
-            clientId = UUID.randomUUID().toString(),
-            firstName = input.firstName.trim(),
-            lastName = input.lastName.trim(),
-            country = input.country.trim(),
-            age = input.age,
-            grade = input.grade.trim(),
-            isStudent = input.isStudent,
-            school = if (input.isStudent) input.school.trim() else "",
-            createdAtIso = Instant.now().toString(),
-            status = LearnerEntity.STATUS_PENDING,
+    suspend fun addLearner(input: LearnerInput) {
+        val now = Instant.now().toString()
+        dao.insert(
+            LearnerEntity(
+                clientId = UUID.randomUUID().toString(),
+                firstName = input.firstName.trim(),
+                lastName = input.lastName.trim(),
+                country = input.country.trim(),
+                dateOfBirth = input.dateOfBirth,
+                grade = if (input.isStudent) input.grade.trim() else "",
+                isStudent = input.isStudent,
+                school = if (input.isStudent) input.school.trim() else "",
+                createdAtIso = now,
+                updatedAtIso = now,
+                status = LearnerEntity.STATUS_PENDING,
+            ),
         )
-        dao.insert(entity)
+    }
+
+    /** Corrects a saved learner. It goes back to PENDING and the next sync sends the corrected version. */
+    suspend fun updateLearner(clientId: String, input: LearnerInput) {
+        val existing = dao.getById(clientId) ?: return
+        dao.update(
+            existing.copy(
+                firstName = input.firstName.trim(),
+                lastName = input.lastName.trim(),
+                country = input.country.trim(),
+                dateOfBirth = input.dateOfBirth,
+                grade = if (input.isStudent) input.grade.trim() else "",
+                isStudent = input.isStudent,
+                school = if (input.isStudent) input.school.trim() else "",
+                updatedAtIso = Instant.now().toString(),
+                status = LearnerEntity.STATUS_PENDING,
+                errorMessage = null,
+            ),
+        )
     }
 
     /**
-     * Sends every not-yet-synced record, one at a time. Never throws: a network hiccup on one
-     * record just leaves it PENDING for the next sync attempt. An expired/invalid token logs the
-     * device out so the mentor is prompted to sign in again, rather than retrying forever.
+     * Sends every not-yet-synced record (new ones and edited ones), one at a time. Never throws: a network
+     * hiccup on one record just leaves it PENDING for the next sync attempt. An expired or invalid login
+     * (the server ends logins after 24 hours) logs the device out so the mentor signs in again, instead of
+     * retrying forever. Saved learners stay on the phone and sync after the next login.
      */
     suspend fun syncPending() {
         val token = session.authHeader() ?: return
@@ -83,10 +119,16 @@ class LearnerRepository(
             try {
                 val response = api.syncLearner(token, learner.toRequest())
                 when {
-                    response.isSuccessful -> dao.updateStatus(learner.clientId, LearnerEntity.STATUS_SYNCED)
-                    response.code() == 401 -> session.logOut()
+                    response.isSuccessful ->
+                        dao.updateStatusIfUnchanged(learner.clientId, learner.updatedAtIso, LearnerEntity.STATUS_SYNCED)
+                    response.code() == 401 -> session.logOut(expired = true)
                     response.code() in 400..499 ->
-                        dao.updateStatus(learner.clientId, LearnerEntity.STATUS_ERROR, parseError(response))
+                        dao.updateStatusIfUnchanged(
+                            learner.clientId,
+                            learner.updatedAtIso,
+                            LearnerEntity.STATUS_ERROR,
+                            parseError(response),
+                        )
                     else -> { /* server/network hiccup: leave PENDING, a later sync retries it */ }
                 }
             } catch (e: IOException) {
@@ -95,12 +137,23 @@ class LearnerRepository(
         }
     }
 
+    /** Server errors come back as {"error": "..."} or, for form problems, {"grade": ["Grade is required..."]}. */
     private fun parseError(response: Response<*>): String {
-        val raw = response.errorBody()?.string()
         val fallback = "The server rejected this (code ${response.code()})."
+        val raw = response.errorBody()?.string()
         if (raw.isNullOrBlank()) return fallback
         return try {
-            JSONObject(raw).optString("error").ifBlank { fallback }
+            val json = JSONObject(raw)
+            val parts = mutableListOf<String>()
+            json.optString("error").takeIf { it.isNotBlank() }?.let { parts += it }
+            json.keys().forEach { key ->
+                if (key == "error") return@forEach
+                when (val value = json.opt(key)) {
+                    is JSONArray -> for (i in 0 until value.length()) parts += value.optString(i)
+                    is String -> parts += value
+                }
+            }
+            parts.joinToString(" ").ifBlank { fallback }
         } catch (e: Exception) {
             fallback
         }
@@ -112,9 +165,10 @@ private fun LearnerEntity.toRequest() = LearnerSyncRequest(
     firstName = firstName,
     lastName = lastName,
     country = country,
-    age = age,
-    grade = grade,
+    dateOfBirth = dateOfBirth,
     isStudent = isStudent,
+    grade = grade,
     school = school,
     createdAt = createdAtIso,
+    updatedAt = updatedAtIso,
 )

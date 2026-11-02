@@ -8,10 +8,10 @@ from .models import OfflineCertificate, OfflineLearner, new_offline_code
 
 @admin.register(OfflineLearner)
 class OfflineLearnerAdmin(admin.ModelAdmin):
-    list_display = ("full_name", "country", "age", "grade", "is_student", "school", "registered_by", "created_at", "has_certificate")
+    list_display = ("full_name", "country", "date_of_birth", "age", "is_student", "grade", "school", "registered_by", "created_at", "has_certificate")
     list_filter = ("is_student", "country")
     search_fields = ("first_name", "last_name", "school")
-    readonly_fields = ("client_id", "registered_by", "created_at", "synced_at")
+    readonly_fields = ("client_id", "registered_by", "created_at", "synced_at", "age")
     actions = ["issue_combined_certificate"]
 
     def full_name(self, obj):

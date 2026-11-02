@@ -39,8 +39,10 @@ cd frontend && npm test                                                     # fr
 
 ## How it works
 
-- **Login:** email + password, Django sessions (cookie) with CSRF protection. Password reset emails are printed in the
-  backend log until you set `EMAIL_HOST` and friends in `.env`.
+- **Login:** email + password, Django sessions (cookie) with CSRF protection. A login lasts at most **24 hours**, on the
+  website and in the Android app alike (`AUTH_TOKEN_MAX_AGE_SECONDS`, which cannot be set higher than 86400); after that
+  the person signs in again. Password reset emails are printed in the backend log until you set `EMAIL_HOST` and friends
+  in `.env`.
 - **Progress:** stored per learner and lesson in Postgres. Lessons are identified by stable keys (`l1`, `l2`, ...).
 - **Final exam:** every course has an online multiple-choice exam. It unlocks when all lessons are complete. Each attempt
   draws 20 random questions from the course's question bank (32-57 per course), shuffles the answer order, and has a
@@ -60,7 +62,9 @@ cd frontend && npm test                                                     # fr
 Some learners take the courses in person at the hub, with no device, email or internet of their own. The
 [`android-app/`](android-app/) folder is a separate Android app PESH staff use to register those learners --
 it works with no internet (saves on the phone, syncs automatically once online) and asks for first name, last
-name, country of origin, age, grade, and, only if they're currently a student, their school. See
+name, country of origin (a searchable dropdown), date of birth (a calendar), and whether they're currently a student;
+grade and school are asked only for students. Staff can tap a saved learner in the app to correct a mistake, and the
+correction is sent to the server on the next sync. See
 [`android-app/README.md`](android-app/README.md) for how to build and run it, and how to create a staff login.
 
 Once a learner has taken all four courses in person, an admin issues them **one certificate covering all four
@@ -112,15 +116,61 @@ cd tools && npm install docx && node make_exam_docs.js
 
 ## Deploy to a server
 
-Any Linux server with Docker works (a small VPS is enough).
+Any Linux server with Docker works; a small VPS (1-2 GB RAM) is enough. Phones and the website need `https://`,
+so this uses `docker-compose.prod.yml`, which adds Caddy to get and renew a free certificate automatically.
 
-1. Point your domain at the server and put HTTPS in front of the `web` container (Caddy or an nginx/Traefik proxy that
-   forwards to port 8080; Caddy does certificates automatically).
-2. In `.env`: `DJANGO_DEBUG=0`, a long random `DJANGO_SECRET_KEY`, `DJANGO_ALLOWED_HOSTS=yourdomain.org`,
-   `CSRF_TRUSTED_ORIGINS=https://yourdomain.org`, `SITE_URL=https://yourdomain.org`, `SECURE_COOKIES=1`,
-   `BEHIND_HTTPS_PROXY=1`, a strong `POSTGRES_PASSWORD`, real SMTP settings, and change the admin password.
-3. `docker compose up -d --build`.
-4. Back up the `pgdata` Docker volume regularly (for example `docker compose exec db pg_dump -U pesh pesh > backup.sql`).
+1. Get a domain (or subdomain, e.g. `learn.yourdomain.org`) and create a DNS **A record** pointing at the
+   server's IP address. Open ports **80 and 443** on the server's firewall.
+2. On the server: install Docker, then copy this project there (`git clone` or `scp`).
+3. `cp .env.example .env` and fill in:
+   - `DOMAIN=learn.yourdomain.org` (no `https://`)
+   - `DJANGO_DEBUG=0` and a long random `DJANGO_SECRET_KEY` (`python3 -c "import secrets; print(secrets.token_urlsafe(50))"`)
+   - `DJANGO_ALLOWED_HOSTS=learn.yourdomain.org`, `CSRF_TRUSTED_ORIGINS=https://learn.yourdomain.org`,
+     `SITE_URL=https://learn.yourdomain.org`
+   - `SECURE_COOKIES=1` and `BEHIND_HTTPS_PROXY=1`
+   - a strong `POSTGRES_PASSWORD`; `DJANGO_SUPERUSER_EMAIL` / `DJANGO_SUPERUSER_PASSWORD` for the first admin
+     (change that password after the first login); real SMTP settings (`EMAIL_HOST`...) so password-reset emails work
+   - the MoMo keys when you have them (see "MTN MoMo setup")
+4. `docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build`
+5. Open `https://learn.yourdomain.org/admin/`, log in, and create the **staff accounts** for your mentors
+   (Accounts > Users, tick "Staff status"). The app's server address is `https://learn.yourdomain.org/api/`.
+6. Back up the database regularly, for example from a daily cron job:
+   `docker compose exec -T db pg_dump -U pesh pesh > backup-$(date +%F).sql`, and copy the file off the server.
+   Updating the site later: `git pull`, then the same `up -d --build` command.
+
+Then build the Android app for that address: see "Releasing to real phones" in [`android-app/README.md`](android-app/README.md).
+
+## Free hosting: Cloudflare Pages + Render + Neon
+
+A no-cost way to get online while there are few users: the React site on Cloudflare Pages, Django on Render, Postgres on
+Neon. Limits of the free plans: the Render service sleeps after ~15 minutes without visitors (the next visit takes up to a
+minute to wake it), and plans and limits change, so check each provider's current terms. Move to a paid server (see "Deploy
+to a server") before taking real payments.
+
+How it fits together: the browser only talks to `https://<name>.pages.dev`. The Pages Functions in `frontend/functions/`
+(`api`, `admin`, `static`) forward those paths to the Render backend, so login cookies and CSRF work as on one site.
+
+1. **Neon** (neon.tech): create a project, copy the connection string (`postgresql://user:password@host/dbname?sslmode=require`).
+2. **Render** (render.com): New > Web Service > connect the GitHub repo, **Language: Docker**, Root Directory `backend`, instance
+   type Free. Environment variables (replace `<site>` with your Pages name once you know it, then redeploy):
+   ```
+   PORT=8000
+   DATABASE_URL=<Neon connection string>
+   DJANGO_DEBUG=0
+   DJANGO_SECRET_KEY=<long random string>
+   DJANGO_ALLOWED_HOSTS=<your-service>.onrender.com
+   CSRF_TRUSTED_ORIGINS=https://<site>.pages.dev
+   SITE_URL=https://<site>.pages.dev
+   SECURE_COOKIES=1
+   BEHIND_HTTPS_PROXY=1
+   DJANGO_SUPERUSER_EMAIL=...   DJANGO_SUPERUSER_PASSWORD=...
+   MOMO_*  (sandbox values, see "MTN MoMo setup")
+   ```
+3. **Cloudflare Pages** (dash.cloudflare.com > Workers & Pages > Create > Pages > connect Git): Root directory `frontend`,
+   build command `npm run build`, output directory `dist`. Environment variables: `BACKEND_URL=https://<your-service>.onrender.com`
+   and `NODE_VERSION=20`.
+4. Go back to Render and set the `<site>` values from step 2 to the real `pages.dev` address, then redeploy.
+5. Open `https://<site>.pages.dev`, then `/admin/`.
 
 ## Updating course content from the Word files
 

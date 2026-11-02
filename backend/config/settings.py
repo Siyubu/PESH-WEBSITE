@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+from urllib.parse import parse_qsl, unquote, urlparse
 
 from django.core.exceptions import ImproperlyConfigured
 
@@ -65,7 +66,20 @@ TEMPLATES = [
     }
 ]
 
-if env("POSTGRES_HOST"):
+if env("DATABASE_URL"):  # hosted Postgres (Neon, Render...): postgresql://user:password@host/dbname?sslmode=require
+    _db = urlparse(env("DATABASE_URL"))
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.postgresql",
+            "NAME": _db.path.lstrip("/"),
+            "USER": unquote(_db.username or ""),
+            "PASSWORD": unquote(_db.password or ""),
+            "HOST": _db.hostname,
+            "PORT": str(_db.port or 5432),
+            "OPTIONS": dict(parse_qsl(_db.query)),
+        }
+    }
+elif env("POSTGRES_HOST"):
     DATABASES = {
         "default": {
             "ENGINE": "django.db.backends.postgresql",
@@ -106,7 +120,10 @@ REST_FRAMEWORK = {
     "DEFAULT_THROTTLE_RATES": {"auth": env("AUTH_THROTTLE", "20/min"), "pay": "6/min", "exam": "12/min", "mobile": "120/min"},
 }
 
-SESSION_COOKIE_AGE = 60 * 60 * 24 * 30
+# One setting caps how long a login lives, for web sessions and mobile API tokens alike. Hard-capped at 24h.
+AUTH_TOKEN_MAX_AGE_SECONDS = min(int(env("AUTH_TOKEN_MAX_AGE_SECONDS", str(24 * 60 * 60))), 24 * 60 * 60)
+SESSION_COOKIE_AGE = AUTH_TOKEN_MAX_AGE_SECONDS
+SESSION_SAVE_EVERY_REQUEST = False  # never extend a session just because the user is active
 SESSION_COOKIE_SECURE = env("SECURE_COOKIES", "0") == "1"
 CSRF_COOKIE_SECURE = SESSION_COOKIE_SECURE
 if env("BEHIND_HTTPS_PROXY", "0") == "1":

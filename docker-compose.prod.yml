@@ -1,0 +1,26 @@
+# Production overlay: puts Caddy in front of the app to provide HTTPS (free certificates, renewed automatically).
+# Use:  docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
+# Needs DOMAIN set in .env, the domain's DNS pointing at this server, and ports 80 and 443 open.
+services:
+  web:
+    # Only Caddy is reachable from the internet; the app itself is not published on the host.
+    ports: !reset []
+
+  caddy:
+    image: caddy:2-alpine
+    environment:
+      DOMAIN: ${DOMAIN:?Set DOMAIN in .env (for example pesh.example.org)}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - web
+    restart: unless-stopped
+
+volumes:
+  caddy_data:
+  caddy_config:

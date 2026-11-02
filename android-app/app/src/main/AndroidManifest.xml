@@ -7,17 +7,15 @@
 
     <application
         android:name=".PeshApp"
-        android:allowBackup="true"
-        android:fullBackupContent="@xml/backup_rules"
+        android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
         android:roundIcon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/Theme.PeshEnroll"
-        android:usesCleartextTraffic="true">
+        android:theme="@style/Theme.PeshEnroll">
         <!--
-          usesCleartextTraffic is needed during development to reach an http:// dev server
-          (e.g. http://10.0.2.2:8000). Before a production release, point DEFAULT_API_BASE_URL
-          at an https:// backend and remove this attribute.
+          allowBackup is off on purpose: the phone holds children's names and birth dates plus a login
+          token, and Android's automatic backup would copy them to whichever Google account is on the phone.
+          Plain http:// is blocked (Android's default); only the debug build allows it, see src/debug.
         -->
 
         <!--

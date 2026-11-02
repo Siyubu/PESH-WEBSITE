@@ -26,11 +26,16 @@ cd frontend && npm test                      # vitest
 cd frontend && npx vitest run src/api.test.js   # single file
 
 cd android-app && ./gradlew :app:assembleDebug   # needs an Android SDK; Gradle 8.7 needs JDK 17-21 (NOT 25)
+cd android-app && ./gradlew :app:assembleRelease -PPESH_API_BASE_URL=https://<domain>/api/   # signed APK; needs keystore.properties + release.keystore (git-ignored, back them up)
+
+# Production: HTTPS via Caddy
+docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build   # needs DOMAIN in .env
 ```
 
 Gotchas:
 - Settings refuse to start without `DJANGO_SECRET_KEY` unless `DJANGO_DEBUG=1`. With no `POSTGRES_HOST` they fall back to SQLite.
 - The Android emulator reaches the host at `10.0.2.2`, which must be in `DJANGO_ALLOWED_HOSTS` or Django answers 400.
+- If `frontend/node_modules` was installed under a different CPU architecture (e.g. Intel Node, then Apple-silicon Node), vitest fails with a missing `@rollup/rollup-darwin-*`; `rm -rf node_modules && npm ci` fixes it.
 - `docker-compose.dev.yml` mounts `./backend` over `/app`, so `backend/entrypoint.sh` must be executable (`chmod +x`) or the container crash-loops with "permission denied".
 - DRF throttles use the shared cache; tests that hit throttled endpoints call `cache.clear()` in `setUp`.
 
@@ -38,7 +43,7 @@ Gotchas:
 
 **Backend** (`backend/`, apps wired in `config/settings.py` and `config/urls.py`): `accounts` (custom email-login `User`, session auth), `courses` (Course/Lesson/LessonProgress), `exams`, `certificates` (payments + PDFs), `offline_enrollment` (mobile API). Only `config.urls` mounts routes; most APIs live under `/api/<app>/`, certificates and offline_enrollment under `/api/`.
 
-**Auth model**: web uses Django session cookies with CSRF. Anonymous auth endpoints (login/register/reset) use `accounts.authentication.StrictCsrfSessionAuthentication` because stock DRF skips CSRF for anonymous requests. The frontend (`src/api.js`) reads the `csrftoken` cookie, which `/api/auth/session/` sets on load. The Android app instead uses DRF `authtoken` via `/api/mobile/login/`, which only accepts `is_staff` users.
+**Auth model**: web uses Django session cookies with CSRF. Anonymous auth endpoints (login/register/reset) use `accounts.authentication.StrictCsrfSessionAuthentication` because stock DRF skips CSRF for anonymous requests. The frontend (`src/api.js`) reads the `csrftoken` cookie, which `/api/auth/session/` sets on load. The Android app instead uses DRF `authtoken` via `/api/mobile/login/`, which only accepts `is_staff` users and issues a fresh token each login. `AUTH_TOKEN_MAX_AGE_SECONDS` (hard-capped at 24h in settings) is the single lifetime for both web sessions (`SESSION_COOKIE_AGE`) and mobile tokens (`accounts.authentication.ExpiringTokenAuthentication` rejects and deletes older ones); the frontend's `api.js` turns the resulting 403 into a redirect to login.
 
 **Content pipeline** (source of truth is the Word files, not the DB):
 - `courses/*.docx` -> `tools/docx_blocks.py` (stdlib docx reader) + `tools/build_courses.py` -> `backend/courses/data/*.json` -> `manage.py import_courses` (the container entrypoint runs it with `--only-new`, so admin edits are never overwritten).
@@ -50,6 +55,6 @@ Gotchas:
 
 **Exams** (`exams/services.py`): grading is server-side only. `ExamAttempt.layout` stores the shuffled option order per question; the API never returns `correct_index` or explanations, and the review after submit shows only the learner's own wrong answers. Retakes are unlimited (`retake_wait_minutes` default 0); the time limit is enforced server-side with a grace window.
 
-**Offline enrollment**: staff register learners in the Android app (`android-app/`, Kotlin/Compose/Room/WorkManager). Saves go to local Room first and sync later. `POST /api/mobile/offline-learners/` is idempotent on the phone-generated `client_id` and handles the concurrent-duplicate `IntegrityError` race (periodic and on-save sync workers can fire together). An admin action in Django admin ("Issue combined certificate") creates one `OfflineCertificate` listing all published courses; its PDF is at `/api/offline-certificates/<code>/pdf/` (staff only). In the app, a 401 from sync logs the device out; default WorkManager init is disabled in the manifest so `PeshApp` can supply a custom `WorkerFactory`.
+**Offline enrollment**: staff register learners in the Android app (`android-app/`, Kotlin/Compose/Room/WorkManager). Saves go to local Room first and sync later. `POST /api/mobile/offline-learners/` is an upsert keyed on the phone-generated `client_id`: it creates, or updates when the incoming `client_updated_at` is newer than the stored one (older/equal versions are ignored, so late retries can't undo an edit), and retries as an update if the insert loses a race (periodic and on-save sync workers can fire together). Learners store `date_of_birth` (age is a computed property); grade and school are required for students and cleared for non-students. In the app, `LearnerDao.updateStatusIfUnchanged` only records a sync result for the exact `updatedAtIso` that was sent, so an edit made mid-sync is never marked synced by mistake; Room is at v2 with a hand-written migration. An admin action in Django admin ("Issue combined certificate") creates one `OfflineCertificate` listing all published courses; its PDF is at `/api/offline-certificates/<code>/pdf/` (staff only). In the app, a 401 from sync logs the device out; default WorkManager init is disabled in the manifest so `PeshApp` can supply a custom `WorkerFactory`.
 
 **Frontend** (`frontend/`): Vite + React 18 + react-router v6, no UI library; styles are plain CSS (`site.css` from the original static site, `learn.css`, `extra.css`). `Layout.jsx` toggles `body.learn` to switch between the marketing look and the dark learning theme. Vite proxies `/api`, `/admin`, `/static` to the backend in dev; `frontend/nginx.conf` does the same in the container and serves the SPA fallback.

@@ -8,10 +8,13 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.navigation.NavHostController
+import androidx.navigation.NavType
+import androidx.navigation.navArgument
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import rw.pesh.enroll.ui.AppViewModel
+import rw.pesh.enroll.ui.screens.EditLearnerScreen
 import rw.pesh.enroll.ui.screens.LearnersScreen
 import rw.pesh.enroll.ui.screens.LoginScreen
 import rw.pesh.enroll.ui.screens.RegisterScreen
@@ -20,6 +23,8 @@ private object Routes {
     const val LOGIN = "login"
     const val REGISTER = "register"
     const val LEARNERS = "learners"
+    const val EDIT = "edit/{clientId}"
+    fun edit(clientId: String) = "edit/$clientId"
 }
 
 @Composable
@@ -36,6 +41,8 @@ fun PeshNavHost(viewModel: AppViewModel, onSyncNow: () -> Unit) {
             navController.navigate(if (loggedIn) Routes.REGISTER else Routes.LOGIN) {
                 popUpTo(0) { inclusive = true }
             }
+            // Learners saved while logged out (e.g. after the 24-hour login expired) should go up right away.
+            if (loggedIn) onSyncNow()
         }
         wasLoggedIn = loggedIn
     }
@@ -51,7 +58,20 @@ fun PeshNavHost(viewModel: AppViewModel, onSyncNow: () -> Unit) {
             RegisterScreen(viewModel = viewModel, onOpenLearners = { navController.navigate(Routes.LEARNERS) }, onSyncNow = onSyncNow)
         }
         composable(Routes.LEARNERS) {
-            LearnersScreen(viewModel = viewModel, onSyncNow = onSyncNow, onBack = { navController.popBackStack() })
+            LearnersScreen(
+                viewModel = viewModel,
+                onSyncNow = onSyncNow,
+                onBack = { navController.popBackStack() },
+                onEdit = { navController.navigate(Routes.edit(it)) },
+            )
+        }
+        composable(Routes.EDIT, arguments = listOf(navArgument("clientId") { type = NavType.StringType })) { entry ->
+            EditLearnerScreen(
+                viewModel = viewModel,
+                clientId = entry.arguments?.getString("clientId").orEmpty(),
+                onSyncNow = onSyncNow,
+                onDone = { navController.popBackStack() },
+            )
         }
     }
 }

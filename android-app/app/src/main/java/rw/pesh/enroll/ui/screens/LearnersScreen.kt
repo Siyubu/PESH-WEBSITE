@@ -1,5 +1,6 @@
 package rw.pesh.enroll.ui.screens
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -32,7 +33,7 @@ import rw.pesh.enroll.ui.AppViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun LearnersScreen(viewModel: AppViewModel, onSyncNow: () -> Unit, onBack: () -> Unit) {
+fun LearnersScreen(viewModel: AppViewModel, onSyncNow: () -> Unit, onBack: () -> Unit, onEdit: (String) -> Unit) {
     val learners by viewModel.learners.collectAsState(initial = emptyList())
 
     Scaffold(
@@ -61,15 +62,22 @@ fun LearnersScreen(viewModel: AppViewModel, onSyncNow: () -> Unit, onBack: () ->
             }
         } else {
             LazyColumn(modifier = Modifier.padding(padding).fillMaxSize().padding(horizontal = 12.dp)) {
-                items(learners, key = { it.clientId }) { learner -> LearnerRow(learner) }
+                item {
+                    Text(
+                        "Tap a learner to correct a mistake.",
+                        style = MaterialTheme.typography.bodySmall,
+                        modifier = Modifier.padding(horizontal = 4.dp, vertical = 8.dp),
+                    )
+                }
+                items(learners, key = { it.clientId }) { learner -> LearnerRow(learner, onClick = { onEdit(learner.clientId) }) }
             }
         }
     }
 }
 
 @Composable
-private fun LearnerRow(learner: LearnerEntity) {
-    Card(modifier = Modifier.fillMaxWidth().padding(vertical = 6.dp)) {
+private fun LearnerRow(learner: LearnerEntity, onClick: () -> Unit) {
+    Card(modifier = Modifier.fillMaxWidth().padding(vertical = 6.dp).clickable(onClick = onClick)) {
         Row(
             modifier = Modifier.fillMaxWidth().padding(14.dp),
             horizontalArrangement = Arrangement.SpaceBetween,
@@ -77,7 +85,8 @@ private fun LearnerRow(learner: LearnerEntity) {
         ) {
             Column {
                 Text("${learner.firstName} ${learner.lastName}", style = MaterialTheme.typography.titleMedium)
-                Text("${learner.country}", style = MaterialTheme.typography.bodySmall)
+                val details = if (learner.isStudent) "${learner.grade} - ${learner.school}" else "Not a student"
+                Text("$details - ${learner.country}", style = MaterialTheme.typography.bodySmall)
                 if (learner.status == LearnerEntity.STATUS_ERROR && learner.errorMessage != null) {
                     Text(learner.errorMessage, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall)
                 }

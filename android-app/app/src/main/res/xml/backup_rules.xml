@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- The Room database holds unsynced signups; excluded from auto-backup so a device restore
-     on a different phone can't silently duplicate or lose in-flight offline records. -->
-<full-backup-content>
-    <exclude domain="database" path="pesh_offline_enroll.db" />
-</full-backup-content>

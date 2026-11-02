@@ -1,8 +1,19 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.kapt")
 }
+
+// Release signing details live in android-app/keystore.properties (never committed; see README).
+val keystoreProps = Properties().apply {
+    val file = rootProject.file("keystore.properties")
+    if (file.exists()) file.inputStream().use { load(it) }
+}
+
+// The server the release app talks to: ./gradlew assembleRelease -PPESH_API_BASE_URL=https://your-domain/api/
+val apiBaseUrl: String = providers.gradleProperty("PESH_API_BASE_URL").orNull ?: "https://CHANGE-ME.example.com/api/"
 
 android {
     namespace = "rw.pesh.enroll"
@@ -16,6 +27,17 @@ android {
         versionName = "1.0"
     }
 
+    signingConfigs {
+        if (keystoreProps.isNotEmpty()) {
+            create("release") {
+                storeFile = rootProject.file(keystoreProps.getProperty("storeFile"))
+                storePassword = keystoreProps.getProperty("storePassword")
+                keyAlias = keystoreProps.getProperty("keyAlias")
+                keyPassword = keystoreProps.getProperty("keyPassword")
+            }
+        }
+    }
+
     buildTypes {
         debug {
             // Emulator's alias for the host machine, so it can reach a locally-run docker compose stack.
@@ -24,8 +46,8 @@ android {
         release {
             isMinifyEnabled = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-            // Replace with the deployed backend's HTTPS address before shipping a release build.
-            buildConfigField("String", "DEFAULT_API_BASE_URL", "\"https://CHANGE-ME.example.com/api/\"")
+            signingConfig = signingConfigs.findByName("release")
+            buildConfigField("String", "DEFAULT_API_BASE_URL", "\"$apiBaseUrl\"")
         }
     }
 
@@ -78,4 +100,15 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-moshi:2.11.0")
     implementation("com.squareup.moshi:moshi-kotlin:1.15.1")
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+}
+
+// Refuse to build a release that cannot work: no real server address, or one without HTTPS.
+tasks.matching { it.name == "preReleaseBuild" }.configureEach {
+    doFirst {
+        require(!apiBaseUrl.contains("CHANGE-ME")) {
+            "Set your server first: ./gradlew assembleRelease -PPESH_API_BASE_URL=https://your-domain/api/"
+        }
+        require(apiBaseUrl.startsWith("https://")) { "PESH_API_BASE_URL must start with https:// (got $apiBaseUrl)" }
+        require(keystoreProps.isNotEmpty()) { "keystore.properties not found. See android-app/README.md (Releasing)." }
+    }
 }

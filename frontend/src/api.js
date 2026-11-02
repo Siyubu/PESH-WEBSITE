@@ -1,3 +1,10 @@
+export const AUTH_EXPIRED_EVENT = "pesh:auth-expired";
+
+// Logins last at most 24 hours; after that DRF answers 403 "Authentication credentials were not provided".
+export function isSessionExpired(status, data) {
+  return status === 403 && typeof data?.detail === "string" && data.detail.includes("Authentication credentials");
+}
+
 export class ApiError extends Error {
   constructor(message, status, data) {
     super(message);
@@ -40,6 +47,9 @@ export async function api(path, { method = "GET", body } = {}) {
     throw new ApiError("Network problem. Check your internet connection.", 0, null);
   }
   const data = await res.json().catch(() => null);
-  if (!res.ok) throw new ApiError(messageFrom(data, res.status), res.status, data);
+  if (!res.ok) {
+    if (isSessionExpired(res.status, data)) window.dispatchEvent(new Event(AUTH_EXPIRED_EVENT));
+    throw new ApiError(messageFrom(data, res.status), res.status, data);
+  }
   return data;
 }

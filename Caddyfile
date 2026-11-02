@@ -1,0 +1,6 @@
+# Caddy gets and renews the HTTPS certificate for {$DOMAIN} by itself, redirects http:// to https://,
+# and forwards everything to the app container (which already routes /api, /admin and the website).
+{$DOMAIN} {
+	encode gzip
+	reverse_proxy web:80
+}
