@@ -8,6 +8,9 @@ export async function forward({ request, env }) {
   const url = new URL(request.url);
   const upstream = new Request(new URL(url.pathname + url.search, backend), request);
   const res = await fetch(upstream, { redirect: "manual" });
+  if (res.headers.get("x-render-routing") === "no-server") {
+    return new Response(`Backend not found at ${new URL(backend).host}. Check BACKEND_URL in the Pages settings.`, { status: 502 });
+  }
 
   const out = new Response(res.body, res);
   const location = out.headers.get("Location");
